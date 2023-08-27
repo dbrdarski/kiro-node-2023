@@ -2,3 +2,4 @@ node_modules
 dist
 public/media/cached
 **/.DS_Store
+.idea
