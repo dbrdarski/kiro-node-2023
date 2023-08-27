@@ -1,0 +1,32 @@
+{
+  "name": "site-gen",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -s -d dist --keep-file-extension",
+    "start": "npm run build && node dist/index.mjs",
+    "dev": "nodemon --exec npm start",
+    "generate:images": "npm run build && node dist/index.mjs generate:images"
+  },
+  "author": "Dane Brdarski",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "jsx": "file:src/jsx.mjs",
+    "photoswipe": "^5.3.8",
+    "serve-static": "^1.15.0",
+    "sharp": "^0.32.4",
+    "url-router": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-transform-react-jsx": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "nodemon": "^2.0.22"
+  }
+}

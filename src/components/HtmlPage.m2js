@@ -1,0 +1,56 @@
+import PhotoSwipe from './PhotoSwipe.mjs'
+import Header from './Header.mjs'
+
+const socialProfiles = [
+  { url: '#', name: 'facebook' },
+  { url: '#', name: 'vimeo' },
+  { url: '#', name: 'instagram' },
+  { url: '#', name: 'twitter' },
+]
+
+const menuItems = [
+  // { title: 'LA Warrior', url: '/about' },
+  { title: 'Artwork', url: '/artwork' },
+  { title: 'Planetarsim', url: '/planetarism' },
+  { title: 'Projects', url: '/projects' },
+  { title: 'Photo Gallery', url: '/photo-gallery' },
+  { title: 'News', url: '/news' },
+  // { title: 'Contact', url: 'mailto:contact@kirourdin.info' },
+  // { title: 'LA Warrior', url: '/media/albums/la' },
+  // { title: 'Candy Costume', url: '/media/albums/candy-costum' },
+  // { title: 'Time Travelers', url: '/media/albums/time-travelers' },
+  // { title: 'Girls and Rugs', url: '/media/albums/kilimi' },
+  // { title: '7 Years of Bad Luck', url: '/media/albums/7-years' },
+  // { title: 'Big Dreams', url: '/media/albums/mali-mesta-golemi-sonista' },
+  // { title: 'Onaka', url: '/media/albums/razno' }
+]
+
+
+export default function HtmlPage({ children }) {
+  return (
+    <html lang= "en" >
+    <head>
+    <meta charset="utf-8" />
+      <meta name="viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no" />
+      {/* <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous"
+        /> */}
+        < link rel = "stylesheet" href = "/css/style.css" />
+          <title>Hello, world! < /title>
+          < /head>
+          < body >
+          <Header
+          menuItems={ menuItems }
+  socialProfiles = { socialProfiles }
+    />
+    { children }
+    < PhotoSwipe />
+  {/* <script src="/masonry.js" />
+        <script src="/index.js" /> */}
+    < /body>
+    < /html>
+  )
+}
