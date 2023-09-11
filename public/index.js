@@ -45,4 +45,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
   //   maxDuration : 0.7,
   //   viewportFactor : 0.2
   // });
+
+  const sliderItem = document.querySelector('#xx2')
+  sliderItem && setInterval((state => () => {
+    sliderItem.style.width = state ? '0%' : '100%'
+    state = !state
+  })(false), 7000)
 })

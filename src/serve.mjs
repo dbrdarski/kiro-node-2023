@@ -8,11 +8,11 @@ import Album from "./pages/Album.mjs"
 import sharp from "sharp"
 // import PhotoAlbum from "./components/Album3.mjs"
 
-import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, portraits } from "./data.mjs"
+import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, omoValley, chinaFilmFestival, press } from "./data.mjs"
 
 import Biography from "./pages/Biography.mjs"
 import Artwork from "./pages/Artwork.mjs"
-import Artwork2 from "./pages/Artwork2.mjs"
+// import Artwork2 from "./pages/Artwork2.mjs"
 
 globalThis.h = h
 globalThis.frag = frag
@@ -39,6 +39,16 @@ const Homepage = printHTML(
   </HtmlPage>
 )
 
+const PhotoGallery = HtmlPage => (
+  <HtmlPage>
+    <div><a href="/photo-gallery/with-people">With People</a></div>
+    <div><a href="/photo-gallery/planetarium-dance">Planetarium Dance</a></div>
+    <div><a href="/photo-gallery/tribes-of-omo-valley">Tribes of Omo Valley</a></div>
+    <div><a href="/photo-gallery/china-film-festival">China Film Festival</a></div>
+    <div><a href="/photo-gallery/press-coverage">Press Coverage</a></div>
+  </HtmlPage>
+)
+
 
 const renderPage = (Page) => {
   const output = printHTML(Page(HtmlPage))
@@ -54,17 +64,22 @@ export default async (albums) => {
     '/': () => Homepage,
     '/foo': () => "1",
     '/biography': renderPage(Biography),
-    '/projects': renderPage(Artwork2(albums)),
+    // '/projects': renderPage(Artwork2(albums)),
     '/artwork': renderPage(Artwork(albums)),
     '/artwork/paintings': renderPage(Album(paintings)),
     '/artwork/drawings': renderPage(Album(drawings)),
     '/artwork/watercolours': renderPage(Album(watercolours)),
     '/artwork/sculptures': renderPage(Album(sculptures)),
-    '/planetarism': renderPage(Album(ballet, { mode: "photo", background: "white" })),
-    '/photo-gallery': renderPage(Album(people, { mode: "photo", background: "white" })),
+    '/photo-gallery': renderPage(PhotoGallery),
+    '/photo-gallery/planetarium-dance': renderPage(Album(ballet, { mode: "photo", background: "white" })),
+    '/photo-gallery/with-people': renderPage(Album(people, { mode: "photo", background: "white" })),
+    '/photo-gallery/tribes-of-omo-valley': renderPage(Album(omoValley, { mode: "photo", background: "white" })),
+    '/photo-gallery/china-film-festival': renderPage(Album(chinaFilmFestival, { mode: "photo", background: "white" })),
+    '/photo-gallery/press-coverage': renderPage(Album(press, { background: "#ccccc3" })),
     '/user/:id': params => `User id: ${params.id}`,
     '/user/:id/:page': () => "4",
     '/people/:name': params => `Hello, ${params.name}`,
+
     // '/gallery/:album/:size/:filename(.*)': $ => albums[$.album].thumbs[$.filename][$.size],
     '(.*)': () => (
       printHTML(<HtmlPage>Not found.</HtmlPage>)

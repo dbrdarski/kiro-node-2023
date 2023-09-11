@@ -1,7 +1,7 @@
 import serve from "./serve.mjs"
 import generateImages from "./generate-images.mjs"
 
-import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, portraits } from "./data.mjs"
+import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, portraits, omoValley, chinaFilmFestival, press } from "./data.mjs"
 
 // async function processImages(albums, sizes) {
 //   for (const album of Object.values(albums)) {
@@ -26,7 +26,18 @@ import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, peop
 // }
 const [_, __, ...params] = process.argv
 
-const albums = { paintings, watercolours, drawings, sculptures, "planetarium-dance": ballet, people, portraits }
+const albums = {
+  paintings,
+  watercolours,
+  drawings,
+  sculptures,
+  people,
+  portraits,
+  "omo-vallery": omoValley,
+  "planetarium-dance": ballet,
+  "china-film-festival": chinaFilmFestival,
+  "press-coverage": press
+}
 
 console.log("PARAMS", params)
 
