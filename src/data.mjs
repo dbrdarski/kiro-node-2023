@@ -262,7 +262,17 @@ export const watercolours = {
 
 export const sculptures = {
   path: "sculptures",
+  info: {
+    title: "Sculptures",
+    description: `Sculptures, beyond mere observation, beckon to
+      be touched — a silent exploration of form that resonates.`
+      /* `The essence of sculptures lies not in being looked at
+      but in enticing to be touched. It is an exploration of form that
+      speaks in silence.`
+      */
+  },
   images: [
+    { filename: "sculptures_cover.jpg" },
     { filename: "sculpture_101.jpg" },
     { filename: "sculpture_01.jpg" },
     { filename: "sculpture_02.jpg" },
@@ -272,12 +282,22 @@ export const sculptures = {
     // { filename: "sculpture_06.jpg" },
     { filename: "sculpture_07.jpg" },
     { filename: "sculpture_08.jpg" },
-    { filename: "sculpture_09.jpg" }
+    { filename: "sculpture_09.jpg" },
+    { filename: "Sculpture_Kiro_Urdin_Time_Machine.jpg" },
+    { filename: "sculpture-kiro-urdin-14.jpg" },
+    { filename: "sculpture-kiro-urdin-16.jpg" },
+    { filename: "sculpture-kiro-urdin-17.jpg" },
+    { filename: "sculpture-kiro-urdin-18.jpg" },
+    { filename: "sculpture-kiro-urdin-19.jpg" },
+    { filename: "sculpture-kiro-urdin-20.jpg" },
   ]
 }
 
 export const ballet = {
   path: "planetarium-dance",
+  cover: {
+    index: 0
+  },
   images: [
     { filename: "debbie_wilson.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-0.jpg" },
@@ -565,15 +585,15 @@ export const artworkMenuSlide = [
   {
     title: "Planetarium",
     album: "planetarium",
-    thumb: [planetarium.images[18].filename],
-    link: "/artwork/paintings",
+    thumb: planetarium.images[18].filename,
+    link: "/photo-gallery/planetarium",
     column: "1 / span 5",
     row: "1 / span 3",
   },
   {
     title: "Watercolours",
     album: "watercolours",
-    thumb: [watercolours.images[1].filename],
+    thumb: watercolours.images[1].filename,
     link: "/artwork/watercolours",
     column: "3 / span 3",
     row: "4 / span 2",
@@ -581,7 +601,7 @@ export const artworkMenuSlide = [
   {
     title: "Drawings",
     album: "drawings",
-    thumb: [drawings.images[3].filename],
+    thumb: drawings.images[3].filename,
     link: "/artwork/drawings",
     column: "6 / span 3",
     row: "3 / span 2",
@@ -589,7 +609,7 @@ export const artworkMenuSlide = [
   {
     title: "Paintings",
     album: "paintings",
-    thumb: [paintings.images[83].filename],
+    thumb: paintings.images[83].filename,
     link: "/artwork/paintings",
     column: "8 / span 3",
     row: "1 / span 2",
@@ -597,8 +617,7 @@ export const artworkMenuSlide = [
   {
     title: "Sculptures",
     album: "sculptures",
-    link: "/artwork/sculptures",
-    thumb: [sculptures.images[1].filename],
+    thumb: sculptures.images[0].filename,
     link: "/artwork/sculptures",
     column: "9 / span 3",
     row: "4 / span 2",
@@ -606,9 +625,8 @@ export const artworkMenuSlide = [
   {
     title: "Photography",
     album: "omo-valley",
-    link: "aphorisms/sculptures",
-    thumb: [omoValley.images[0].filename],
-    link: "/artwork/sculptures",
+    thumb: omoValley.images[0].filename,
+    link: "photo-gallery/tribes-of-omo-valley",
     column: "11 / span 3",
     row: "2 / span 2",
   },
@@ -648,50 +666,51 @@ export const projectsMenuSlide = [
   //   row: "1 / span 1",
   // },
   {
+    type: "video",
     title: "Films",
-    album: "paintings",
-    thumb: [paintings.images[18].filename],
+    // album: "paintings",
+    thumb: "films.mp4",
     link: "/artwork/paintings",
     column: "9 / span 5",
     row: "3 / span 3",
   },
   {
-    title: "Planetarism",
-    album: "watercolours",
-    thumb: [watercolours.images[8].filename],
-    link: "/artwork/watercolours",
-    column: "6 / span 3",
-    row: "4 / span 2",
-  },
-  {
     title: "Poetry",
     album: "drawings",
-    thumb: [drawings.images[9].filename],
+    thumb: drawings.images[9].filename,
     link: "/artwork/drawings",
     column: "3 / span 3",
     row: "3 / span 2",
   },
   {
     title: "Aphorisms",
-    album: "drawings",
-    thumb: [drawings.images[22].filename],
+    album: "thumbs",
+    thumb: "script.jpg",
     link: "/artwork/drawings",
     column: "6 / span 3",
     row: "1 / span 2",
   },
   {
     title: "Ballet",
-    album: "planetarium-dance",
-    thumb: [ballet.images[16].filename],
+    album: "thumbs",
+    thumb: "planetarium_dance.jpg",
     link: "/artwork/paintings",
-    column: "1 / span 3",
-    row: "1 / span 2",
+    column: "1 / span 5",
+    row: "1 / span 3",
+  },
+  {
+    title: "Photography",
+    album: "omo-valley",
+    thumb: omoValley.images[0].filename,
+    link: "photo-gallery/tribes-of-omo-valley",
+    column: "6 / span 3",
+    row: "4 / span 2",
   },
   {
     title: "ZZZ",
     album: "sculptures",
     link: "/artwork/sculptures",
-    thumb: [sculptures.images[1].filename],
+    thumb: sculptures.images[1].filename,
     link: "/artwork/sculptures",
     column: "11 / span 3",
     row: "1 / span 2",

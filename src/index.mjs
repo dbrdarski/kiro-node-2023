@@ -1,7 +1,7 @@
 import serve from "./serve.mjs"
 import generateImages from "./generate-images.mjs"
 
-import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, portraits, omoValley, chinaFilmFestival, press } from "./data.mjs"
+import { imageSizes, paintings, watercolours, drawings, sculptures, planetarium, ballet, people, portraits, omoValley, chinaFilmFestival, press } from "./data.mjs"
 
 // async function processImages(albums, sizes) {
 //   for (const album of Object.values(albums)) {
@@ -32,6 +32,7 @@ const albums = {
   drawings,
   sculptures,
   people,
+  planetarium,
   portraits,
   "omo-vallery": omoValley,
   "planetarium-dance": ballet,

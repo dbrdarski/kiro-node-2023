@@ -8,7 +8,7 @@ import Album from "./pages/Album.mjs"
 import sharp from "sharp"
 // import PhotoAlbum from "./components/Album3.mjs"
 
-import { imageSizes, paintings, watercolours, drawings, sculptures, ballet, people, omoValley, chinaFilmFestival, press } from "./data.mjs"
+import { imageSizes, paintings, watercolours, drawings, sculptures, planetarium, ballet, people, omoValley, chinaFilmFestival, press } from "./data.mjs"
 
 import Biography from "./pages/Biography.mjs"
 import Artwork from "./pages/Artwork.mjs"
@@ -39,13 +39,63 @@ const Homepage = printHTML(
   </HtmlPage>
 )
 
+
+const PhotoThumb = ({ props, props: { ratio = 1, align } }) => (
+  <a href={props.href} style={`text-decoration: none; color: black; grid-row: span ${ratio === 1 ? "2" : ratio > 1 ? "3": "1"}`}>
+    <div
+      style={`position: relative; width: calc((100vw - 340px) / 3); height: calc((100vw - 340px) / 3.3 * ${ratio}); background: url(/media/cached/${props.image}); background-size:cover;${align ? `background-position: ${align};` : ""}`}
+    >
+      <div style="
+        position: absolute; bottom: 0; background: #eb0e; padding: calc(1vw); color: #222; font-family: Merriweather; font-size: calc(4px + 1.2vw); font-weight: 700; padding-right: 5vw; max-width: 100%;"
+      >
+        {props.title}
+      </div>
+    </div>
+  </a>
+)
+{ /* 'position: absolute; bottom: 0; background: #eb0; padding: calc(2px + .6vw); color: #222; font-family: Merriweather; font-size: calc(-1px + 1.8vw); font-weight: 700' */ }
 const PhotoGallery = HtmlPage => (
   <HtmlPage>
-    <div><a href="/photo-gallery/with-people">With People</a></div>
-    <div><a href="/photo-gallery/planetarium-dance">Planetarium Dance</a></div>
-    <div><a href="/photo-gallery/tribes-of-omo-valley">Tribes of Omo Valley</a></div>
-    <div><a href="/photo-gallery/china-film-festival">China Film Festival</a></div>
-    <div><a href="/photo-gallery/press-coverage">Press Coverage</a></div>
+    <div
+      style="display: grid; flex-wrap: wrap; grid-gap: 20px; padding: 20px; grid-template-columns: auto auto auto; grid-auto-rows: auto;"
+    >
+      <PhotoThumb
+        image="/planetarium/md/Kiro_Urdin-Planetarium-London.jpg"
+        href="/photo-gallery/planetarium"
+        title="Planetarium"
+        ratio={6/5}
+      />
+      <PhotoThumb
+        image="/people/md/Kiro_Urdin_with_Brothers_Kocho_and_Vasil.jpg"
+        href="/photo-gallery/with-people"
+        title="With People"
+        ratio={4/5}
+        align="center"
+      />
+      <PhotoThumb
+        image="/planetarium-dance/md/UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-4.jpg"
+        href="/photo-gallery/planetarium-dance"
+        title="Planetarium Dance"
+      />
+      <PhotoThumb
+        image="/omo-valley/md/Tribes-of-Omo-Valley-Cover.jpg"
+        href="/photo-gallery/tribes-of-omo-valley"
+        title="Tribes of Omo Valley"
+        ratio={6/5}
+        align="33%"
+      />
+      <PhotoThumb
+        image="/press-coverage/md/Kiro-Urdin-Le-Dessin-750x1024.jpg"
+        href="/photo-gallery/press-coverage"
+        title="Press Coverage"
+      />
+      <PhotoThumb
+        image="/china-film-festival/md/China-Nature-Film-Festival-25.jpg"
+        href="/photo-gallery/china-film-festival"
+        title="China Film Festival"
+        ratio={4/5}
+      />
+    </div>
   </HtmlPage>
 )
 
@@ -71,6 +121,7 @@ export default async (albums) => {
     '/artwork/watercolours': renderPage(Album(watercolours)),
     '/artwork/sculptures': renderPage(Album(sculptures)),
     '/photo-gallery': renderPage(PhotoGallery),
+    '/photo-gallery/planetarium': renderPage(Album(planetarium, { mode: "photo", background: "white" })),
     '/photo-gallery/planetarium-dance': renderPage(Album(ballet, { mode: "photo", background: "white" })),
     '/photo-gallery/with-people': renderPage(Album(people, { mode: "photo", background: "white" })),
     '/photo-gallery/tribes-of-omo-valley': renderPage(Album(omoValley, { mode: "photo", background: "white" })),

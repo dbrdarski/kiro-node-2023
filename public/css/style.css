@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica:400i|Merriweather:300,400,700,900');
 @import url('/css/photoswipe.min.css');
 
-*, *:before, *:after{
+:root {
+    --header-width: 60px;
+}
+
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -9,9 +13,9 @@ html {
   overflow-y: scroll;
 }
 
-body{
+body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 var(--header-width);
   background: #ccccc3;
 }
 
@@ -20,7 +24,7 @@ body{
   display: none;
   top: 0;
   height: 100%;
-  width: 260px;
+  width: var(--header-width);
   left: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -146,8 +150,11 @@ body{
 }
 
 @media screen and (min-width: 800px) {
+  :root {
+    --header-width: 260px;
+  }
   body {
-    padding-left: 260px;
+    padding-left: var(--header-width);
   }
   .gallery.photo .gallery-inner  {
     margin-left: 3px;
@@ -449,7 +456,7 @@ img{
 .golden-grid-wrapper{
 /*  background: #999998;
   background: #737373; */
-  font-size: calc((100vw - 260px - 4px));
+  font-size: calc((100vw - var(--header-width) - 4px));
   padding: 2px;
   height: 100vh;
   overflow: hidden;
@@ -459,7 +466,7 @@ img{
 }
 
 .golden-grid{
-  width: calc((100vw - 260px - 4px));
+  width: calc((100vw - var(--header-width) - 4px));
   display: grid;
   grid-template-columns: 0.09016994374944495em 0.055728090000832564em 0.09016994374944495em 0.055728090000832564em 0.09016994374944495em 0.09016994374944495em 0.055728090000832564em 0.09016994374944495em 0.09016994374944495em 0.055728090000832564em 0.09016994374944495em 0.055728090000832564em 0.09016994374944495em;
   grid-template-rows: 0.14589803375027751em 0.09016994374944495em 0.14589803375027751em 0.09016994374944495em 0.14589803375027751em;
@@ -539,12 +546,12 @@ img{
     position: absolute;
     overflow: hidden;
     width: 100%;
-    transition: width 2s;
+    transition: width .6s ease-in;
     /* width: 300px; */
 }
 
 .menu-slider-item > .golden-grid-wrapper {
-    width: calc((100vw - 260px));
+    width: calc((100vw - var(--header-width)));
 }
 
 .golden-grid {
