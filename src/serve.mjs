@@ -39,25 +39,65 @@ const Homepage = printHTML(
   </HtmlPage>
 )
 
+const FilmFeature = ({ props: { thumb, title, description } }) => (
+  <div style="display: flex; flex-direction: column;">
+    <img src={`/media/cached/${thumb}`} />
+    <div class="content" style="background: #dfdfdd;  font-size: calc((100vw - 220px) / 84); padding: 1.2em; font-weight: 500;">
+      <h3 style="color: #222; font-weight: 700; margin-bottom: .3em">{title}</h3>
+      <span style="font-size: .8em">{ description }</span>
+      {/* written and directed by: Kiro Urdin, music composed and performed by: Venko Serafimov, camera: Jacque Roulet, narrator: Graham W. Reid, after effects: Keti Petrovska, edited by: Vladimir Petrovski Karter. Running time: 13 min */}
+    </div>
+  </div>
+)
+
+const Films = HtmlPage => (
+  <HtmlPage>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 15px; padding: 40px 50px;">
+      <FilmFeature
+        thumb="films/md/Kiro_Urdin_-_Two_Times.jpg"
+        title="Two Times"
+      />
+      <FilmFeature
+        thumb="films/md/Kiro_Urdin_-_Steps.jpg"
+        title="Steps"
+      />
+      <FilmFeature
+        thumb="films/md/Kiro_Urdin_-_Tabula_Rasa.jpg"
+        title="Tabula Rasa"
+      />
+      <FilmFeature
+        title="Pishta"
+        thumb="films/md/Kiro_Urdin_-_Pishta.jpg"
+        description="Running time: 13min"
+      />
+      <FilmFeature
+        title="Water and Fire"
+        thumb="films/md/Kiro_Urdin_-_Water_and_Fire.jpg"
+        description="Running time: 13min"
+      />
+    </div>
+  </HtmlPage>
+)
 
 const PhotoThumb = ({ props, props: { ratio = 1, align } }) => (
-  <a href={props.href} style={`text-decoration: none; color: black; grid-row: span ${ratio === 1 ? "2" : ratio > 1 ? "3": "1"}`}>
+  <a href={props.href} style={`text-decoration: none; color: black; grid-row: span ${ratio * 5}`}>
     <div
-      style={`position: relative; width: calc((100vw - 340px) / 3); height: calc((100vw - 340px) / 3.3 * ${ratio}); background: url(/media/cached/${props.image}); background-size:cover;${align ? `background-position: ${align};` : ""}`}
+      class="film-thumb"
+      style={`--ratio: ${ratio}; background-image: url(/media/cached/${props.image}); ${align ? `background-position: ${align};` : ""}`}
     >
-      <div style="
-        position: absolute; bottom: 0; background: #eb0e; padding: calc(1vw); color: #222; font-family: Merriweather; font-size: calc(4px + 1.2vw); font-weight: 700; padding-right: 5vw; max-width: 100%;"
-      >
+      <div class="film-thumb-title">
         {props.title}
       </div>
     </div>
   </a>
 )
+
 { /* 'position: absolute; bottom: 0; background: #eb0; padding: calc(2px + .6vw); color: #222; font-family: Merriweather; font-size: calc(-1px + 1.8vw); font-weight: 700' */ }
 const PhotoGallery = HtmlPage => (
   <HtmlPage>
+    {/* <h2>Photo Gallery</h2> */}
     <div
-      style="display: grid; flex-wrap: wrap; grid-gap: 20px; padding: 20px; grid-template-columns: auto auto auto; grid-auto-rows: auto;"
+      class="photo-gallery-wrapper"
     >
       <PhotoThumb
         image="/planetarium/md/Kiro_Urdin-Planetarium-London.jpg"
@@ -120,6 +160,7 @@ export default async (albums) => {
     '/artwork/drawings': renderPage(Album(drawings)),
     '/artwork/watercolours': renderPage(Album(watercolours)),
     '/artwork/sculptures': renderPage(Album(sculptures)),
+    '/artwork/films': renderPage(Films),
     '/photo-gallery': renderPage(PhotoGallery),
     '/photo-gallery/planetarium': renderPage(Album(planetarium, { mode: "photo", background: "white" })),
     '/photo-gallery/planetarium-dance': renderPage(Album(ballet, { mode: "photo", background: "white" })),

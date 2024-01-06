@@ -1,7 +1,9 @@
 export default ({ props, children }) => (
   <div class="golden-grid-wrapper">
-    <div class="golden-grid">
-      {children}
-    </div>
+      {props.content(({children}) => (
+        <div class="golden-grid">
+          {children}
+        </div>
+      ))}
   </div>
 )

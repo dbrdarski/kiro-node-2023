@@ -11,26 +11,20 @@ export default ({
   <HtmlPage background="#ccccc3">
     <div class="menu-slider">
       <div class="menu-slider-item">
-        <Grid>
-          {projectsMenuSlide.map(thumb => (
-            <GridItem {...thumb} />
-          ))}
-        </Grid>
-      </div>
-      <div class="menu-slider-item">
-        <Grid>
-          {artworkMenuSlide.map(thumb => (
-            <GridItem {...thumb} />
-          ))}
-        </Grid>
-      </div>
-      <div class="menu-slider-item" id="xx2" style="width: 0">
-        <Grid>
-          {projectsMenuSlide.map(thumb => (
-            <GridItem {...thumb} />
-          ))}
-        </Grid>
-      </div>
+        <Grid content={(Slide) => (
+          <>
+            <Slide>
+              {artworkMenuSlide.map(thumb => (
+                <GridItem {...thumb} />
+              ))}
+            </Slide>
+            <Slide>
+              {projectsMenuSlide.map(thumb => (
+                <GridItem {...thumb} class="reversable" />
+              ))}
+            </Slide>
+          </> )} />
+        </div>
     </div>
   </HtmlPage>
 )

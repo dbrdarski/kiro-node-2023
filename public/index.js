@@ -46,9 +46,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
   //   viewportFactor : 0.2
   // });
 
-  const sliderItem = document.querySelector('#xx2')
-  sliderItem && setInterval((state => () => {
-    sliderItem.style.width = state ? '0%' : '100%'
-    state = !state
-  })(false), 7000)
+  // const sliderItem = document.querySelector('#xx2')
+  // sliderItem && setInterval((state => () => {
+  //   sliderItem.style.width = state ? '0%' : '100%'
+  //   state = !state
+  // })(false), 7000)
+})
+
+
+document.querySelector("#menu-toggle").addEventListener("click", ({ target }) => {
+  target.hasAttribute("active")
+    ? (target.removeAttribute("active"), document.body.removeAttribute("menu-active"))
+    : (target.setAttribute("active", ""), document.body.setAttribute("menu-active", ""))
 })

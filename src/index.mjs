@@ -27,6 +27,16 @@ import { imageSizes, paintings, watercolours, drawings, sculptures, planetarium,
 const [_, __, ...params] = process.argv
 
 const albums = {
+  films: {
+      path: "films",
+      images: [
+        { filename: "Kiro_Urdin_-_Steps.jpg" },
+        { filename: "Kiro_Urdin_-_Two_Times.jpg" },
+        { filename: "Kiro_Urdin_-_Pishta.jpg" },
+        { filename: "Kiro_Urdin_-_Tabula_Rasa.jpg" },
+        { filename: "Kiro_Urdin_-_Water_and_Fire.jpg" },
+      ],
+  },
   paintings,
   watercolours,
   drawings,

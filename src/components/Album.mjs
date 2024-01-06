@@ -17,7 +17,7 @@ export default ({ props: { album, mode = "artwork" } }) => (
             href={`/media/images/${album.path}/${image.filename}`}
           >
             <img x-src={`/media/cached/${album.path}/lg/${image.filename}`} />
-            {album?.info?.title && <div class="gallery-heading">{album.info.title}</div>}
+            {/* {album?.info?.title && <div class="gallery-heading">{album.info.title}</div>} */}
           </a>
         )
       )}

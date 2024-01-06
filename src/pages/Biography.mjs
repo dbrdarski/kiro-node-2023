@@ -2,7 +2,7 @@ import { portraits } from "../data.mjs"
 const { images: [poster, ...images] } = portraits
 export default (HtmlPage) => (
   <HtmlPage>
-    <main class="main-content">
+    <section class="content-area">
       <aside class="col-aside">
         <div class="image-grid">
           <a
@@ -76,6 +76,6 @@ export default (HtmlPage) => (
         <p>I wasn’t present at the moment of my birth. Time moved fast then. During the First World War my father was still a child, but even then he had made up his mind that I would be his youngest son. His wish was fulfilled towards the end of the Second World War. It was the month of May and three fortune-tellers told me that the flowers were still smelling of gunpowder. After that moment a good many years passed and peace reigned everywhere. Countries were transformed into flower gardens. There were no more wars, no more dead, wounded, starving… There was no injustice, evil or force. When I completed my studies everybody started to judge me. In order to improve my rating, I started with legal norms, and fell headlong into the loopholes in the law. There they convinced me that life beyond the grave can easily be buried.</p>
         <p>Because I had little patience for documents I began to paint them and then to record them on film. This same fact had undesirable consequences that started to multiply. Their number increased so rapidly that there wasn’t room for them all any more. The only way out was to surrender my space to them. The consequences demanded that I should understand their causes. So on average I became a point, so that nobody noticed me any more. Now my destiny depends upon the place where they insert me in their written texts. But if anyone asks me what my wish is, my response is this: because I am a point I don’t want to remain in any one place but to be in perpetual motion.</p>
       </div>
-    </main>
+    </section>
   </HtmlPage>
 )

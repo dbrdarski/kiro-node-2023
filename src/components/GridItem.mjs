@@ -1,10 +1,12 @@
-export default ({ props: { type, link, row, column, title, thumb, bg, album }, children }) => {
+
+
+export default ({ props: { type, link, row: [row, rowspan], column: [column, colspan], title, thumb, bg, album, ...props }, children }) => {
   const Tag = link ? "a" : "div"
   return (
     <Tag
-      href={link}
-      class="gg-item"
-      style={`grid-column: ${column}; grid-row: ${row}`}
+      {...link && { href: link} }
+      class={`gg-item ${props.class || ""}`}
+      style={`--grid-x-start: ${column}; --grid-x-end: ${column + colspan}; --grid-y-start: ${row}; --grid-y-end: ${row + rowspan};`}
     >
       <div
         class="gg-item-inner"
