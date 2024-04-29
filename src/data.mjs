@@ -266,10 +266,10 @@ export const sculptures = {
     title: "Sculptures",
     description: `Sculptures, beyond mere observation, beckon to
       be touched — a silent exploration of form that resonates.`
-      /* `The essence of sculptures lies not in being looked at
-      but in enticing to be touched. It is an exploration of form that
-      speaks in silence.`
-      */
+    /* `The essence of sculptures lies not in being looked at
+    but in enticing to be touched. It is an exploration of form that
+    speaks in silence.`
+    */
   },
   images: [
     { filename: "sculptures_cover.jpg" },
@@ -295,6 +295,12 @@ export const sculptures = {
 
 export const ballet = {
   path: "planetarium-dance",
+  info: {
+    // title: "The Planetarium Dance",
+    description: "The Planetarium Ballet is a collaboration between Kiro Urdin and choreographer Debbie Wilson",
+    url: "/planetrium-dance",
+    color: "#265"
+  },
   cover: {
     index: 0
   },
@@ -303,7 +309,7 @@ export const ballet = {
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-0.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-1.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-2.jpg" },
-    { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-3.jpg" },
+    // { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-3.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-4.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-5.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-6.jpg" },
@@ -312,12 +318,12 @@ export const ballet = {
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-9.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-10.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-11.jpg" },
-    { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-12.jpg" },
+    // { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-12.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-13.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-14.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-15.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-16.jpg" },
-    { filename: "Planetarium-Dance-Poster-Kiro-Urdin-Debbie-Wilson.jpg" },
+    // { filename: "Planetarium-Dance-Poster-Kiro-Urdin-Debbie-Wilson.jpg" },
     { filename: "UN-60th-Anniversary-Planetarium-Dance-Cover-Kiro-Urdin-and-Debbie-Wilson.jpg" },
     { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-1.jpg" },
     { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-2.jpg" },
@@ -391,6 +397,11 @@ export const portraits = {
 
 export const omoValley = {
   path: "omo-valley",
+  info: {
+    title: "Tribes of Omo Valley",
+    description: "by Kiro Urdin",
+    color: "#363834"
+  },
   images: [
     { filename: "Tribes-of-Omo-Valley-0.jpg" },
     { filename: "Tribes-of-Omo-Valley-1.jpg" },
@@ -441,6 +452,11 @@ export const omoValley = {
 
 export const planetarium = {
   path: "planetarium",
+  info: {
+    description: "Planetarium is the first painting in human history to be worked all over the world.",
+    url: "/planetarium",
+    color: "#933"
+  },
   images: [
     { filename: "Kiro_Urdin-Ohrid-Macedonia.jpg" },
     { filename: "Kiro_Urdin-Paris-France.jpg" },
@@ -480,9 +496,13 @@ export const planetarium = {
 
 export const chinaFilmFestival = {
   path: "china-film-festival",
+  // info: {
+  //   title: "The Giant Panda Award",
+  //   description: "Kiro Urdin won the Giant Panda award at the International Animal and Nature Film Festival in Ya'an, China"
+  // },
   images: [
     { filename: "China-Nature-Film-Festival-1.jpg" },
-    { filename: "China-Nature-Film-Festival-2.jpg" },
+    // { filename: "China-Nature-Film-Festival-2.jpg" },
     { filename: "China-Nature-Film-Festival-3.jpg" },
     { filename: "China-Nature-Film-Festival-4.jpg" },
     { filename: "China-Nature-Film-Festival-5.jpg" },
@@ -545,7 +565,7 @@ export const chinaFilmFestival = {
     { filename: "China-Nature-Film-Festival-62.jpg" },
     { filename: "China-Nature-Film-Festival-63.jpg" },
     { filename: "China-Nature-Film-Festival-64.jpg" },
-    { filename: "China-Nature-Film-Festival-65.jpg" },
+    // { filename: "China-Nature-Film-Festival-65.jpg" },
     { filename: "China-Nature-Film-Festival-66.jpg" },
     { filename: "China-Nature-Film-Festival-67.jpg" },
     { filename: "China-Nature-Film-Festival-68.jpg" },
@@ -663,7 +683,7 @@ export const projectsMenuSlide = [
     // album: "paintings",
     thumb: "films.mp4",
     link: "/artwork/films",
-    column: [9  , 5],
+    column: [9, 5],
     row: [-6, 3],
   },
   {
