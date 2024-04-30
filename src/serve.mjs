@@ -7,6 +7,8 @@ import HtmlPage from "./components/HtmlPage.mjs"
 import Album from "./pages/Album.mjs"
 import PhotoGallery from "./pages/PhotoGallery.mjs"
 import Filmography from "./pages/Filmography.mjs"
+import Planetarium from "./pages/Planetarium.mjs"
+
 import sharp from "sharp"
 // import PhotoAlbum from "./components/Album3.mjs"
 
@@ -31,15 +33,15 @@ async function processImages(albums) {
   }
 }
 
-const Homepage = printHTML(
+const textPage = text => (
   <HtmlPage>
-    <div someAttr="1">
-      <p>
-        Hello darkness 2.
-      </p>
+    <div style="height: 100vh; line-height: 100vh;text-align: center; font-size: 5vmax; font-family: 'Merriweather'; background: #cccccb; color: #555554">
+      {text}
     </div>
   </HtmlPage>
 )
+
+const ComingSoon = textPage("Coming Soon")
 
 const renderPage = (Page) => {
   const output = printHTML(Page(HtmlPage))
@@ -52,11 +54,12 @@ export default async (albums) => {
   const app = connect()
 
   const router = new Router({
-    '/': () => Homepage,
-    '/foo': () => "1",
-    '/biography': renderPage(Biography),
+    // '/': () => Homepage,
+    // '/foo': () => "1",
+    '/': renderPage(Biography),
     // '/projects': renderPage(Artwork2(albums)),
     '/artwork': renderPage(Artwork(albums)),
+    '/planetarium': renderPage(Planetarium),
     '/artwork/paintings': renderPage(Album(paintings)),
     '/artwork/drawings': renderPage(Album(drawings)),
     '/artwork/watercolours': renderPage(Album(watercolours)),
@@ -72,15 +75,18 @@ export default async (albums) => {
     '/user/:id': params => `User id: ${params.id}`,
     '/user/:id/:page': () => "4",
     '/people/:name': params => `Hello, ${params.name}`,
+    '/planetarism': () => printHTML(ComingSoon),
+    '/artwork/aphorisms': () => printHTML(ComingSoon),
+    '/artwork/poetry': () => printHTML(ComingSoon),
+    '/artwork/publications': () => printHTML(ComingSoon),
+    '/awards': () => printHTML(ComingSoon),
+    '/planetarism': () => printHTML(ComingSoon),
+    '/contact': () => printHTML(ComingSoon),
 
     // '/gallery/:album/:size/:filename(.*)': $ => albums[$.album].thumbs[$.filename][$.size],
     '(.*)': () => (
       printHTML(
-        <HtmlPage>
-          <div style="height: 100vh; line-height: 100vh;text-align: center; font-size: 5vmax; font-family: 'Merriweather'; background: #cccccb; color: #555554">
-            Not found.
-          </div>
-        </HtmlPage>
+        textPage("Not found.")
       )
     ),
   })

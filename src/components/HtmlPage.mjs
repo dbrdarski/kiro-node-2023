@@ -9,14 +9,14 @@ const socialProfiles = [
 ]
 
 const menuItems = [
-  { title: 'Biography', url: '/biography' },
-  { title: 'Planetarsim', url: '/planetarism' },
+  { title: 'Biography', url: '/' },
+  // { title: 'Planetarsim', url: '/planetarism' },
   { title: 'Artwork', url: '/artwork' },
   { title: 'Films', url: '/artwork/films' },
   { title: 'Photo Gallery', url: '/photo-gallery' },
   // { title: 'News', url: '/news' },
   { title: 'Awards', url: '/awards' },
-  { title: 'Contact', url: '/contact' },
+  { title: 'Contact', url: 'mailto:contact@kirourdin.com' },
 ]
 
 

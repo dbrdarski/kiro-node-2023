@@ -830,6 +830,15 @@ img {
         padding: 1.875rem 3.75rem
     }
 
+    .content-area:not(:first-child) {
+        padding-top: 0;
+    }
+
+    .content-area:not(:first-child)>.col-content,
+    .content-area:not(:first-child)>.col-aside {
+        padding-top: 0;
+    }
+
     .content h1 {
         font-size: 52px;
     }
@@ -873,5 +882,9 @@ img {
 
     .col-content {
         width: 60%;
+    }
+
+    .col-wide {
+        width: 88%;
     }
 }

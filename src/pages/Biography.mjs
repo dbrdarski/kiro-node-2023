@@ -32,39 +32,6 @@ export default (HtmlPage) => (
               />
             </a>
           ))}
-          {/* <a href="images/portraits/Kiro-Urdin-Portrait-1.jpg" data-w="975" data-h="1454" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-1.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-1.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-1.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-14.jpg" data-w="1933" data-h="1480" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-14.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-14.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-14.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-12.jpg" data-w="1151" data-h="1599" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-12.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-12.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-12.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-4.jpg" data-w="1456" data-h="2048" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-4.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-4.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-4.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-2.jpg" data-w="2020" data-h="875" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-2.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-2.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-2.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-10.jpg" data-w="1980" data-h="1438" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-10.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-10.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-10.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-3.jpg" data-w="1140" data-h="1600" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-3.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-3.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-3.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-5.jpg" data-w="749" data-h="1123" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-5.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-5.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-5.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-6.jpg" data-w="1417" data-h="2048" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-6.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-6.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-6.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-15.jpg" data-w="1920" data-h="1400" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-15.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-15.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-15.jpg&amp;w=400" alt="" />
-          </a>
-          <a href="images/portraits/Kiro-Urdin-Portrait-16.jpg" data-w="1330" data-h="1000" data-msrc="img?src=/images/portraits/Kiro-Urdin-Portrait-16.jpg&amp;w=400" style="background-image: url(img?src=/images/portraits/Kiro-Urdin-Portrait-16.jpg&amp;w=175&amp;h=175)">
-            <img src="img?src=/images/portraits/Kiro-Urdin-Portrait-16.jpg&amp;w=400" alt="" />
-          </a> */}
         </div>
       </aside>
       <div class="col-content content">
