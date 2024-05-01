@@ -1,0 +1,355 @@
+
+<html>
+<head>
+		<title>Planetarium Movie - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="Information on the Planetarium Movie, inspired by Kiro Urdin&#039;s art, and a text on the Planetarium by Jean-Claude Canevet." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Planetarium Movie Comments Feed" href="http://kirourdin.info/projects/planetarium/movie/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Planetarium Project' href='http://kirourdin.info/projects/planetarium/' />
+<link rel='prev' title='Planetarium Project' href='http://kirourdin.info/projects/planetarium/' />
+<link rel='next' title='Planetarium Dance' href='http://kirourdin.info/projects/planetarium/planetarium-dance/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/projects/planetarium/movie/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1251 page-child parent-pageid-1249 page-template page-template-movies-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		<div id="superhead">				
+		<div id="photo-frame" class="" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+
+										
+				
+		
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-01.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-01.jpg" height="240" width="237" class="slide" offset="-253" title="Kiro Urdin - Planetarium Movie _ 0"  alt="Kiro Urdin - Planetarium Movie _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-02.jpg" height="240" width="171" class="slide" offset="-440" title="Kiro Urdin - Planetarium Movie _ 1"  alt="Kiro Urdin - Planetarium Movie _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-03.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-03.jpg" height="240" width="352" class="slide" offset="-808" title="Kiro Urdin - Planetarium Movie _ 2"  alt="Kiro Urdin - Planetarium Movie _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-04.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-04.jpg" height="240" width="349" class="slide" offset="-1173" title="Kiro Urdin - Planetarium Movie _ 3"  alt="Kiro Urdin - Planetarium Movie _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-05.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-05.jpg" height="240" width="348" class="slide" offset="-1537" title="Kiro Urdin - Planetarium Movie _ 4"  alt="Kiro Urdin - Planetarium Movie _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-06.jpg" height="240" width="339" class="slide" offset="-1892" title="Kiro Urdin - Planetarium Movie _ 5"  alt="Kiro Urdin - Planetarium Movie _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-07.jpg" height="240" width="161" class="slide" offset="-2069" title="Kiro Urdin - Planetarium Movie _ 6"  alt="Kiro Urdin - Planetarium Movie _ 6"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-08.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-08.jpg" height="240" width="174" class="slide" offset="-2259" title="Kiro Urdin - Planetarium Movie _ 7"  alt="Kiro Urdin - Planetarium Movie _ 7"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-09.jpg" height="240" width="368" class="slide" offset="-2643" title="Kiro Urdin - Planetarium Movie _ 8"  alt="Kiro Urdin - Planetarium Movie _ 8"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-10.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-10.jpg" height="240" width="341" class="slide" offset="-3000" title="Kiro Urdin - Planetarium Movie _ 9"  alt="Kiro Urdin - Planetarium Movie _ 9"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-11.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-11.jpg" height="240" width="339" class="slide" offset="-3355" title="Kiro Urdin - Planetarium Movie _ 10"  alt="Kiro Urdin - Planetarium Movie _ 10"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-12.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-12.jpg" height="240" width="338" class="slide" offset="-3709" title="Kiro Urdin - Planetarium Movie _ 11"  alt="Kiro Urdin - Planetarium Movie _ 11"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-13.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-13.jpg" height="240" width="356" class="slide" offset="-4081" title="Kiro Urdin - Planetarium Movie _ 12"  alt="Kiro Urdin - Planetarium Movie _ 12"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-14.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-14.jpg" height="240" width="348" class="slide" offset="-4445" title="Kiro Urdin - Planetarium Movie _ 13"  alt="Kiro Urdin - Planetarium Movie _ 13"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-15.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-15.jpg" height="240" width="173" class="slide" offset="-4634" title="Kiro Urdin - Planetarium Movie _ 14"  alt="Kiro Urdin - Planetarium Movie _ 14"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-16.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-16.jpg" height="240" width="363" class="slide" offset="-5013" title="Kiro Urdin - Planetarium Movie _ 15"  alt="Kiro Urdin - Planetarium Movie _ 15"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-17.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-17.jpg" height="240" width="334" class="slide" offset="-5363" title="Kiro Urdin - Planetarium Movie _ 16"  alt="Kiro Urdin - Planetarium Movie _ 16"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-18.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-18.jpg" height="240" width="321" class="slide" offset="-5700" title="Kiro Urdin - Planetarium Movie _ 17"  alt="Kiro Urdin - Planetarium Movie _ 17"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-19.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-19.jpg" height="240" width="322" class="slide" offset="-6038" title="Kiro Urdin - Planetarium Movie _ 18"  alt="Kiro Urdin - Planetarium Movie _ 18"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/planetaruim_thumb.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/planetaruim_thumb.jpg" height="240" width="242" class="slide" offset="-6296" title="Kiro Urdin - Planetarium Movie _ 19"  alt="Kiro Urdin - Planetarium Movie _ 19"></a></span>		
+				
+		</div><!-- photo slide -->
+		<div class="slide-button prev"></div>		
+		<div class="slide-button next"></div>		
+		</div><!-- photo frame -->
+				
+		
+		</div>
+
+		
+		<div id="slide-controls" class="clearfix" onSelectStart="return false;">
+		<ul style="float:left">
+		<li id="first-slide" class="button">First Slide</li>
+		<li id="prev-slide" class="button">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide" class="button">Next Slide</li>
+		<li id="last-slide" class="button">Last Slide</li>
+		</ul>
+		
+		</div>		
+		
+		
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to Projects." href="http://kirourdin.info/projects/">Projects</a><span class="sep"> &gt; </span><a title="Go to Planetarium Project." href="http://kirourdin.info/projects/planetarium/">Planetarium Project</a><span class="sep"> &gt; </span><span style="display:none">Planetarium Movie</span>				
+		</div>		
+		<h2 class="title">Kiro Urdin &ndash; Planetarium Movie</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		<div id="meta">
+		<div id="video-thumb">		
+		<a href="http://kirourdin.info/video?vid=QPVjvOBz-U8" class="fancy">
+		<img width="360" height="246" src="http://kirourdin.info/wp-content/uploads/2011/10/planetarium-04-360x246.jpg" class="attachment-video wp-post-image" alt="planetarium-04" title="planetarium-04" />		<div id="play-button"></div>
+		</a>	
+		</div>	
+		<p class="excerpt-author">
+				</p>
+
+				<p class="excerpt-meta">
+		2005 Winner “Best Movie” - International Independent Film Festival of New York in Los Angeles<br>
+1998 Offiicial Selection – the38th Festival de TV de Monte-Carlo.<br><br>
+<b>directed by: </b>Kiro Urdin and Ivan Mitevski, <b>executive producer:</b> Stalin Lozanovski, <b>camera:</b> Vlado Janevski, Dragi Tanevski, <b>sound:</b> Viktor Ivanov, <b>sound editing:</b> Gligor Pakovski, <b>music composed and preformed by:</b> Venko and Vasko Serafimov, <b>edited by:</b> Spase Tasevski, <b>production:</b> MTV and Kiro Urdin		</p>
+		
+		</div>		
+		<div id="entry">		
+		<p><strong>THE PLANETARIUM </strong><strong>OR ONE MAN’S ODYSSEY</strong></p>
+<p>If to leave is to die a little, Kiro Urdin who arrived in Paris in 1973, bereft of everything, started his resurrection after three months spent almost in a tomb, a cellar lent by a compatriot, where he lived obscurely during his first weeks in the City of Light. In order to survive, he managed to paint portraits of tourists on the place du Tertre, tourists who wanted to see themselves in paint so as to believe they are characters. But doing this without permission meant that Kiro lost his work permit, and found his fate: since he was not allowed to paint to live, he decided to live to paint. So he chose this path, out of all the image-making arts in which he is adept.(he practiced law in Belgrade, and studied visual arts and cinema in Paris). But the masterpiece he is most proud of is not a picture, and he is only half its author: she’s called Donna, by virtue of a baptism, carried out in her father’s native land, in the church of Orhid in Macedonia, situated beside a lake shaped like the beginning of the word. A church with blue vaults lit up by frescoes, similar to the sumptuous frescoes in Nerezi, announcing Giotto as early as the 12th century. This inspired Kiro Urdin to undertake his project to create a heavenly vault for the end of the 20th century which he calls Planetarium.</p>
+<p>One becomes godlike when one becomes a father: Kiro was ready to create the sky and the earth for his little daughter’s wide eyes, open to every mystery. And off he went, travelling the world, but not in order to bring back its images to lay at the feet of the child, because an abstract painter only ever shows his inner world. So as to show his secret heaven, he wanted to climb the topmost rungs of the art word, all the places where heaven is the subject matter. Determined to go under every sky, unrolling his canvas, to see if a few little stars might land on it.</p>
+<p>And so he covered many of these sacred places on the planet, from the Pekinese Temple of the Celestial Peace to the Leaning Tower in Pisa, from the stones of Stonehenge to those of Machu Picchu, from the Egyptian pyramids to the one in the Louvre, from the Masai Mara huts to the pagodas in Kyoto or Nara, from the Buddhas’ golden smiles in Bangkok, to the petrified sighs of the children of Pompei&#8230;. All the famous sites saw this figure, like a carpet dealer, a man carrying his roll of immense canvas on his shoulder, and it was a flying carpet. The artist was seen at work everywhere, obsessed by his visions, painting endlessly, exalting his life, a merchant on his carpet starred by colours, even lying on this amazing shroud unrolled in Gethsemane, just before he got the idea of setting fire to this burden, which perhaps weighed like a secret cross on his shoulder: in Jerusalem he immolated this attempt at heaven, to find out what might appear in the emptiness between the burnt edges of the canvas holding all his journeyings.</p>
+<p>When he is not at the ends of the earth, Kiro works in his studio, walking over ladders placed flat on the canvas stretched on the ground, as if once could climb horizontally, as if seeking to reach inner stars.</p>
+<p>And now the vision has arrived home, in the Neways building where the two canvases are hung. One is finished, it looks more like a planisphere than a planetarium: strange coloured continents seem to float on the oceans of the blue planet, like a satellite vision, taken from a dream space ship, from which one could make that heaven come true. But maybe we only see what we believe.</p>
+<p>The other panel of his work arrived, infinite, and Kiro finished it on site, tracing in red the huge networks of blood vessels of vital circulation around a circular central pocket, and in that belly one might discern a foetal shape. And here we find Donna again, starting to walk, having come along, wit her mother’s help, to place her little paint-stained feet on the canvas, so that her first steps could become imprints, taking part in the manufacture of the red work. Going over the course of her life, from her mother’s womb to her meeting with the blue painting, the whole earth travelled by her father to find her. From the far-off interiors, where to come back is to live.</p>
+<p style="text-align: right;"><em>Jean-Claude Canevet</em></p>
+		
+		</div>
+		
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -6312,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

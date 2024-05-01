@@ -1,7 +1,27 @@
-import serve from "./serve.mjs"
-import generateImages from "./generate-images.mjs"
+import http from "http";
+import serve from "./serve.mjs";
 
-import { imageSizes, paintings, watercolours, drawings, sculptures, planetarium, ballet, people, portraits, omoValley, chinaFilmFestival, press } from "./data.mjs"
+import vhost from "vhost";
+import connect from "connect";
+
+import generateImages from "./generate-images.mjs";
+import serveOld from "../scrap/index.mjs";
+import { port, oldSite, newSite } from "../env.mjs";
+
+import {
+  imageSizes,
+  paintings,
+  watercolours,
+  drawings,
+  sculptures,
+  planetarium,
+  ballet,
+  people,
+  portraits,
+  omoValley,
+  chinaFilmFestival,
+  press,
+} from "./data.mjs";
 
 // async function processImages(albums, sizes) {
 //   for (const album of Object.values(albums)) {
@@ -24,7 +44,10 @@ import { imageSizes, paintings, watercolours, drawings, sculptures, planetarium,
 //     }
 //   }
 // }
-const [_, __, ...params] = process.argv
+
+const app = connect();
+
+const [_, __, ...params] = process.argv;
 
 const albums = {
   films: {
@@ -48,21 +71,24 @@ const albums = {
   "omo-vallery": omoValley,
   "planetarium-dance": ballet,
   "china-film-festival": chinaFilmFestival,
-  "press-coverage": press
-}
+  "press-coverage": press,
+};
 
-console.log("PARAMS", params)
+console.log("PARAMS", params);
 
 if (params.length) {
-  const [command] = params
+  const [command] = params;
   switch (command) {
     case "generate:images": {
-      console.log("GENERATE SCRIPT")
-      console.log("===============")
-      generateImages(albums, imageSizes)
-      break
+      console.log("GENERATE SCRIPT");
+      console.log("===============");
+      generateImages(albums, imageSizes);
+      break;
     }
   }
 } else {
-  serve(albums)
+  const kiro2 = await serve(albums);
+  app.use(vhost(newSite.host, kiro2));
+  app.use(vhost(oldSite.host, serveOld));
+  http.createServer(app).listen(port);
 }

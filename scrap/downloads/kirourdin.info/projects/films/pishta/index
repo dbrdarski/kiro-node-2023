@@ -1,0 +1,363 @@
+
+<html>
+<head>
+		<title>&quot;Pishta&quot; - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="Pishta - the short art documentary by Kiro Urdin." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Pishta Comments Feed" href="http://kirourdin.info/projects/films/pishta/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Films' href='http://kirourdin.info/projects/films/' />
+<link rel='prev' title='Video' href='http://kirourdin.info/video/' />
+<link rel='next' title='Dogs and Trains' href='http://kirourdin.info/projects/films/dogs-and-trains/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/projects/films/pishta/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1550 page-child parent-pageid-1247 page-template page-template-movies-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		<div id="superhead">				
+		<div id="photo-frame" class="" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+
+										
+				
+		
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_02.jpg" height="240" width="291" class="slide" offset="-307" title="Kiro Urdin - Pishta _ 0"  alt="Kiro Urdin - Pishta _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_03.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_03.jpg" height="240" width="176" class="slide" offset="-499" title="Kiro Urdin - Pishta _ 1"  alt="Kiro Urdin - Pishta _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_04.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_04.jpg" height="240" width="160" class="slide" offset="-675" title="Kiro Urdin - Pishta _ 2"  alt="Kiro Urdin - Pishta _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_05.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_05.jpg" height="240" width="299" class="slide" offset="-990" title="Kiro Urdin - Pishta _ 3"  alt="Kiro Urdin - Pishta _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_06.jpg" height="240" width="299" class="slide" offset="-1305" title="Kiro Urdin - Pishta _ 4"  alt="Kiro Urdin - Pishta _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_07.jpg" height="240" width="300" class="slide" offset="-1621" title="Kiro Urdin - Pishta _ 5"  alt="Kiro Urdin - Pishta _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/pishta_08.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_08.jpg" height="240" width="302" class="slide" offset="-1939" title="Kiro Urdin - Pishta _ 6"  alt="Kiro Urdin - Pishta _ 6"></a></span>		
+				
+		</div><!-- photo slide -->
+		<div class="slide-button prev"></div>		
+		<div class="slide-button next"></div>		
+		</div><!-- photo frame -->
+				
+		
+		</div>
+
+		
+		<div id="slide-controls" class="clearfix" onSelectStart="return false;">
+		<ul style="float:left">
+		<li id="first-slide" class="button">First Slide</li>
+		<li id="prev-slide" class="button">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide" class="button">Next Slide</li>
+		<li id="last-slide" class="button">Last Slide</li>
+		</ul>
+		
+		</div>		
+		
+		
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to Projects." href="http://kirourdin.info/projects/">Projects</a><span class="sep"> &gt; </span><a title="Go to Films." href="http://kirourdin.info/projects/films/">Films</a><span class="sep"> &gt; </span><span style="display:none">Pishta</span>				
+		</div>		
+		<h2 class="title">Kiro Urdin &ndash; Pishta</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		<div id="meta">
+		<div id="video-thumb">		
+		<a href="http://kirourdin.info/video?vid=whc8eFpsELQ" class="fancy">
+		<img width="360" height="370" src="http://kirourdin.info/wp-content/uploads/2011/10/pishta_01-360x370.jpg" class="attachment-video wp-post-image" alt="pishta_01" title="pishta_01" />		<div id="play-button"></div>
+		</a>	
+		</div>	
+		<p class="excerpt-author">
+				</p>
+
+				<p class="excerpt-meta">
+		<b>written and directed by: </b>Kiro Urdin, <b>music composed and performed by: </b>Venko Serafimov, <b>camera: </b>Jacque Roulet, <b>narrator: </b>Graham W. Reid, <b>after effects: </b>Keti Petrovska, <b>edited by: </b>Vladimir Petrovski Karter. 
+<strong>Running time:</strong> 13 min		</p>
+		
+		</div>		
+		<div id="entry">		
+		<p>Nobody knows how the story of his life began.</p>
+<p>He had made up his mind to be a friend to everyone. To everything. Even if they proclaimed him an outsider. As an emigrant of the soul.</p>
+<p>He travelled on and on. Travelled to where he would never reach. Through the walls of his solitude.</p>
+<p>If only he could turn the waters of the rivers into alcohol! into steam! How much less painfully would his soul sail in that case! He understood it was his fate to travel in freedom, in time, without wife, without children, without a home. Had he really once been born? Did he have a mother, a father&#8230; a birthplace, a sky of his own? It seemed to him that his whole life had taken place in only one day. He didn’t even want to know about it.</p>
+<p>And did the stars know this? How many nights he had spent under them! If only he could have come closer to them!</p>
+<p>But the streets stretched out in his soul like an endless road. Towns came to resemble each other. The highways too. Streets &#8211; paved, muddy, twisted, colourful, broad, narrow. Streets with no horizon.</p>
+<p>Yet his steps had their own purpose. They stepped out of their own accord. They were the steps of his life which was passing. Streets without houses, without trees. Only walls and more walls. Paving-stones drawn from the womb of the underworld.</p>
+<p>His music was the wind which journeys everywhere &#8211; and why not think of the wind as flights of music. The trees of a dessicated life . . . But wasn’t that all this a delusion? He thought of himself as a shadow moving along roads, through towns that no longer existed. In his soul there lived rivers, fish, clouds, birds, the winds and the scales. The scales, flights he ascended and descended. Now downwards towards life, now up into the clouds. He wanted to touch them, to be a bird, flying free in the wind. To become a cloud, his soul falling in the rain.</p>
+<p>Yet at one moment he did think to himself: have I gone mad? Nothing is clear to me any more, and it never will be.</p>
+<p>His memories were like a broken reel of film with strange, faint images. Some of the pictures were scribbled over with irregular lines, others damaged by the fangs of time. How swiftly his youth and his whole life had passed. The cavaliers of the nocturnal life had long since gone for ever. But his decision had already been made.</p>
+<p>The flight of three steps, the paving-stones, the wall. Here he found new friends once more. Fate had drawn them to one place. Birds. Dogs. Those bohemians of hunger and alcohol.</p>
+<p>On the streets there was no water anywhere, not a drop. And they were parched with thirst, drunk with thirst. Each one of them was alone. Each of them lived for the others.</p>
+<p>In his soul now lived all souls. The clouds, the rain and the steps. The steps he continued to take, ascending and descending in life. So was he not a constant traveller, fated to bear the hump of loneliness?</p>
+<p>Why did he drink? Why did he sleep under the stars, winter and summer, in the cold and in the fog? More and more steps. Towns and cities. Endless paths and roads. The corridors of solitude&#8230;</p>
+<p>Yet so it continued until he came across the three steps. He fell in love with them immediately. For ever. Passionately. His soul began to ascend and descend them. He quivered day and night. Breathless, timeless. So began their romance&#8230;</p>
+<p>And so he began to speak. He talked and talked. About himself. To himself. He wanted to announce something to the stars, to the steps, to the walls, to the flagstones, to the birds. To be close to them. He resolved not to go anywhere any more. To stay here. Just here. Now the three steps were the temple of the holy words to which he would go. Where he would tread. He had not come here to leave again just like that. He had come to stay. He had fallen in love for the first time. At last the play of his life had halted to listen to the speech of the traveller who had said nothing. He talked and talked. He was convinced that the time that had flown past was a train seized-up on a rusty track. This was the point he had been searching for. Life.</p>
+<p>The thirst for life. They were all thirsty, and not a drop of water in the streets. And so they were drunk with thirst. Why did the birds visit him so often?! Why did the dogs bark here?! Everything had its own significance. That is why he was forever thirsty. That is why he never stopped speaking.</p>
+		
+		</div>
+		
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -1955,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

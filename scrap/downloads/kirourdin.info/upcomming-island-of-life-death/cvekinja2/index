@@ -1,0 +1,323 @@
+<html>
+<head>
+		<title>cvekinja2 | kirourdin.info</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; cvekinja2 Comments Feed" href="http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Island of Life and Death: Upcomming film by Kiro Urdin' href='http://kirourdin.info/upcomming-island-of-life-death/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="attachment single single-attachment postid-1977 single-format-standard attachmentid-1977 attachment-png"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to News." href="http://kirourdin.info/news/">News</a><span class="sep"> &gt; </span><a title="Go to the Uncategorized category archives." href="http://kirourdin.info/category/uncategorized/">Uncategorized</a><span class="sep"> &gt; </span><a title="Go to Island of Life and Death: Upcomming film by Kiro Urdin." href="http://kirourdin.info/upcomming-island-of-life-death/">Island of Life and Death: Upcomming film by Kiro Urdin</a><span class="sep"> &gt; </span><span style="display:none">cvekinja2</span>		</div>		
+		<h2 class="title">cvekinja2</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		<div id="meta">
+		<a href="http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/">
+			<div class="boxgrid caption" style="margin-bottom: 10px;">
+							
+			</div>
+		</a>
+				<p class="excerpt-author" style="color: #777">
+				</p>
+
+		
+		</div>		
+		<div id="entry">
+		<span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/" data-text="cvekinja2">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/upcomming-island-of-life-death/cvekinja2/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+				<p class="attachment"><a href='http://kirourdin.info/wp-content/uploads/2013/10/cvekinja2.png' title='cvekinja2'><img width="300" height="168" src="http://kirourdin.info/wp-content/uploads/2013/10/cvekinja2-300x168.png" class="attachment-medium" alt="cvekinja2 300x168 cvekinja2" title="cvekinja2"  /></a></p>
+		
+					</div>
+		
+		<div style="clear:both;"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -16,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

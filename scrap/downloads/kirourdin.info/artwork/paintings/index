@@ -1,0 +1,339 @@
+<html>
+<head>
+		<title>Paintings - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="A collection of paintings by Kiro Urdin" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Paintings Comments Feed" href="http://kirourdin.info/artwork/paintings/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Artwork' href='http://kirourdin.info/artwork/' />
+<link rel='prev' title='Watercolors' href='http://kirourdin.info/artwork/watercolors/' />
+<link rel='next' title='Biography and Self Portrait' href='http://kirourdin.info/biography/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/artwork/paintings/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1566 page-child parent-pageid-1556 page-template-default"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+
+				
+		<div id="superhead">				
+		<div id="photo-frame" class="" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+		
+		
+								
+		
+				
+		<div id="attachments-sm">
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_05.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_05.jpg" height="240" width="166" class="slide" offset="-182" title="Kiro Urdin - Paintings _ 0"  alt="Kiro Urdin - Paintings _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_06.jpg" height="240" width="194" class="slide" offset="-392" title="Kiro Urdin - Paintings _ 1"  alt="Kiro Urdin - Paintings _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_07.jpg" height="240" width="172" class="slide" offset="-580" title="Kiro Urdin - Paintings _ 2"  alt="Kiro Urdin - Paintings _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_08.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_08.jpg" height="240" width="362" class="slide" offset="-958" title="Kiro Urdin - Paintings _ 3"  alt="Kiro Urdin - Paintings _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_09.jpg" height="240" width="355" class="slide" offset="-1329" title="Kiro Urdin - Paintings _ 4"  alt="Kiro Urdin - Paintings _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_10.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_10.jpg" height="240" width="476" class="slide" offset="-1821" title="Kiro Urdin - Paintings _ 5"  alt="Kiro Urdin - Paintings _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_11.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_11.jpg" height="240" width="429" class="slide" offset="-2266" title="Kiro Urdin - Paintings _ 6"  alt="Kiro Urdin - Paintings _ 6"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_12.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_12.jpg" height="240" width="187" class="slide" offset="-2469" title="Kiro Urdin - Paintings _ 7"  alt="Kiro Urdin - Paintings _ 7"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_13.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_13.jpg" height="240" width="158" class="slide" offset="-2643" title="Kiro Urdin - Paintings _ 8"  alt="Kiro Urdin - Paintings _ 8"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_14.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_14.jpg" height="240" width="299" class="slide" offset="-2958" title="Kiro Urdin - Paintings _ 9"  alt="Kiro Urdin - Paintings _ 9"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_15.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_15.jpg" height="240" width="192" class="slide" offset="-3166" title="Kiro Urdin - Paintings _ 10"  alt="Kiro Urdin - Paintings _ 10"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_16.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_16.jpg" height="240" width="161" class="slide" offset="-3343" title="Kiro Urdin - Paintings _ 11"  alt="Kiro Urdin - Paintings _ 11"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_17.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_17.jpg" height="240" width="271" class="slide" offset="-3630" title="Kiro Urdin - Paintings _ 12"  alt="Kiro Urdin - Paintings _ 12"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_18.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_18.jpg" height="240" width="173" class="slide" offset="-3819" title="Kiro Urdin - Paintings _ 13"  alt="Kiro Urdin - Paintings _ 13"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_19.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_19.jpg" height="240" width="159" class="slide" offset="-3994" title="Kiro Urdin - Paintings _ 14"  alt="Kiro Urdin - Paintings _ 14"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_20.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_20.jpg" height="240" width="191" class="slide" offset="-4201" title="Kiro Urdin - Paintings _ 15"  alt="Kiro Urdin - Paintings _ 15"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_21.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_21.jpg" height="240" width="158" class="slide" offset="-4375" title="Kiro Urdin - Paintings _ 16"  alt="Kiro Urdin - Paintings _ 16"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_22.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_22.jpg" height="240" width="187" class="slide" offset="-4578" title="Kiro Urdin - Paintings _ 17"  alt="Kiro Urdin - Paintings _ 17"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_23.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_23.jpg" height="240" width="305" class="slide" offset="-4899" title="Kiro Urdin - Paintings _ 18"  alt="Kiro Urdin - Paintings _ 18"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_24.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_24.jpg" height="240" width="300" class="slide" offset="-5215" title="Kiro Urdin - Paintings _ 19"  alt="Kiro Urdin - Paintings _ 19"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_25.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_25.jpg" height="240" width="306" class="slide" offset="-5537" title="Kiro Urdin - Paintings _ 20"  alt="Kiro Urdin - Paintings _ 20"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_26.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_26.jpg" height="240" width="341" class="slide" offset="-5894" title="Kiro Urdin - Paintings _ 21"  alt="Kiro Urdin - Paintings _ 21"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_27.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_27.jpg" height="240" width="192" class="slide" offset="-6102" title="Kiro Urdin - Paintings _ 22"  alt="Kiro Urdin - Paintings _ 22"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_28.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_28.jpg" height="240" width="147" class="slide" offset="-6265" title="Kiro Urdin - Paintings _ 23"  alt="Kiro Urdin - Paintings _ 23"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_29.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_29.jpg" height="240" width="286" class="slide" offset="-6567" title="Kiro Urdin - Paintings _ 24"  alt="Kiro Urdin - Paintings _ 24"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_30.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_30.jpg" height="240" width="295" class="slide" offset="-6878" title="Kiro Urdin - Paintings _ 25"  alt="Kiro Urdin - Paintings _ 25"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_31.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_31.jpg" height="240" width="306" class="slide" offset="-7200" title="Kiro Urdin - Paintings _ 26"  alt="Kiro Urdin - Paintings _ 26"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_32.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_32.jpg" height="240" width="172" class="slide" offset="-7388" title="Kiro Urdin - Paintings _ 27"  alt="Kiro Urdin - Paintings _ 27"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_33.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_33.jpg" height="240" width="100" class="slide" offset="-7504" title="Kiro Urdin - Paintings _ 28"  alt="Kiro Urdin - Paintings _ 28"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_34.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_34.jpg" height="240" width="303" class="slide" offset="-7823" title="Kiro Urdin - Paintings _ 29"  alt="Kiro Urdin - Paintings _ 29"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_36.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_36.jpg" height="240" width="294" class="slide" offset="-8133" title="Kiro Urdin - Paintings _ 30"  alt="Kiro Urdin - Paintings _ 30"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_37.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_37.jpg" height="240" width="195" class="slide" offset="-8344" title="Kiro Urdin - Paintings _ 31"  alt="Kiro Urdin - Paintings _ 31"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_38.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_38.jpg" height="240" width="194" class="slide" offset="-8554" title="Kiro Urdin - Paintings _ 32"  alt="Kiro Urdin - Paintings _ 32"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_39.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_39.jpg" height="240" width="193" class="slide" offset="-8763" title="Kiro Urdin - Paintings _ 33"  alt="Kiro Urdin - Paintings _ 33"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_40.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_40.jpg" height="240" width="206" class="slide" offset="-8985" title="Kiro Urdin - Paintings _ 34"  alt="Kiro Urdin - Paintings _ 34"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_41.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_41.jpg" height="240" width="200" class="slide" offset="-9201" title="Kiro Urdin - Paintings _ 35"  alt="Kiro Urdin - Paintings _ 35"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_42.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_42.jpg" height="240" width="277" class="slide" offset="-9494" title="Kiro Urdin - Paintings _ 36"  alt="Kiro Urdin - Paintings _ 36"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_43.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_43.jpg" height="240" width="194" class="slide" offset="-9704" title="Kiro Urdin - Paintings _ 37"  alt="Kiro Urdin - Paintings _ 37"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_44.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_44.jpg" height="240" width="272" class="slide" offset="-9992" title="Kiro Urdin - Paintings _ 38"  alt="Kiro Urdin - Paintings _ 38"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_45.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_45.jpg" height="240" width="186" class="slide" offset="-10194" title="Kiro Urdin - Paintings _ 39"  alt="Kiro Urdin - Paintings _ 39"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_46.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_46.jpg" height="240" width="263" class="slide" offset="-10473" title="Kiro Urdin - Paintings _ 40"  alt="Kiro Urdin - Paintings _ 40"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_47.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_47.jpg" height="240" width="324" class="slide" offset="-10813" title="Kiro Urdin - Paintings _ 41"  alt="Kiro Urdin - Paintings _ 41"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_48.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_48.jpg" height="240" width="161" class="slide" offset="-10990" title="Kiro Urdin - Paintings _ 42"  alt="Kiro Urdin - Paintings _ 42"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_49.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_49.jpg" height="240" width="296" class="slide" offset="-11302" title="Kiro Urdin - Paintings _ 43"  alt="Kiro Urdin - Paintings _ 43"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_50.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_50.jpg" height="240" width="357" class="slide" offset="-11675" title="Kiro Urdin - Paintings _ 44"  alt="Kiro Urdin - Paintings _ 44"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_51.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_51.jpg" height="240" width="398" class="slide" offset="-12089" title="Kiro Urdin - Paintings _ 45"  alt="Kiro Urdin - Paintings _ 45"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_52.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_52.jpg" height="240" width="288" class="slide" offset="-12393" title="Kiro Urdin - Paintings _ 46"  alt="Kiro Urdin - Paintings _ 46"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_53.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_53.jpg" height="240" width="293" class="slide" offset="-12702" title="Kiro Urdin - Paintings _ 47"  alt="Kiro Urdin - Paintings _ 47"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_54.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/oil_paintings_54.jpg" height="240" width="273" class="slide" offset="-12991" title="Kiro Urdin - Paintings _ 48"  alt="Kiro Urdin - Paintings _ 48"></a></span>		</div>		
+				
+		
+				
+		</div><!-- photo slide -->
+		<div class="slide-button prev"></div>		
+		<div class="slide-button next"></div>		
+		</div><!-- photo frame -->
+				
+		
+		</div>
+		
+		<div id="slide-controls" class="clearfix" onSelectStart="return false;">
+		<ul style="float:left">
+		<li id="first-slide">First Slide</li>
+		<li id="prev-slide">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide">Next Slide</li>
+		<li id="last-slide">Last Slide</li>
+		</ul>
+		
+		</div>		
+		
+				
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to Artwork." href="http://kirourdin.info/artwork/">Artwork</a><span class="sep"> &gt; </span><span style="display:none">Paintings</span>		</div>		
+		
+		
+		<h2 class="title">Kiro Urdin &ndash; Paintings</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		
+				<span class="one-column">
+		This is Kiro Urdin's latest period. These paintings have been worked on in New York, Paris, Sweden, Belgium, Mexico, Japan, Taiwan, China and the Phillipines. Part of them will be exhibited at Danubiana Meulensteen Art Museum in Slovakia, the Guy Pieters Gallery in Saint Paul de Vence, and Van Abbe Museum in Eindhoven - Netherlands.		
+		</span>
+		
+		
+		
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -13007,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

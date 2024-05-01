@@ -1,0 +1,578 @@
+
+<html>
+<head>
+		<title>Poems - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="A small collection of poems by Kiro Urdin, including Light, The Bull, Crossroads and more." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Poems Comments Feed" href="http://kirourdin.info/literature/poems/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Literature' href='http://kirourdin.info/literature/' />
+<link rel='prev' title='Literature' href='http://kirourdin.info/literature/' />
+<link rel='next' title='8th March' href='http://kirourdin.info/literature/poems/8th-march/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/literature/poems/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1635 page-parent page-child parent-pageid-1633 page-template page-template-poems-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		
+		<div id="content">
+		<div id="poems">		
+								
+						
+		
+		<a href="http://kirourdin.info/literature/poems/light/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Light</h2>
+		<h2 class="body poem">Viewers, listeners and readers,
+you are present on the day of wisdom,
+before you Plato is seated on the throne
+of the State,
+Shakespeare rhymes with Hamlet on the wall,
+Goethe christens his devil Mephistopheles,
+Sophocles weeps at Antigone’s birth,
+Pushkin challenges the Captain’s second daughter
+to a duel,
+Mozart using a lexicon studies the word note,
+Camus encounters the Outsider in himself...
+Viewers, listeners and readers,
+around all these acquaintances of ours,
+immortal mortals and mortal immortals
+who live and die by their own and others’ wills
+please resurrect the applause
+of the public in front of all the microphones
+and fraudulent charts...
+Viewers, listeners and readers,
+literate and illiterate alike,
+teachers, professors, deans,
+secret agents, spies and generals
+you are the living participants
+in the greatest sensation,
+you can see for yourselves
+that everywhere the halls are packed -
+in cities, on mountains, on oceans,
+and the cosmos has hired out its auditoriums -
+the halls of speech, of laughter and of ridicule,
+all the halls on the sun are packed,
+and all the halls in every constellation too,
+every star has sent its representatives,
+chroniclers, reporters, correspondents,
+every black hole has sent its representatives
+only the meteors will be in the role of observers.
+We are all waiting, they are all waiting
+while the temperature rises,
+cyclones, hurricanes, typhoons,
+we all want, we all desire
+wisdom’s representatives to say
+something ...
+Plato has split into three parts,
+Shakespeare has become a brick in Hamlet’s wall,
+Mephistopheles devilishly exiles Goethe to hell,
+Pushkin is mortally wounded in order to win
+the heart of the captain’s third daughter,
+Antigone is transformed into the board of a stage
+at Sophocles’ tomb,
+Mozart’s dead body has been thrown
+like musical dust into an unknown grave,
+Camus did not know whether it was worse
+to be a Plague or an Outsider...
+But the representatives of all the planets,
+stars, meteors and comets,
+black holes and atoms
+were impatiently awaiting the word of wisdom:
+they were born, they lived and multiplied
+without knowing what death is,
+so much did they want wisdom to speak out,
+but wisdom lived out its own life
+easily, joyfully and thoughtfully,
+it was a light
+that was travelling timelessly into eternity.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/the-bull/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">The Bull</h2>
+		<h2 class="body poem">August burned bright in the yellow of the sand
+while the music gathered the hearts of all eyes.
+Trumpeters, trumpeters, the arena entreats you for quiet and for peace;
+The bull makes ready to dash out to his death
+and kiss the toreador who looks towards you,
+now before the fight begins, before the blade of silver flashes,
+look at the dusty whirlwinds that blaze in the eyes of the bull,
+How utterly beautiful he is, how black and how strong.
+His might moves in clouds of black shadows
+and ripples over the arena like a serpent’s tail.
+Here, left of the gateway,
+His hooves dig golden holes in the sand,
+His heart shatters into shards of ice
+at the sound of the trumpets, token of death.
+Should he weep or meet death proudly.
+In his soul knows he is closed in and alone,
+only the dust beneath his feet moves as it chooses.
+A powerful light flashes for an instant in his sad eyes,
+he forgets the flaming red and his own blood,
+feels blinded and drunk on his childhood,
+remembers his mother.
+Oh fields, oh fields, how green you were, how fair:
+butterflies everywhere, mounds of soft earth all round.
+Oh fields of warmth and tenderness that charmed me!
+He recalls how he ran for the very first time,
+and everyone saw how light and fleet he flew.
+His mother wept with joy at her son -
+how fiery and fine he was.
+Ah, grass and butterflies, mounds of soft earth, bubbles of spring!
+This ominous music drives death to run at me.
+Look how the toreador lures me with his hidden sword,
+look at the shadows of death that gaze into your eyes,
+music, you’ve wailed long enough in my soul,
+you were born to life as I was.
+If only I could have said farewell to my mother,
+have taken leave of her yesterday.
+I know the fields would have wept at our meeting.
+It’s the grape-harvest now and the wine’s being pressed.
+Music, do you have a mother, or is death your dam?
+If that’s the way it is I too will kiss her.
+But wait - something grips at my heart,
+My mother has something to tell me before she dies,
+She dies tomorrow, I today - without her secret.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/standard/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Standard</h2>
+		<h2 class="body poem">The man was standardly mad.
+When there were clouds in the standard
+The man was standardly mad.
+How many madmen in clouds there were!
+What the clouds wanted
+was standard rain,
+but the rain fell ever harder.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/rats/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Rats</h2>
+		<h2 class="body poem">This is the platform of the great rats,
+everlasting lords born into death,
+underneath trains and metallic screech of rails.
+This is the platform of sorrow and love,
+of the great rats of the evil empire,
+of corridors that travel in trains of fog
+of the birds that fly one way along the corridors
+of fog, scattering the spirit of the wind.
+Birds, corridors and passages of fog.
+The lens of the eye peers anxiously
+here among the rats, the trains, the rails.
+The fog announces to us and to you:
+No escape. It is lord and master of our entrails.
+It is the shadow of our route.
+Look, there are the poets who are just
+crossing the threshold of the entrance.
+They want to be first to bid us welcome,
+last to say farewell.
+The rails rattle askew at the tread,
+the tread of trains arriving
+and departing within us.
+The new arrives, the old departs.
+Here is the ball of love
+rebounding off the walls of life
+that no one can catch, can touch.
+Here everything is secret and concealed,
+the platform of the great rats - a great secret.
+How many platforms and trains to their souls,
+how many platforms and trains to our death -
+ask the shadows of the guards of death
+born in them, ask the guards
+of all the secrets stifled there.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/number/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Number</h2>
+		<h2 class="body poem">After my death I’ll tell you how many decades I’m behind
+in writing telephone numbers in my notebook;
+it is grubby, long-suffering and old.
+I write and write in it, rubbing nothing out.
+My telephone notebook is a city of the living and the dead,
+the dead are born again
+and the same is true of the living.
+It is a city of friends,
+loved ones and chance encounters.
+Meetings there take place at any time of day.
+Everyone starts out there with everyone
+and everyone knows everybody else.
+New friendships are old, the old are new.
+There everyone writes himself in without rubbing anyone out.
+Noted like this the numbers are stamped
+on the skin of the day
+and together they write secrets they don’t even know.
+Since sincerity settles
+into them all
+they merge and crowd together,
+stretched out they set inner roads in motion.
+So number matches number and is fond of it,
+so number hushes number and comforts it,
+though when there’s no third number any more
+there’s no response
+from the number sought.
+So the numbers entered will always
+be alive in themselves,
+and the fates of the secrets will last together
+in the travellers through the gentleness in their pure souls,
+and it will always remain so as long as the numbers
+stay in it,
+and as long as they can be told:
+Always be good to your souls
+and as long as my body moves
+I will be a river that flows in you all.
+But when it is not so
+I too will become one of the numbers there.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/novel/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Novel</h2>
+		<h2 class="body poem">I am the text of an advertisement:
+Let’s write a novel together, folks,
+the novel of our first encounter,
+the novel of our first love,
+let’s write together the history
+of our souls, our hearts.
+Clear spring water will be born of it.
+Isn’t it good that everyone writes about everyone,
+everyone writes about himself?
+From it the Bible will begin
+to read the souls of spring’s awakening
+and to hear what there is within
+the novel that is written in everyone and in all,
+in the novel that is written in the joy
+of its own letters.
+Let’s write a novel together, folks,
+the novel of our first encounter,
+the novel of our first love.
+Everyone should read me,
+everyone understand me,
+everyone should read everyone
+everyone understand everyone.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/crossroads/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">Crossroads</h2>
+		<h2 class="body poem">Will we ever understand it,
+our shared love?
+We met at a crossroads,
+you gave me a flower, I gave you gentleness.
+You set out on your road, I on mine.
+And we have both travelled
+since that shared crossroads of ours.</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+						
+		
+		<a href="http://kirourdin.info/literature/poems/8th-march/" class="poem">		
+		<div class="clearfix titles">
+		<h2 class="title poem">8th March</h2>
+		<h2 class="body poem">“Today is the Eighth of March,”
+was whispered among the flowers.
+“Today is the day of passion,
+a loving embrace awaits you.”</h2>		
+		<h3 class="description"></h3>		
+		</div>
+		</a>
+				
+				
+		</div>
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -16,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

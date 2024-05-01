@@ -1,0 +1,1573 @@
+<html>
+<head>
+		<title>Uncategorized | kirourdin.info</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Uncategorized Category Feed" href="http://kirourdin.info/category/uncategorized/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<meta name="generator" content="WordPress 3.2.1" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="archive category category-uncategorized category-1"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		
+		
+				
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">01</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/" data-text="The painter Kiro Urdin became French Knight of Art and Literature">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2022/05/kiro_urdin_thumb.png" class="attachment-328x9999 wp-post-image" alt="kiro_urdin_thumb" title="kiro_urdin_thumb" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/painter-kiro-urdin-french-knight-art-literature/" style="text-decoration: none;">
+				<h2 class="title">The painter Kiro Urdin became French Knight of Art and Literature</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>A&nbsp;special ceremony for awarding the decoration was held at the residence of the French Ambassador in Skopje, HE Cyril Bomgartner, who referred to the fruitful and unique creative path of Kiro Urdin. </p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Feb</span>
+				<span class="day">22</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/tabula-rasa-book-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/tabula-rasa-book-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/tabula-rasa-book-kiro-urdin/" data-text="Tabula Rasa- a new book by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/tabula-rasa-book-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/tabula-rasa-book-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2022/02/kiro-news-thumb-tabula-rasa1.png" class="attachment-328x9999 wp-post-image" alt="kiro-news-thumb-tabula-rasa" title="kiro-news-thumb-tabula-rasa" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/tabula-rasa-book-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Tabula Rasa- a new book by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+									</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Feb</span>
+				<span class="day">22</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/covid-time-performance-book-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/covid-time-performance-book-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/covid-time-performance-book-kiro-urdin/" data-text="Covid Time Performance &#8211; a book by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/covid-time-performance-book-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/covid-time-performance-book-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2022/02/kiro-news-thumb-covid1.png" class="attachment-328x9999 wp-post-image" alt="kiro-news-thumb-covid" title="kiro-news-thumb-covid" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/covid-time-performance-book-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Covid Time Performance &#8211; a book by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+									</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Nov</span>
+				<span class="day">01</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/book-kiro-urdin-artpremium/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/book-kiro-urdin-artpremium/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/book-kiro-urdin-artpremium/" data-text="New book on Kiro Urdin by ArtPremium">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/book-kiro-urdin-artpremium/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/book-kiro-urdin-artpremium/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2020/11/kiro-news-thumb.png" class="attachment-328x9999 wp-post-image" alt="kiro-news-thumb" title="kiro-news-thumb" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/book-kiro-urdin-artpremium/" style="text-decoration: none;">
+				<h2 class="title">New book on Kiro Urdin by ArtPremium</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin &#8211; Planetarism Movement is out now</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Dec</span>
+				<span class="day">08</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/beasts-book-poetry-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/beasts-book-poetry-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/beasts-book-poetry-kiro-urdin/" data-text="Beasts &#8211; New Book of Poetry by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/beasts-book-poetry-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/beasts-book-poetry-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2018/12/kiro-urdin-new-book-poetry1.png" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-new-book-poetry" title="kiro-urdin-new-book-poetry" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/beasts-book-poetry-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Beasts &#8211; New Book of Poetry by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+									</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Dec</span>
+				<span class="day">07</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/" data-text="Kiro Urdin&#8217;s documentary film &#8216;Dogona&#8217; to be shown at the Museum of Macedonia">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2018/12/dogona.png" class="attachment-328x9999 wp-post-image" alt="dogona" title="dogona" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdins-documentary-film-dogona-shown-museum-macedonia/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin&#8217;s documentary film &#8216;Dogona&#8217; to be shown at the Museum of Macedonia</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin&#8217;s documentary film &#8216;Dogona&#8217; will be shown to the Macedonian audience on Wednesday 12 December 2018, as part of the &#8220;Spirits of Africa – West African Ritual Art&#8221; visiting exhibition which will be taking place at the Museum of Macedonia.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Apr</span>
+				<span class="day">29</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/" data-text="Kiro Urdin awarded for lifetime achievement in documentary film">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2018/04/kiro-urdin-lifetime-award-paris.png" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-lifetime-award-paris" title="kiro-urdin-lifetime-award-paris" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-awarded-lifetime-achievement-documentary-film/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin awarded for lifetime achievement in documentary film</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>On 2nd June Kiro Urdin will be officially preseted with the lifetime achivement award “Frédéric Rossif” for documentary film-making at the South East European Film Festival in Paris. His most recent feature documentary “Life and Death” will be projected at the event.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Apr</span>
+				<span class="day">26</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/" data-text="New Exhibition by Kiro Urdin at MM Gallery">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2018/04/kiro-urdin-exibition.png" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-exibition" title="kiro-urdin-exibition" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/exhibition-kiro-urdin-mm-gallery/" style="text-decoration: none;">
+				<h2 class="title">New Exhibition by Kiro Urdin at MM Gallery</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Solo exibition featuring Kiro Urdin most recent artworks is opening tomorrow in MM Gallery, Brussels.</p>
+<p>The exibition will be open from 27.04 to 20.05 at MM Gallery.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Feb</span>
+				<span class="day">01</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/cubes-spheres-book-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/cubes-spheres-book-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/cubes-spheres-book-kiro-urdin/" data-text="Cubes and Spheres, a new book by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/cubes-spheres-book-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/cubes-spheres-book-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2018/02/kiro-urdin-new-book-cubes-and-spheres.jpg" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-new-book-cubes-and-spheres" title="kiro-urdin-new-book-cubes-and-spheres" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/cubes-spheres-book-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Cubes and Spheres, a new book by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+									</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Nov</span>
+				<span class="day">11</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/" data-text="New Book by Kiro Urdin: &#8220;1500 Aphorisms in One Point&#8221;">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2017/11/kiro-urdin-new-book-1500-aphorisms1.png" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-new-book-1500-aphorisms" title="kiro-urdin-new-book-1500-aphorisms" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/book-kiro-urdin-1500-aphorisms-point/" style="text-decoration: none;">
+				<h2 class="title">New Book by Kiro Urdin: &#8220;1500 Aphorisms in One Point&#8221;</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+									</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Dec</span>
+				<span class="day">11</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/" data-text="Kiro Urdin&#8217;s Work to be featured Tom D. Jones Gallery">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2016/12/Kiro-gallery-thumb-tom-d-jones.jpg" class="attachment-328x9999 wp-post-image" alt="Kiro-gallery-thumb-tom-d-jones" title="Kiro-gallery-thumb-tom-d-jones" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdins-work-featured-tom-d-jones-gallery/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin&#8217;s Work to be featured Tom D. Jones Gallery</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Works by Kiro Urdin will be exibited in Tom D. Jones Gallery in Knokke, Belgium, opening 16 December.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Dec</span>
+				<span class="day">10</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/" data-text="Upcoming Kiro Urdin Exposition in Louise Gallery in Durbuy">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2016/12/Kiro-gallery-thumb.jpg" class="attachment-328x9999 wp-post-image" alt="Kiro-gallery-thumb" title="Kiro-gallery-thumb" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/upcoming-kiro-urdin-exposition-louise-gallery-durbuy/" style="text-decoration: none;">
+				<h2 class="title">Upcoming Kiro Urdin Exposition in Louise Gallery in Durbuy</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin&#8217;s work will be on display in Louise Gallery in Durbuy starting 15&nbsp;December&nbsp;-&nbsp;14&nbsp;March. </p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">01</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/" data-text="Kiro Urdin upcoming exibition in MM Gallery, Brussels">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2016/05/kiro-mm-hallery-exibition.jpg" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-mm-hallery-exibition" title="kiro-urdin-mm-hallery-exibition" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-exibition-mm-gallery-brussels/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin upcoming exibition in MM Gallery, Brussels</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>A&nbsp;solo exibition by Kiro Urdin will take place between 6th May &#8211; 12 June in the MM Gallery in Brussels featureing his latest works. In addition there will be a promotion of his new book &#8220;Planetarism Movement&#8221; as part of the exibition opening.</p>
+<p>&nbsp;</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Feb</span>
+				<span class="day">22</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/" data-text="Planetarism Movement &#8211; upcomming book from Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2016/02/kiro-urdin-book-planetarism-movement1.jpg" class="attachment-328x9999 wp-post-image" alt="kiro-urdin-book-planetarism-movement" title="kiro-urdin-book-planetarism-movement" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/planetarism-movement-upcomming-book-by-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Planetarism Movement &#8211; upcomming book from Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>&#8220;Painter, photographer, sculptor, poet, film-maker, writer… Kiro Urdin is a TOTAL ARTIST.</p>
+<p>Over the course of his career, his work has taken him across the whole world, and even into some hostile and improbable places. That is the essence of his project Planetarism: driven by a desire to decipher life&#8217;s mysteries he embarked on a mystical worldwide journey to test his own limits.<br />
+Throughout it, the artist has produced a body of work that is constant ponderation of man&#8217;s psyche and his future in a world ruled by greediness and egoism.&#8221;</p>
+<p>ARTPREMIUM MAGAZINE spring / summer 2016</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Aug</span>
+				<span class="day">08</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/books-aphorisms-kiro-urdin/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/books-aphorisms-kiro-urdin/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/books-aphorisms-kiro-urdin/" data-text="Four new books of aphorisms by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/books-aphorisms-kiro-urdin/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/books-aphorisms-kiro-urdin/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2015/08/4newaphorismbooks.jpg" class="attachment-328x9999 wp-post-image" alt="4newaphorismbooks" title="4newaphorismbooks" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/books-aphorisms-kiro-urdin/" style="text-decoration: none;">
+				<h2 class="title">Four new books of aphorisms by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Tabula Phrase, Walls, Perpetuum Debile, Fear are the titles of the four new books of aphorisms by Kiro Urdin.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">25</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-ars-nova-interview/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-ars-nova-interview/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-ars-nova-interview/" data-text="A rare &#8217;91 interview for Ars Nova by Kiro Urdin and Leo Castelli">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-ars-nova-interview/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-ars-nova-interview/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2015/05/ars_nova_cover2.jpg" class="attachment-328x9999 wp-post-image" alt="ars_nova_cover2" title="ars_nova_cover2" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-ars-nova-interview/" style="text-decoration: none;">
+				<h2 class="title">A rare &#8217;91 interview for Ars Nova by Kiro Urdin and Leo Castelli</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Ars Nova Magazine coverage of the &#8217;91 Tokyo Art Expo featuring interviews of Kiro Urdin and Leo Castelli.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">24</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/" data-text="Kiro Urdin to recieve Aster Award 2015 for high achievements in documentary film">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2015/05/asterfest.jpg" class="attachment-328x9999 wp-post-image" alt="asterfest" title="asterfest" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-recieve-aster-award-2015-high-achievements-documentary-film/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin to recieve Aster Award 2015 for high achievements in documentary film</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>At 27.05 Kiro Urdin will take part as a Lauerate in this year&#8217;s edition of the AsterFest International Film Festival. Kiro will address the audience about his experiences as a director of documentary films. as part of the award ceremony where he will be presented with the Aster Award for high achievements in documentary film.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Apr</span>
+				<span class="day">01</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-mm-expo-2604-286/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-mm-expo-2604-286/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-mm-expo-2604-286/" data-text="Kiro Urdin @ MM Expo 26/04 &#8211; 28/6">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-mm-expo-2604-286/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-mm-expo-2604-286/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2015/05/exibition-328x184.jpg" class="attachment-328x9999 wp-post-image" alt="exibition" title="exibition" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-mm-expo-2604-286/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin @ MM Expo 26/04 &#8211; 28/6</h2>
+			</a>
+			<h3 class="description">Kiro Urin will exibit on MM Expo from 26/04 to 28/6.</h3>		
+
+						<p>Kiro Urin will exibit on MM Expo from 26/04 to 28/6.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">22</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/" data-text="Kiro Urdin to exibit at Ningbo Museum of Art in China in June (7 &#8211; 12)">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2014/05/ningbo-museum.jpg" class="attachment-328x9999 wp-post-image" alt="ningbo-museum" title="ningbo-museum" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-exibit-ningbo-museum-china-june-7-12/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin to exibit at Ningbo Museum of Art in China in June (7 &#8211; 12)</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin to exibit at Ningbo Museum Group Exibition, China form the 7th to the 12th of June</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">May</span>
+				<span class="day">22</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/" data-text="Kiro Urdin to exibit at Mousche Gallery LA Group Show">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2014/05/mousche-gallery.jpg" class="attachment-328x9999 wp-post-image" alt="mousche-gallery" title="mousche-gallery" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-exibit-mousche-gallery-group-show/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin to exibit at Mousche Gallery LA Group Show</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin will participate at a Mousche Gallery LA Group Show.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Mar</span>
+				<span class="day">17</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/tribes-omo-valley/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/tribes-omo-valley/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/tribes-omo-valley/" data-text="The Tribes of Omo Valley">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/tribes-omo-valley/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/tribes-omo-valley/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2014/03/Tribess_thumb_info-328x184.jpg" class="attachment-328x9999 wp-post-image" alt="Tribess_thumb_info" title="Tribess_thumb_info" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/tribes-omo-valley/" style="text-decoration: none;">
+				<h2 class="title">The Tribes of Omo Valley</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>The following photos are taken by Urdin during his visit of the Omo Valley.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Oct</span>
+				<span class="day">30</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/upcomming-island-of-life-death/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/upcomming-island-of-life-death/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/upcomming-island-of-life-death/" data-text="Island of Life and Death: Upcomming film by Kiro Urdin">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/upcomming-island-of-life-death/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/upcomming-island-of-life-death/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2013/10/majmun-328x184.png" class="attachment-328x9999 wp-post-image" alt="majmun" title="majmun" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/upcomming-island-of-life-death/" style="text-decoration: none;">
+				<h2 class="title">Island of Life and Death: Upcomming film by Kiro Urdin</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro Urdin&#8217;s latest effort is a feature documentary filmed on various loctions in the Masai Mara National Reserve in Kenya. It will be the third installment in Kiro Urdin&#8217;s African wildlife trilogy along with his two previous films, Water and Fire and Two Times.<br />
+Written and directed by Urdin himself, the crew consists of his long-time collaborators: cammera by Brand Fero, soundtrack by Venko Serafimov, editing by Vladimir Petrovski &#8211; Karter, and Ivan Mitevski serving as an art consultant.<br />
+Currently in post-production stage, it will be released in the near future and will be premiered at international film festivals.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Aug</span>
+				<span class="day">27</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/films-urdin-featured-newyork-film-festival/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/films-urdin-featured-newyork-film-festival/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/films-urdin-featured-newyork-film-festival/" data-text="Two Urdin&#8217;s Films on the New York Film Festival">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/films-urdin-featured-newyork-film-festival/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/films-urdin-featured-newyork-film-festival/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2013/08/kiro_new.png" class="attachment-328x9999 wp-post-image" alt="kiro_new" title="kiro_new" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/films-urdin-featured-newyork-film-festival/" style="text-decoration: none;">
+				<h2 class="title">Two Urdin&#8217;s Films on the New York Film Festival</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Two Films by Kiro Urdin &#8216;Steps&#8217; and &#8216;Debbie Wilson &amp; Planetarium&#8217; to be featured on the New York International Film festival &#8211; LA Edition as part of the official selection.  &#8217;Steps&#8217; will be competing in the genre of experimantal film, while &#8216;Debbie Wilson&#8217; is featured under art film documentaries. The festival opens on Sunday, 18th [...]</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Jun</span>
+				<span class="day">26</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiros-book-planetarium-planetarism/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiros-book-planetarium-planetarism/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiros-book-planetarium-planetarism/" data-text="Kiro&#8217;s New Book &#8216;Planetarium &#038; Planetarism&#8217;">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiros-book-planetarium-planetarism/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiros-book-planetarium-planetarism/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2013/06/planetarium-planetarism-book.jpg" class="attachment-328x9999 wp-post-image" alt="planetarium-planetarism-book" title="planetarium-planetarism-book" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiros-book-planetarium-planetarism/" style="text-decoration: none;">
+				<h2 class="title">Kiro&#8217;s New Book &#8216;Planetarium &#038; Planetarism&#8217;</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro&#8217;s new book &#8216;Planetarium &#038; Planetarism (2013)&#8217; is out and available at ISSUU containing his most recent works, and more thoughts on the planetarism movement!</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Jun</span>
+				<span class="day">26</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiros-book-ghosts/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiros-book-ghosts/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiros-book-ghosts/" data-text="Kiro&#8217;s new book &#8216;Ghosts&#8217; available on ISSUU!">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiros-book-ghosts/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiros-book-ghosts/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2013/06/ghosts-thumb.png" class="attachment-328x9999 wp-post-image" alt="ghosts-thumb" title="ghosts-thumb" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiros-book-ghosts/" style="text-decoration: none;">
+				<h2 class="title">Kiro&#8217;s new book &#8216;Ghosts&#8217; available on ISSUU!</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>Kiro has written another book in his aphorism series. It&#8217;s titled &#8216;Ghosts&#8217; and it&#8217;s one of the best books he&#8217;s written so far.</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Apr</span>
+				<span class="day">17</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/" data-text="Kiro Urdin recieves the Golden Ladybug 2013 Award for Lifetime Achievement">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2015/05/golden-ladybug.jpg" class="attachment-328x9999 wp-post-image" alt="golden-ladybug" title="golden-ladybug" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-recieves-golden-ladybug-award/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin recieves the Golden Ladybug 2013 Award for Lifetime Achievement</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<p>You can watch the full video here: https://www.youtube.com/watch?v=NOgNnhG7A_k</p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Nov</span>
+				<span class="day">27</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/" data-text="Kiro Urdin&#8217;s Movie Planetarium Wins at Wildlife Vaasa International Film Festival">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="458" src="http://kirourdin.info/wp-content/uploads/2012/11/kiro_urdin_vaasa_planetarium-360x503.jpg" class="attachment-328x9999 wp-post-image" alt="kiro_urdin_vaasa_planetarium" title="kiro_urdin_vaasa_planetarium" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdins-movie-planetarium-wins-wildlife-vaasa-international-film-festival/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin&#8217;s Movie Planetarium Wins at Wildlife Vaasa International Film Festival</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<span class="original_author"><strong>Source:</strong> MIA - Macedonian Information Agency - <a href="http://www.mia.com.mk/">http://www.mia.com.mk/</a></span>
+						<p>Kiro Urdin&#8217;s Movie &#8220;Planetarium&#8221; won the Ostrobothnian Museum&#8217;s Artistic Award at the Vaasa International Film Festival 2012 in Finland. </p>
+			</div>
+		</div>
+
+				
+		<div class="meta_social">
+			<div class="the_date">
+				<span class="month">Jan</span>
+				<span class="day">28</span>
+			</div>
+			<div class="social"><span class="martiniboy_social_list">
+<ul class="jamie_social martinileft">
+  <li class="martinifb"><fb:like  send="false" layout="button_count"   href="http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/" show_faces="false" width="90"></fb:like>   </li>
+
+
+    <!--[if !lte IE 7]><!-->
+  <li>
+    <g:plusone size="medium" href="http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/" callback="plusone_vote"></g:plusone>
+  </li>
+  <!--<![endif]-->
+    <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/" data-text="Kiro Urdin recives the Giant Panda Award">Tweet</a></li>
+    <li class="pin"> <a class="pin-it-button" count-layout="horizontal" always-show-count="1" href="http://pinterest.com/pin/create/button/?url=http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/">Pin It</a> <a href="javascript:void(run_pinmarklet())" class="pinarea"></a></li>
+  <script src="http://assets.pinterest.com/js/pinit.js" type="text/javascript"/></script>
+  </ul>
+<br class="jamie_clear" />
+</span>
+</div>
+		</div>
+
+		<div class="content">
+			<div class="meta">
+				<a href="http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/">
+					<div class="boxgrid caption" style="height: 184px;">
+						<img width="328" height="184" src="http://kirourdin.info/wp-content/uploads/2012/01/kiro-i-ambasadorot-na-kina-328x184.jpg" class="attachment-328x9999 wp-post-image" alt="kiro i ambasadorot na kina" title="kiro i ambasadorot na kina" />			
+					</div>
+				</a>
+
+							</div>		
+		
+			<div class="content-main">
+
+			<a href="http://kirourdin.info/kiro-urdin-with-chinese-ambassador-cui-zhiwei/" style="text-decoration: none;">
+				<h2 class="title">Kiro Urdin recives the Giant Panda Award</h2>
+			</a>
+			<h3 class="description"></h3>		
+
+						<span class="original_author"><strong>Source:</strong> Macedonian Film Fund - <a href="www.filmfund.gov.mk">www.filmfund.gov.mk</a></span>
+						<p>Kiro Urdin is presented the Giant Panda Grand Prize by the Chinese Ambassador Cui Zhiwei for his documentary &#8220;Two Times&#8221;, which won Best Natural Environment Film award at the China International Animal and Nature Film Festival.</p>
+			</div>
+		</div>
+
+		
+		<div style="clear:both;"></div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -16,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

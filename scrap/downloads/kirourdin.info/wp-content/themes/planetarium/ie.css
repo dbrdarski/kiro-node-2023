@@ -1,0 +1,29 @@
+#superhead, #photo-frame, #animation-frame{
+width: 1016px;
+}	
+
+body{margin-bottom: 16px;}
+
+#wrapper{margin-top: 0;left: 50%;margin-left: -508px;}
+
+#attachments-small{
+width: 408px;
+}
+
+#attachment-image{
+margin-bottom: 0 4px 4px 0;
+}
+
+#animation-frame{
+background:url(images/planetarism_animation_still.jpg)
+}
+
+#animation-frame *{display: none;}
+
+#superhead.x4{width: 1064px}
+
+#slide-controls{height: 34px;}
+
+.post-image{
+margin: 0 16px 0 0;
+}

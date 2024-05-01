@@ -1,0 +1,420 @@
+<html>
+<head>
+		<title>Biography and Self Portrait - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="Kiro Urdin&#039;s biography and self portrait. A collection of important dates from his life." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Biography and Self Portrait Comments Feed" href="http://kirourdin.info/biography/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='prev' title='Paintings' href='http://kirourdin.info/artwork/paintings/' />
+<link rel='next' title='Literature' href='http://kirourdin.info/literature/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/biography/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1586 page-template-default"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+
+				
+		<div id="superhead">				
+		<div id="photo-frame" class="" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+		
+		
+								
+		
+				
+		<div id="attachments-sm">
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_03.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_03.jpg" height="240" width="355" class="slide" offset="-371" title="Kiro Urdin - Biography and Self Portrait _ 0"  alt="Kiro Urdin - Biography and Self Portrait _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_02.jpg" height="240" width="173" class="slide" offset="-560" title="Kiro Urdin - Biography and Self Portrait _ 1"  alt="Kiro Urdin - Biography and Self Portrait _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_04.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_04.jpg" height="240" width="366" class="slide" offset="-942" title="Kiro Urdin - Biography and Self Portrait _ 2"  alt="Kiro Urdin - Biography and Self Portrait _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/about_10_2.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/about_10_2.jpg" height="240" width="261" class="slide" offset="-1219" title="Kiro Urdin - Biography and Self Portrait _ 3"  alt="Kiro Urdin - Biography and Self Portrait _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_04_.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_04_.jpg" height="240" width="200" class="slide" offset="-1435" title="Kiro Urdin - Biography and Self Portrait _ 4"  alt="Kiro Urdin - Biography and Self Portrait _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_06.jpg" height="240" width="170" class="slide" offset="-1621" title="Kiro Urdin - Biography and Self Portrait _ 5"  alt="Kiro Urdin - Biography and Self Portrait _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_07.jpg" height="240" width="339" class="slide" offset="-1976" title="Kiro Urdin - Biography and Self Portrait _ 6"  alt="Kiro Urdin - Biography and Self Portrait _ 6"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_08.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_08.jpg" height="240" width="162" class="slide" offset="-2154" title="Kiro Urdin - Biography and Self Portrait _ 7"  alt="Kiro Urdin - Biography and Self Portrait _ 7"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_09.jpg" height="240" width="360" class="slide" offset="-2530" title="Kiro Urdin - Biography and Self Portrait _ 8"  alt="Kiro Urdin - Biography and Self Portrait _ 8"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_11.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_11.jpg" height="240" width="334" class="slide" offset="-2880" title="Kiro Urdin - Biography and Self Portrait _ 9"  alt="Kiro Urdin - Biography and Self Portrait _ 9"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_13.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_13.jpg" height="240" width="241" class="slide" offset="-3137" title="Kiro Urdin - Biography and Self Portrait _ 10"  alt="Kiro Urdin - Biography and Self Portrait _ 10"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_14.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_14.jpg" height="240" width="172" class="slide" offset="-3325" title="Kiro Urdin - Biography and Self Portrait _ 11"  alt="Kiro Urdin - Biography and Self Portrait _ 11"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/11/about_15.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/11/about_15.jpg" height="240" width="505" class="slide" offset="-3846" title="Kiro Urdin - Biography and Self Portrait _ 12"  alt="Kiro Urdin - Biography and Self Portrait _ 12"></a></span>		</div>		
+				
+		
+				
+		</div><!-- photo slide -->
+		<div class="slide-button prev"></div>		
+		<div class="slide-button next"></div>		
+		</div><!-- photo frame -->
+				
+		
+		</div>
+		
+		<div id="slide-controls" class="clearfix" onSelectStart="return false;">
+		<ul style="float:left">
+		<li id="first-slide">First Slide</li>
+		<li id="prev-slide">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide">Next Slide</li>
+		<li id="last-slide">Last Slide</li>
+		</ul>
+		
+		</div>		
+		
+				
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<span style="display:none">Biography and Self Portrait</span>		</div>		
+		
+		
+		<h2 class="title">Kiro Urdin &ndash; Biography and Self Portrait</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		
+				
+				
+		<div id="meta">
+		
+				
+		<ul id="bio">
+<p>
+<li class="bullet"><strong>1945</strong></li>
+<li> Born in Macedonia</li>
+<p>
+<li class="bullet"><strong>1969</strong></li>
+<li> Obtained a degree from the Faculty of Law at the Belgrade University</li>
+<p>
+<li class="bullet"><strong>1971-73</strong></li>
+<li> Worked as a journalist</li>
+<p>
+<li class="bullet"><strong>1972</strong></li>
+<li> Worked as a chiefset designer for the telecasts “You with us too” and “Contact”, dedicated to the music composed by Beethoven, Verdi, Mozart, Chopin and Monteverdi</li>
+<p>
+<li class="bullet"><strong>1974</strong></li>
+<li> Studied at the “Academie des Arts Plastiques” in Paris</li>
+<p>
+<li class="bullet"><strong>1977</strong></li>
+<li> Obtained a Degree in Film Directing from the ”Academy of Cinema” in Paris</li>
+<p>
+<li class="bullet"><strong>1982-83</strong></li>
+<li> Painted the portraits of the participants in the renowned “Soirees Poetiques de Struga” series (Neruda, Montale, Orlov, Okai, Guivellic)</li>
+<p>
+<li class="bullet"><strong>1984</strong></li>
+<li> Worked as an independent painter in different countries : France, USA, Japan, Switzerland, Sweden, Mexico, Belgium, Puerto Rico, Philippines, Taiwan</li>
+<p>
+<li class="bullet"><strong>1984</strong></li>
+<li> Wrote and published the book “Le dedoublement de la personnalite”</li>
+<p>
+<li class="bullet"><strong>1987</strong></li>
+<li> Listed in the reference work”Le Dessin, le Pastel et l’Aquarelle of the contemporary arts”, published by Editions Mayer</li>
+<p>
+<li class="bullet"><strong>1995</strong></li>
+<li> Represented France at the French Art Festival in Tapei</li>
+<p>
+<li class="bullet"><strong>1996</strong></li>
+<li> Illustrated the cover of the book by Jacques Delors “Combats pour l’Europe”</li>
+<p>
+<li class="bullet"><strong>1997</strong></li>
+<li> Illustrated the cover of the book by Anatoli Karpov “Mes plus belles victores”</li>
+<p>
+<li class="bullet"><strong>1997</strong></li>
+<li> Represented the Republic of Macedonia in Thessaloniki – Culture Capital of Europe ’97</li>
+<p>
+<li class="bullet"><strong>1995-97</strong></li>
+<li> Travelled around the world and realized Planetarium as a multimedia project which included paintings, films and photos</li>
+<p>
+<li class="bullet"><strong>1998-02</strong></li>
+<li> Wrote 8 books of poetry and aphorisms in French and English</li>
+<p>
+<li class="bullet"><strong>2003</strong></li>
+<li> Planetarium became a worldwide ballet performance created by the choreographer Debbie Wilson</li>
+<p>
+<li class="bullet"><strong>2005</strong></li>
+<li> Became a member of the Macedonian Academy of Arts and Sciences</li>
+<p>
+<li class="bullet"><strong>2007</strong></li>
+<li> Exhibited at the Macedonian Academy of Arts and Sciences in Skopje and in Budapest</li>
+<p>
+<li class="bullet"><strong>2008</strong></li>
+<li> Represented Macedonia at the Festival de la Francophonie de Moscou in Russia.</li>
+<p>
+<li class="bullet"><strong>2009</strong></li>
+<li> Received an invitation by the City of Nuremberg, Germany, to exhibit at the National Gallery. </li>
+</ul>
+		<p class="excerpt-author">
+				</p>
+
+		
+		</div>		
+		<div id="entry">		
+		<div style="height: 190px; width: 505px; overflow: hidden; margin-bottom: 22px;"><img class="alignnone size-full wp-image-1599" style="margin-top: -130px; margin-left: -120px;" title="Biography and Self Portrait" src="http://kirourdin.info/wp-content/uploads/2011/10/about_15.jpg" alt="about 15 Biography and Self Portrait" width="" height="" /></div>
+<p>My earliest knowledge begins with my greatgrandfather, Constantine. I don’t know what my great-grandmother’s name was. They came from Salonica and had fourteen children, twelve of whom died one after the other. The thirteenth was my grandfather, Vasil, and the fourteenth his sister, Tina.</p>
+<p>My father was called Michael and my mother Makedonka, as is my daughter. But to begin with myself.</p>
+<p>I am average in all things: of average height, of average weight, of average years and the colour of my hair is average. My mother and father were average too. And of course my three brothers and my sister are average.</p>
+<p>I wasn’t present at the moment of my birth. Time moved fast then. During the First World War my father was still a child, but even then he had made up his mind that I would be his youngest son. His wish was fulfilled towards the end of the Second World War. It was the month of May and three fortune-tellers told me that the flowers were still smelling of gunpowder. After that moment a good many years passed and peace reigned everywhere. Countries were transformed into flower gardens. There were no more wars, no more dead, wounded, starving&#8230; There was no injustice, evil or force. When I completed my studies everybody started to judge me. In order to improve my rating, I started with legal norms, and fell headlong into the loopholes in the law. There they convinced me that life beyond the grave can easily be buried.</p>
+<p>Because I had little patience for documents I began to paint them and then to record them on film. This same fact had undesirable consequences that started to multiply. Their number increased so rapidly that there wasn’t room for them all any more. The only way out was to surrender my space to them. The consequences demanded that I should understand their causes. So on average I became a point, so that nobody noticed me any more. Now my destiny depends upon the place where they insert me in their written texts. But if anyone asks me what my wish is, my response is this: because I am a point I don’t want to remain in any one place but to be in perpetual motion.</p>
+		
+		</div>
+		
+		
+		
+		
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -3862,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

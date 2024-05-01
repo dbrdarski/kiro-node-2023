@@ -1,0 +1,500 @@
+<html>
+<head>
+		<title>Aphorisms - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="The latest book in the Aphorisms series by Kiro Urdin." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Aphorisms Comments Feed" href="http://kirourdin.info/literature/aphorisms/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Literature' href='http://kirourdin.info/literature/' />
+<link rel='prev' title='News' href='http://kirourdin.info/news/' />
+<link rel='next' title='Press' href='http://kirourdin.info/press/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/literature/aphorisms/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1674 page-child parent-pageid-1633 page-template page-template-aphorisms-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		<div id="superhead">				
+		<div id="animation-frame" class="aphorisms" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+
+										
+				
+		<div id="attachments-sm">
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_01.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_01.jpg" height="240" width="1016" class="slide" offset="-1032" title="Kiro Urdin - Aphorisms _ 0"  alt="Kiro Urdin - Aphorisms _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_02.jpg" height="240" width="1016" class="slide" offset="-2064" title="Kiro Urdin - Aphorisms _ 1"  alt="Kiro Urdin - Aphorisms _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_03.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_03.jpg" height="240" width="1016" class="slide" offset="-3096" title="Kiro Urdin - Aphorisms _ 2"  alt="Kiro Urdin - Aphorisms _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_04.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_04.jpg" height="240" width="1016" class="slide" offset="-4128" title="Kiro Urdin - Aphorisms _ 3"  alt="Kiro Urdin - Aphorisms _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_05.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_05.jpg" height="240" width="1016" class="slide" offset="-5160" title="Kiro Urdin - Aphorisms _ 4"  alt="Kiro Urdin - Aphorisms _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_06.jpg" height="240" width="1016" class="slide" offset="-6192" title="Kiro Urdin - Aphorisms _ 5"  alt="Kiro Urdin - Aphorisms _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_07.jpg" height="240" width="1016" class="slide" offset="-7224" title="Kiro Urdin - Aphorisms _ 6"  alt="Kiro Urdin - Aphorisms _ 6"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_08.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_08.jpg" height="240" width="1016" class="slide" offset="-8256" title="Kiro Urdin - Aphorisms _ 7"  alt="Kiro Urdin - Aphorisms _ 7"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_09.jpg" height="240" width="1016" class="slide" offset="-9288" title="Kiro Urdin - Aphorisms _ 8"  alt="Kiro Urdin - Aphorisms _ 8"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_10.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms_10.jpg" height="240" width="1016" class="slide" offset="-10320" title="Kiro Urdin - Aphorisms _ 9"  alt="Kiro Urdin - Aphorisms _ 9"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms1.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/12/aphorisms1.jpg" height="240" width="242" class="slide" offset="-10578" title="Kiro Urdin - Aphorisms _ 10"  alt="Kiro Urdin - Aphorisms _ 10"></a></span>		</div>		
+		
+				
+		</div><!-- photo slide -->
+		<div id="aphorisms" >
+		<p class="aphorism">Success on success – blindness.</p>
+		<p class="aphorism mid">The circle you belong to is the coop you’ll end up in.</p>
+		<p class="aphorism big">Understand the solitude of those who live within you and you’ll be a human being.</p>
+		<p class="aphorism" slide="2">I can’t be touched – least of all by those who can’t hurt me.</p>
+		<p class="aphorism">There’s nowhere we can reach as long as we all want to be in the same place.</p>
+		<p class="aphorism mid">Feel good in your own skin, under it the years decide.</p>
+		<p class="aphorism">Don’t be forever shooting at me, some of your bullets are blanks.</p>
+		<p class="aphorism">Everyone dreams their own life’s dream, reality is life beyond the grave.</p>
+		<p class="aphorism">Tread somewhere else, the truth lies beneath your feet.</p>
+		<p class="aphorism" slide="4">Step by step, foot by foot.</p>
+		<p class="aphorism">Depending on myself, I depend on others.</p>
+		<p class="aphorism">Men went to Mars. The Martians said, ‘What robots!’</p>
+		<p class="aphorism">Men live penned in prison, animals at liberty in zoos.</p>
+		<p class="aphorism">History repeats itself, its authors the victors.</p>
+		<p class="aphorism">Work like a slave, think like a thinker – even if you’re a slave.</p>
+		<p class="aphorism">Nothing at once, everything in the meantime.</p>
+		<p class="aphorism" slide="3">Change your tense. Use the future if things don’t go right in the present.</p>
+		<p class="aphorism big">You’re the same as your neighbour, but the converse could also be said.</p>
+		<p class="aphorism">Humanise the success that means everything in life.</p>
+		<p class="aphorism">To read that you know better than I do, I’d have to be literate.</p>
+		<p class="aphorism mid">Advert: Wanted – a parasite that gives blood willingly.</p>
+		<p class="aphorism">We’ll be equal before the law when the judges are too.</p>
+		<p class="aphorism"slide="5">One page of love, several novels of life.</p>
+		<p class="aphorism">We’ll become what we are.</p>
+		<p class="aphorism">No one is last as long as love at first sight exists.</p>
+		<p class="aphorism">As long as you’re pacific, you’re the greatest ocean.</p>
+		<p class="aphorism">Of nine chances, we’re the tenth.</p>
+		<p class="aphorism">Ruler, is the middle class content? The upper class will never be.</p>
+		<p class="aphorism" slide="8">Man’s ecological error – overpopulation.</p>
+		<p class="aphorism">Three kinds of slave: the slave to power, the wage slave and the credit slave.</p>
+		<p class="aphorism mid left">Distance yourself from yourself, you’re close to evil.</p>
+		<p class="aphorism">Sure of yourself, sovereign everywhere.</p>
+		<p class="aphorism">I stand the way my affairs stand.</p>
+		<p class="aphorism">The world’s become tragicomic, nobody laughs outright without a tragedy.</p>
+		<p class="aphorism">You’re my first love; at the start I was the last to be first.</p>
+		<p class="aphorism" slide="7">After the first comes the average.</p>
+		<p class="aphorism big">As long as there was capitalism and communism there was the cold war; now the world’s in flames.</p>
+		<p class="aphorism">Better days are coming, so man will be even worse.</p>
+		<p class="aphorism big" slide="5">The nation and nationalities will be richer, everyone working on his own account.</p>
+		<p class="aphorism">The tax we pay from birth is life, the interest our years.</p>
+		<p class="aphorism">I’ve learned nothing from myself, all my life I’ve learned from life.</p>
+		<p class="aphorism">Talk openly but in an open space – words eco.</p>
+		<p class="aphorism big"  slide="6">The difference between profit and profiteers: profit is divided, profiteers multiply.</p>
+		<p class="aphorism">Punishment is most often revenge, but when punishment errs it dreams of pardon.</p>
+		<p class="aphorism big">I’ve a feeling I’ve seen you somewhere! Yes, don’t you have a feeling you need me for something?</p>
+		<p class="aphorism ok">I stand the way my affairs stand.</p>
+		<p class="aphorism ok">Everything depends on the election, who will pay for it?</p>
+		<p class="aphorism big">The younger generation likes autumn, it sees the older as a deciduous forest.</p>
+		<p class="aphorism mid">Don’t miss the moment if your future’s in it.</p>
+		<p class="aphorism ok">Of all consequences, the first is the longest.</p>
+		<p class="aphorism big">The actress understood too late, to be a fashionable success she should be naked.</p>
+		<p class="aphorism ok" slide="10">Spring’s arrived, the flowers are in bloom, but no one’s taken a sniff at me.</p>
+		<p class="aphorism ok">Of all womankind, the motherland weeps most honestly.</p>
+		<p class="aphorism ok ok">Brief announcement: full stop.</p>
+		<p class="aphorism ok">I say the same thing all the time, in this I differ from others.</p>
+		<p class="aphorism ok">Be in touch with your soul, the body’s fickle.</p>
+		<p class="aphorism ok"  slide="9">Judging from my instinct, they’re right to call me an animal.</p>
+		<p class="aphorism ok mid">I’m always the first to do wrong, that’s why I’m so experienced.</p>
+		<p class="aphorism question">Either be it, or stop going on about what you want to be.</p>
+		<p class="aphorism big full">Why shouldn’t I gossip about my friends? My enemies know in advance what I’ll say about them. He who is born with everything he needs has no need of himself.</p>
+		<p class="aphorism">Whoever wants to rule should be a realist, the female sphere is not amenable to that.</p>
+		<p class="aphorism ok">I’ve no need of a visa, my friendship has no frontiers.</p>
+		<p class="aphorism ok">Think freely about freedom of thought.</p>
+		<p class="aphorism mid">The glass in your hand is fragile, the water in it heavy.</p>
+		<p class="aphorism big">Why so many smiling politicians when they persuade us we’re living in difficult times?</p>
+		<p class="aphorism big">I was sacked, I’d no electricity, my child had neither bread nor milk. The first snow fell! I went out for a walk boiling inside.</p>
+		<p class="aphorism big">The wise man counsels the foolish as long as he doesn’t trust him – then he laughs at him.</p>
+		<p class="aphorism mid">As long as your chances are sinking, you swim well.</p>
+		<p class="aphorism q">Between the frontier and the marriage bed there’s a foreigner.</p>
+		<p class="aphorism big"  slide="1">According to the statistics, crime has decreased – but just wait till the next election.</p>
+		<p class="aphorism big">Wise plus wise, wiser; foolish plus foolish, more foolish.</p>
+		<p class="aphorism"  slide="2">In childhood death is an illusion, in middle age a reality, and in old age an everyday occurrence.</p>
+		<p class="aphorism">The easiest woman is the inquisitive one, she’ll give herself to convince herself.</p>
+		<p class="aphorism">In life we either weep or laugh – the rest is the daily round.</p>
+		<p class="aphorism">When everything’s in motion, it’s hard to escape being trodden on.</p>
+		<p class="aphorism">The bad novel became a drama, all the characters started to ham it up.</p>
+		<p class="aphorism ok q">Be civilised, abstain.</p>
+		<p class="aphorism ok">Where there’s punishment there’s fear, where there’s fear there’s deceit.</p>
+		<p class="aphorism ok mid"  slide="5">After the good times comes reality.</p>
+		<p class="aphorism ok mid">When a rich man swims in a sea of cash, he thinks it’s an ocean.</p>
+		<p class="aphorism big">The difference between the unfaithful man and the unfaithful woman - she has the greater choice.</p>
+		<p class="aphorism ok">If you’ve decided to go all the way, distance yourself.</p>
+		<p class="aphorism long">Enough! - so that it doesn’t get boring.</p>
+		<p class="aphorism ok q">When it’s certain the force that’s heading for you will win, face another way.</p>
+		<p class="aphorism mid">To live healthily, you should eat well - to live longer, eat less.</p>
+		<p class="aphorism ok">Judge the sublime, the rest is error-free.</p>
+		<p class="aphorism big" slide="3">Be in the middle; don’t underestimate the one below you, or overestimate the one above you.</p>
+		<p class="aphorism long mid">If somebody serves you as a model, don’t undress in front of them.</p>
+		<p class="aphorism big">Fill the mouth that constantly criticizes you, and the same mouth will shower you with praise.</p>
+		<p class="aphorism mid sm">Swim in the sea of love; later you’ll start to drown in it.</p>
+		<p class="aphorism big">What would Tutankhamen’s attitude to silence be, when nowadays every ‘pharaoh’ has his own spokesman?</p>
+		<p class="aphorism mid">How to prevent the inevitable, when it’s a part of what’s to follow?</p>
+		<p class="aphorism short">Line up in order, I want to set you right.</p>
+		<p class="aphorism long" slide="4">I’m in form, my wallet’s shaking. </p>
+		<p class="aphorism ok">I am the avantgarde, I trample all before me.</p>
+		<p class="aphorism ok">The price goes up when we are paying, and falls when others do so for us.</p>
+		<p class="aphorism big">Who’s more in the right: he who usurps another’s right, or he who wants to keep the right for himself?</p>
+		<p class="aphorism ok">Don’t limit the movement of those who follow you.</p>
+		<p class="aphorism mid">Write down what you said, but use fewer words.</p>
+		<p class="aphorism big">Seize the moment when you’re in fashion, for fashion’s moment doesn’t last long.</p>
+		<p class="aphorism ok">Don’t irritate the mouth whose tongue expresses itself crudely.</p>
+		<p class="aphorism big" slide="6">Have we ever asked ourselves what happens behind the man who always wants to be in the foreground?</p>
+		<p class="aphorism ok">What do cows think of silicone breasts?</p>
+		<p class="aphorism big top">Finally the tastes of artists and consumers have coincided - paint and consume a Big Mac, Coca Cola or spaghetti.</p>
+		<p class="aphorism ok">I’m in a fix: should I take the queen, or checkmate the king?</p>
+		<p class="aphorism ok">Why shouldn’t I sell myself, if someone’s prepared to pay more than I’m worth?</p>
+		<p class="aphorism long mid">There’s a philosopher with universal wisdom - he’s called Old Age.</p>
+		<p class="aphorism big ok">No one is as young as his years, or as old as the years life has given him.</p>
+		<p class="aphorism big ">What is the evolution of the line of least resistance when the whistle blows for an outsider, and when it blows for the favourite?</p>
+		<p class="aphorism mid">We say that there’s nothing in space - that means there’s no space.</p>
+		<p class="aphorism big ok">A king’s crowning success is his queen, the queen’s when both crowns are united on her head.</p>
+		<p class="aphorism ok">Today a person no longer knows whether the world has become civilised or militarised.</p>
+		<p class="aphorism long">The end of all illusions - I’ve hit reality by mistake.</p>
+		<p class="aphorism big">What should one’s attitude be when someone has done something for someone else and the benefit is mutual?</p>
+		<p class="aphorism mid">What would a novel look like with the first and the last pages blank?</p>
+		<p class="aphorism mid">Is there an ordinal number for the consequences of a wrong decision?</p>
+		<p class="aphorism vcenter">I’ve reached the peak of the pyramid, what’s the next point?</p>
+		<p class="aphorism big ok">When you’re on the list of undesirables, the only consolation is that if they scored you out they might mark your name with a cross.</p>
+		<p class="aphorism left">It’s a full moon tonight, should I think of sex or my wages?</p>
+		<p class="aphorism ok">Producers of the world, distribute yourselves!</p>
+		<p class="aphorism long">Decide what your future route will be - the path you follow every day, or the road you should set out on?</p>
+		<p class="aphorism mid" slide="7">Write down what you said, but use fewer words.</p>
+		<p class="aphorism ok">After Mt. Everest the next peak is Mars.</p>
+		<p class="aphorism ok mid q">Does anyone know where the epicentre of a shaky marriage bed lies?</p>
+		<p class="aphorism mid">Money is a trial - spending deliveres the verdict.</p>
+		<p class="aphorism ok">Everything happens quickly - except in sex.</p>
+		<p class="aphorism ok q long left">A kind od depresion - uncertainty.</p>
+		</div><!-- aphorisms -->		
+		</div><!-- photo frame -->
+				
+		
+		</div>		
+		
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to Literature." href="http://kirourdin.info/literature/">Literature</a><span class="sep"> &gt; </span><span style="display:none">Aphorisms</span>		</div>		
+		<h2 class="title">Kiro Urdin &ndash; Aphorisms</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		<div id="meta">
+				<p class="excerpt-author">
+				</p>
+
+		
+		</div>		
+		<div id="entry">
+		<div data-configid="0/1545846" style="width: 946px; height: 210px;" class="issuuembed"></div>
+<p><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script></p>
+	
+		</div>
+		
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -10594,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>		
+		
+<script type="text/javascript" >
+
+var select = '#animation-frame p.aphorism';
+var slides = $(select).length;
+var count = slides;
+
+function play_slide(){
+//var select = '#video .slide';
+
+
+var s = $(select+':eq('+(count%slides+1) +')').attr('slide');
+if(s!=null){
+	$('#animation-frame .post-image:eq('+s+')').fadeIn(2000); 
+	$('#animation-frame .post-image:not(:eq('+s+'))').delay(2000).fadeOut(50); 	
+	}
+
+$(select).fadeOut(30);	
+$(select+':eq('+(count%slides+1) +')').fadeIn(1200);
+
+
+/*
+$(select+':eq('+(count%slides+1) +')').fadeIn(1200).attr('slide', function(i, val) {
+	this
+  
+});
+*/
+
+count++;
+//alert(select+':eq('+(count%slides+1) +')');
+}
+	
+function slide_init(){
+setInterval("play_slide()", 8000);
+}
+
+
+
+$(document).ready(function() {
+//$("a#small").fancybox({
+//		'hideOnContentClick' : true
+//		});
+//$("a#product-video").fancybox();
+//$("div.add-to-cart.button a").fancybox();
+//$('#breadcrumbs a[href=""]').attr('href','http://swimmingarmbands.com');
+slide_init();
+//alert(count);
+
+});
+</script>

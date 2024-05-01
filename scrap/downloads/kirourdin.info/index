@@ -1,0 +1,537 @@
+<html>
+<head>
+		<title>Kiro Urdin - Planetarism | Official Website</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="The official news source for Kiro Urdin art, projects and exhibitions." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Kiro Urdin &#8211; Artistic Founder of Planetarism Movement Comments Feed" href="http://kirourdin.info/home/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='next' title='Projects' href='http://kirourdin.info/projects/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="home page page-id-1217 page-template page-template-planetarism-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		<div id="animation-frame" class="clearfix">		
+		<div id="box1">
+<div class="text-line line-1"></div><div class="text-line line-2"></div><div class="text-line line-3"></div><div class="text-line line-4"></div></div>
+
+<div id="box2">
+<div class="text-line line-1"></div><div class="text-line line-2"></div><div class="text-line line-3"></div><div class="text-line line-4"></div></div>
+
+
+<div id="one">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set1-1.png" /></div>
+
+<div id="set1-2">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set1-2.png" /></div>
+
+<div id="set1-3">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set21-3.png" /></div>
+
+<div id="set1-4">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set21-4.png" /></div>
+
+<div id="set1-5">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set1-5.png" /></div>
+
+<div id="set2-1">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set2-1.png" /></div>
+
+<div id="set2-2">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set2-2.png" /></div>
+
+<div id="set2-3">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set21-3.png" /></div>
+
+<div id="set2-4">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set21-4.png" /></div>
+
+<div id="set2-5">
+<img src="http://kirourdin.info/wp-content/themes/planetarium/animation/set2-5.png" /></div>
+
+<!-- object style="height:0px;position:absolute; top:-50000px;left:-100px;text-indent:-1000px" width="1" height="1"><param name="movie" value="http://www.youtube.com/v/m4tcRlHY-3Q?version=3&amp&autoplay=1;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/m4tcRlHY-3Q?version=3&autoplay=1&amp;hl=en_US" type="application/x-shockwave-flash" width="1" height="1" allowscriptaccess="always" allowfullscreen="true"></embed></object -->
+
+<script type="text/javascript" >
+function ResizeMe(){ 
+var body = $('body').height();
+var img = $('#image img').height();
+var newimg = (body - 102)/2;
+$('#image').css('top', newimg);
+}
+</script>
+
+<script type="text/javascript" >
+
+var turns = 0;
+var multiplier = new Number;
+var delay;
+var sequence = new Array();
+var actions = new Array();
+var selectors = new Array();
+var count = 1;
+
+var templ = {
+  'rotate': function( id ){ return "$('"+id+"').css({'-webkit-transform':'translate(0) rotate(0deg)','-moz-transform':'translate(0) rotate(0deg)','opacity':1})"},
+  'slide': function( id ){ return "$('"+id+"').css({'left':'400px','opacity':1})"},
+  'slide_out': function( id ){ return "$('"+id+"').css({'left':'330px','opacity':0})"},
+  'slide_2': function( id ){ return "$('"+id+"').css({'right':'200px','opacity':1})"},
+  'slide_4': function( id ){ return "$('"+id+"').css({'top':'110px','opacity':1})"},
+  'slide_2_move': function( id ){ return "$('"+id+"').css({'right':'455px'})"},
+  'slide_2_out': function( id ){ return "$('"+id+"').css({'opacity':0})"},
+  'hide': function( id ){ return "$('"+id+"').hide()"},
+  'intro': function( id ){ return "$('"+id+"').fadeIn(3000)"},
+  'slide_3': function( id ){ return "$('"+id+"').css({'left':'510px','opacity':1})"}
+} 
+
+function seq(action, id, timeout){
+sequence.push(timeout*multiplier + delay);
+//alert(timeout*multiplier + delay);
+actions.push(action);
+selectors.push(id);
+return false;
+}
+
+function slow_down(factor, d){
+multiplier = Math.pow((1 + factor/100),turns);
+delay = d;
+//alert("asdf: "+multiplier);
+}
+
+function end_turn (){
+//clearTimeout(t);
+var maxValue = 6
+turns=Math.min(turns+1,maxValue);
+setup();
+//next_slide();
+}
+
+function next_slide(){
+if (actions.length == 0)
+{end_turn()}//alert('No mo.') 
+else
+{
+var z = sequence.splice(0,1);
+var x = actions.splice(0,1);
+var y = selectors.splice(0,1);
+play(x,y,z);
+}
+}
+
+function play(action, id, timeout){
+var t=setTimeout(templ[action](id)+";next_slide();",timeout);
+//alert(timeout);
+}
+
+function setup(){
+slow_down(33, 0);
+
+seq('slide','#one',100);
+seq('slide','#set1-2',300);
+seq('slide','#one',100);
+seq('slide_2','#set1-3',2200);
+seq('slide_out','#one',300);
+seq('slide_out','#set1-2',500);
+seq('slide_2','#set1-4',300);
+seq('slide_2_move','#set1-4',900);
+seq('slide_2','#set1-5',300);
+seq('slide_2_out','#set1-3',1000);
+seq('slide_2_out','#set1-5, #set1-4',600);
+
+seq('rotate','#box1 .line-1', 0);
+seq('rotate','#box1 .line-2', 400);
+seq('rotate','#box1 .line-3', 300);
+seq('rotate','#box1 .line-4', 400);
+
+seq('slide_3','#set2-1',100);
+seq('slide_3','#set2-2',600);
+seq('slide_3','#set2-1',100);
+seq('slide_out','#set2-1',1900);
+seq('slide_3','#set2-3',150);
+seq('slide_2_out','#set2-2',500);
+seq('slide_4','#set2-5',0);
+seq('slide_2_out','#set2-3',3000);
+
+seq('rotate','#box2 .line-1', 0);
+
+seq('slide_2_out','#set2-5, #set1-4',100);
+seq('rotate','#box2 .line-2', 300);
+seq('rotate','#box2 .line-3', 400);
+seq('rotate','#box2 .line-4', 500);
+
+
+seq('fadeout','#img0',10000);
+
+seq('fadein','#img'+count,300);
+seq('fadeout','#img'+count++,8000);
+
+
+seq('fadein','#img'+count,2000);
+seq('fadeout','#img'+count++,23000);
+seq('fadein','#img'+count++,300);
+
+}
+
+$(document).ready(function() {
+setup();
+next_slide();
+});
+
+
+</script>		</div><!-- animation frame -->
+				
+		
+		<!-- div id="slide-controls" class="clearfix">
+		<ul style="float:left">
+		<li id="first-slide">First Slide</li>
+		<li id="prev-slide">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide">Next Slide</li>
+		<li id="last-slide">Last Slide</li>
+		</ul>
+
+		
+		</div -->		
+		
+		<div id="superhead" class="clearfix">				
+		
+		<a href="http://kirourdin.info/artwork">
+			<div class="boxgrid caption">
+				<img src="http://kirourdin.info/wp-content/themes/planetarium/images/artwork.jpg" alt="" >				
+				
+				
+				<div class="cover boxcaption">
+					<h3>Artwork</h3>
+					<p>Paintings, Watercolors, Drawings, Sculptures<br/><span class="underline">View More</span></p>
+				</div>		
+			</div>
+		</a>
+				
+		<a href="http://kirourdin.info/projects">
+			<div class="boxgrid caption">
+				<img src="http://kirourdin.info/wp-content/themes/planetarium/images/projects.jpg" alt="" >				
+				
+				
+				<div class="cover boxcaption">
+					<h3>Projects</h3>
+					<p>Projects by Kiro Urdin<br/><span class="underline">View More</span></p>
+				</div>		
+			</div>
+		</a>
+				
+		<a href="http://kirourdin.info/literature">
+			<div class="boxgrid caption last-child">
+				<img src="http://kirourdin.info/wp-content/themes/planetarium/images/literature.jpg" alt="" >				
+				
+				
+				<div class="cover boxcaption">
+					<h3>Literature</h3>
+					<p>Books, Poems, Aphorisms<br/><span class="underline">View More</span></p>
+				</div>		
+			</div>
+		</a>
+		</div>
+		
+		
+		<div id="content" class="clearfix">
+		
+				
+				<div id="titles" class="clearfix">
+		<h2 class="title">Kiro Urdin &#8211; Artistic Founder of Planetarism Movement</h2>
+		<h3 class="description"><span style="color: #d30; font-size: 30px;
+letter-spacing: -1px;">Planetarism is a movement  which comprisess of paintings, film, dance, video, photography, literature, philosophy and design.</span></h3>		
+		</div>		
+		<div id="meta" class="about-us">
+		<div class="square_img">
+		<img width="400" height="554" src="http://kirourdin.info/wp-content/uploads/2011/10/about_02.jpg" class="attachment-400x9999 wp-post-image" alt="Kiro Urdin working" title="Kiro Urdin" />		</div>		
+				<p class="excerpt-author">
+				</p>
+
+				<p class="excerpt-meta" style="text-align:center;">
+		JUDGE THE SUBLIME, THE REST IS ERROR-FREE.		</p>
+					
+		<div id="attachments-small" class="clearfix">
+		<div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_02.jpg" width="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 0"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 0"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_04.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_04.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 1"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 1"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_04_.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_04_.jpg" width="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 2"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 2"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_06.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_06.jpg" width="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 3"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 3"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_07.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_07.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 4"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 4"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2012/01/about_new_01.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2012/01/about_new_01.jpg" width="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 5"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 5"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_09.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 6"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 6"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_10_2.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_10_2.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 7"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 7"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_13.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_13.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 8"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 8"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_11.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_11.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 9"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 9"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_16.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_16.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 10"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 10"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_14.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_14.jpg" width="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 11"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 11"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_15.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_15.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 12"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 12"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_151.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_151.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 13"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 13"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/about_new_051.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/about_new_051.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 14"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 14"></a></div><div class="attachment-image"><a href="http://kirourdin.info/wp-content/uploads/2012/01/about_new_02.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2012/01/about_new_02.jpg" height="97" title="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 15"  alt="Kiro Urdin - Kiro Urdin &#8211; Artistic Founder of Planetarism Movement _ 15"></a></div>
+		</div>
+		
+
+		</div>		
+		<div id="entry">		
+		<p>Kiro Urdin’s insatiable curiosity and his appetite for exploring have taken him to five continents, so as to paint, in each country visited, the same immense canvas: 48 sq. m., eight meters by six, split into two parts of 24 m2. It was unrolled at each stop, sometimes placed on a stretcher. Overwhelmed by the impressive nature of his environment, the ancient cultures and the unequalled riches of the world heritage, Kiro has covered his canvas as a symbol of his taking possession. Drunk with centuries-old fragrances and companionship of people from every race, faced with temples, and landscapes from all four corners of the world, he translated his circumstantial emotions. For two and a half years, dealing with problems, which would have been insurmountable for most of us, he filled his fresco with the spoils of his remembered images in situ, and with the breath of his sensitive thoughts. From Skopje, the cradle of all births, to the cannibals of Mindoro, from Kheops to the Pre-Columbian sites of Machu Picchu, from the Masai in Kenya to the Forbidden City of Peking, from Jerusalem where, upon hearing of the birth of his daughter Donna, he kissed the tomb of Christ and immolated, in fire, a large piece of the canvas to New York and Tokyo, and through all great European capitals, he travellled his long mystical journey under the banner of love and in search of his own limits.</p>
+<p>This exhausting journey, with thousands of episodes and repeated perils, on a scale determined only by his lack of measure, was undertaken by Kiro obstinately, almost devotedly, his canvas on his back, in all weathers, frequently employing unusual means of transport, aiming only at infinity in his quest and at blossoming of his serenity. He has brought back a synthesis haloed by memory and affect, woven from unattained dreams and fulfilled hopes, whose recipient, in other words, the canvas, was endlessly reworked as a dream of knowledge and of freedom finally materialized.</p>
+<p>A hymn to happiness, an act of love, this work, bearing the title  Planetarium &#8211; one point everywhere, everything in one point, and condensed in a remarkable short movie, nowadays belongs to the company Neways Electronics International in Holland, and decorates its entrance lobby with its blue background, an allusion to the cosmos, against which play the trances of his forms and signs like a promise of universal joy. It was a unique experience, a turning point in my life, an adventure out of the norm, says Kiro.</p>
+<p>At this stage, no matter how far back the analysis reaches, Kiro Urdin’s work is an affirmation of an authority without a decisive break. Consisting of flesh and blood, it describes man in painstaking details; his solitude, his melancholy, his nostalgia and incommunicability. But the man only aspires to light and to a peaceful world. And if Kiro’s work lingers in the unconscious of people and things, this has to do with the contradictory fluxes in his sumptuous vital energy, in service of one superior reality. After many turbulences, every exhibition adding a new height to his reputation, Kiro Urdin, like James Joyce, remains that tender and wild individualist, whose conquering of the artwork, resisting new fashions and labels, resonates deep inside us long afterwards.</p>
+<p style="text-align: right;"> <em>Gerard Xuriguera</em></p>
+		
+		</div>
+		
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -16,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>

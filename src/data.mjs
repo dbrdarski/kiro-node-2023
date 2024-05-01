@@ -279,7 +279,6 @@ export const sculptures = {
     { filename: "sculpture_03.jpg" },
     { filename: "sculpture_04.jpg" },
     { filename: "sculpture_05.jpg" },
-    // { filename: "sculpture_06.jpg" },
     { filename: "sculpture_07.jpg" },
     { filename: "sculpture_08.jpg" },
     { filename: "sculpture_09.jpg" },

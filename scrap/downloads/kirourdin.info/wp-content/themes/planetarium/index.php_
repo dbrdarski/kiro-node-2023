@@ -1,0 +1,45 @@
+<?php get_header(); ?>
+		
+		<div id="superhead" style="margin:-8px;">				
+		<?php query_posts( 'pid=1,2,3' ) ?>		
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		
+		<a href="<?php the_permalink(); ?>">
+			<div class="boxgrid caption">
+				<?php the_post_thumbnail(array(328,9999));?>
+			
+				<div class="cover boxcaption">
+					<h3><?php the_title();?></h3>
+					<p><?php echo get_post_meta($post->ID, 'description', true); ?><br/><span class="underline">View <?php echo get_post_meta($post->ID, 'description', true); ?></span></p>
+				</div>		
+			</div>
+		</a>
+		
+		<?php endwhile; ?>
+
+		<?php else : ?>
+
+		<h2>Not Found</h2>
+
+		<?php endif; ?>
+		
+		</div>
+		<div id="content">
+
+		<div id="copy"> 
+		&copy; Kiro Urdin
+		</div>
+		
+		</div>
+		</div>
+	<?php wp_footer();?>
+	</body>
+</html>
+
+<script type="text/javascript" >
+$(document).ready(function(){
+	//alert('dane');
+});
+
+
+</script>

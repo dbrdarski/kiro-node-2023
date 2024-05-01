@@ -1,0 +1,357 @@
+
+<html>
+<head>
+		<title>&quot;Dogona&quot; Movie - Kiro Urdin</title>
+			
+	<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/style.css" type="text/css" />
+	
+		 <!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<!--<![endif]-->
+	<meta name="description" content="The Dogona movie by Kiro Urdin. Contains useful information as well as an excerpt." />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Feed" href="http://kirourdin.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Comments Feed" href="http://kirourdin.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="kirourdin.info &raquo; Dogona Comments Feed" href="http://kirourdin.info/projects/films/dogona/feed/" />
+<link rel='stylesheet' id='jamie_social-css'  href='http://kirourdin.info/wp-content/plugins/jamie-social-icons/css/social.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://kirourdin.info/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.2.1#xfbml=1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://kirourdin.info/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kirourdin.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kirourdin.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='kirourdin.info' href='http://kirourdin.info/' />
+<link rel='up' title='Films' href='http://kirourdin.info/projects/films/' />
+<link rel='prev' title='Planetarium Dance' href='http://kirourdin.info/projects/planetarium/planetarium-dance/' />
+<link rel='next' title='Video' href='http://kirourdin.info/video/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://kirourdin.info/projects/films/dogona/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-49508230-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	<script src="https://apis.google.com/js/plusone.js"></script>		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'140px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'185px'},{queue:false,duration:160});
+				});
+				
+				$('.boxgrid.photo').hover(function(){
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.pack.js"></script>
+		<link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/js/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!--[if IE]><link rel="stylesheet" href="http://kirourdin.info/wp-content/themes/planetarium/ie.css" type="text/css" media="screen" /><![endif]-->
+	</head>
+	 <body class="page page-id-1543 page-child parent-pageid-1247 page-template page-template-movies-php"> 
+	 	<div id="wrapper">
+		<div id="header">
+		<a href="http://kirourdin.info" >
+		<img src="http://kirourdin.info/wp-content/themes/planetarium/images/logo.png" alt="Kiro Urdin" id="logo">
+		</a>		
+		<div class="topnav">
+		<ul><li><a href="http://kirourdin.info/biography">biography</a></li><li><a href="http://kirourdin.info/artwork">artwork</a></li><li><a href="http://kirourdin.info/projects">projects</a></li><li><a href="http://kirourdin.info/literature">literature</a></li><li><a href="http://kirourdin.info/news">news</a></li><li><a href="http://kirourdin.info/press">press</a></li><li><a href="mailto:contact@kirourdin.info"> contact</a></li></ul>
+		</div>		
+		</div>
+		<div id="content-area" class="clearfix">		
+		
+		<div id="superhead">				
+		<div id="photo-frame" class="" onSelectStart="return false;">
+		<div id="photo-slide" class="clearfix" onSelectStart="return false;">		
+
+										
+				
+		
+		<span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_01.png" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_01.png" height="240" width="162" class="slide" offset="-178" title="Kiro Urdin - Dogona _ 0"  alt="Kiro Urdin - Dogona _ 0"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_28.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_28.jpg" height="240" width="311" class="slide" offset="-505" title="Kiro Urdin - Dogona _ 1"  alt="Kiro Urdin - Dogona _ 1"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_20.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_20.jpg" height="240" width="298" class="slide" offset="-819" title="Kiro Urdin - Dogona _ 2"  alt="Kiro Urdin - Dogona _ 2"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_21.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_21.jpg" height="240" width="296" class="slide" offset="-1131" title="Kiro Urdin - Dogona _ 3"  alt="Kiro Urdin - Dogona _ 3"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_26.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_26.jpg" height="240" width="311" class="slide" offset="-1458" title="Kiro Urdin - Dogona _ 4"  alt="Kiro Urdin - Dogona _ 4"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_25.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_25.jpg" height="240" width="311" class="slide" offset="-1785" title="Kiro Urdin - Dogona _ 5"  alt="Kiro Urdin - Dogona _ 5"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_23.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_23.jpg" height="240" width="311" class="slide" offset="-2112" title="Kiro Urdin - Dogona _ 6"  alt="Kiro Urdin - Dogona _ 6"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_27.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_27.jpg" height="240" width="311" class="slide" offset="-2439" title="Kiro Urdin - Dogona _ 7"  alt="Kiro Urdin - Dogona _ 7"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_24.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_24.jpg" height="240" width="311" class="slide" offset="-2766" title="Kiro Urdin - Dogona _ 8"  alt="Kiro Urdin - Dogona _ 8"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_19.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_19.jpg" height="240" width="297" class="slide" offset="-3079" title="Kiro Urdin - Dogona _ 9"  alt="Kiro Urdin - Dogona _ 9"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_18.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_18.jpg" height="240" width="298" class="slide" offset="-3393" title="Kiro Urdin - Dogona _ 10"  alt="Kiro Urdin - Dogona _ 10"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_16.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_16.jpg" height="240" width="297" class="slide" offset="-3706" title="Kiro Urdin - Dogona _ 11"  alt="Kiro Urdin - Dogona _ 11"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_15.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_15.jpg" height="240" width="298" class="slide" offset="-4020" title="Kiro Urdin - Dogona _ 12"  alt="Kiro Urdin - Dogona _ 12"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_11.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_11.jpg" height="240" width="297" class="slide" offset="-4333" title="Kiro Urdin - Dogona _ 13"  alt="Kiro Urdin - Dogona _ 13"></a></span><span class="post-image"><a href="http://kirourdin.info/wp-content/uploads/2011/10/dogona_09.jpg" class="fancy"  rel="group1"><img src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_09.jpg" height="240" width="182" class="slide" offset="-4531" title="Kiro Urdin - Dogona _ 14"  alt="Kiro Urdin - Dogona _ 14"></a></span>		
+				
+		</div><!-- photo slide -->
+		<div class="slide-button prev"></div>		
+		<div class="slide-button next"></div>		
+		</div><!-- photo frame -->
+				
+		
+		</div>
+
+		
+		<div id="slide-controls" class="clearfix" onSelectStart="return false;">
+		<ul style="float:left">
+		<li id="first-slide" class="button">First Slide</li>
+		<li id="prev-slide" class="button">Previous Slide</li>
+		<li class="label"></li>		
+		</ul>
+		
+		<ul style="float:right">		
+		<li id="next-slide" class="button">Next Slide</li>
+		<li id="last-slide" class="button">Last Slide</li>
+		</ul>
+		
+		</div>		
+		
+		
+		<div id="content">
+		
+				
+				<div id="titles" class="clearfix">
+		<div id="breadcrumbs">
+		<!-- Breadcrumb NavXT 3.9.0 -->
+<a title="Go to Projects." href="http://kirourdin.info/projects/">Projects</a><span class="sep"> &gt; </span><a title="Go to Films." href="http://kirourdin.info/projects/films/">Films</a><span class="sep"> &gt; </span><span style="display:none">Dogona</span>				
+		</div>		
+		<h2 class="title">Kiro Urdin &ndash; Dogona</h2>
+		<h3 class="description"></h3>		
+		</div>		
+		<div id="meta">
+		<div id="video-thumb">		
+		<a href="http://kirourdin.info/video?vid=QcYH89otksY" class="fancy">
+		<img width="360" height="275" src="http://kirourdin.info/wp-content/uploads/2011/10/dogona_00-360x275.jpg" class="attachment-video wp-post-image" alt="dogona_00" title="dogona_00" />		<div id="play-button"></div>
+		</a>	
+		</div>	
+		<p class="excerpt-author">
+				</p>
+
+				<p class="excerpt-meta">
+		<b>produced by: </b>Kiro Urdin and Eric Stofkooper, <b>music composed and performed by: </b>Venko and Vasko Serafimov, <b>camera: </b>Anne Wouters, <b>sound: </b>Benoa Horemans, <b>narrator: </b>Graham W. Reid, <b>3D animator: </b>Keti Petrovska, <b>edited by: </b>Jean-Pierre Vanparys, Vladimir Petrovski Karter.
+<strong>Running time:</strong> 26 min		</p>
+		
+		</div>		
+		<div id="entry">		
+		<p>Where were they to go. By water or by land. There was sunshine everywhere. Every day. And stars too. Sometimes mothers collected the stars in wooden vessels and gave them to their children. To the north was the River Niger, and it seemed to the oldest Dogon that at the time of his brother’s funeral Nomo was whispering to him and making it known to him.There, in the north, lies Bandiagara. On the river bank the crocodiles are waiting to carry you across to the other side. To the chaos on the steep, stony bank. There are the rocks of the Tellem, the bird people, the great wizards of the realm of spells. Indeed, they appear from time to time as a sandstorm with a herd of wild animals or with the white fox.</p>
+<p>That’s how the Dogons got to Bandiagara. Here in the massif of the Yugo the first Sigi began, in honour of the first one to die. The masked dancers danced every sixty years recalling the moment when death was first born. Olobolu, the dancer with the big snake mask, leapt about with a marvellous lightness while his soul was full of Ama, Nomo and the eight ancestors.</p>
+<p>It seemed as if the prayer of the oldest Dogon was issuing from the great mask as he lifted up his arms towards Nomo and the other ancestors. He prayed that rain would fall, that the fields sown with onions, rice and corn would be watered. That the pregnant women would have easy births. They believed in the power of the almighty, who had succeeded in uniting space and time. He knew from what his grandfather had told him that only the body can die, the spirit not, that it was a part of Ama. Neither could it die, nor be born. He gazed at the sacred paths. The spirits are here, around us. They see us, they love us, but they also punish our sins. That’s why you must always take care. Everything has a soul. Even death. Life and death live side by side, like the earth and the sky.</p>
+<p>He went barefoot all his life. He felt neither stones, nor sand, nor thorns. His skin was as hard as the drought. The eight totems protected him from everything. Even from thirst. Less and less rain fell. Sometimes, in Bandiagara, during the days of the Tellems, the great wizards, there were herds of antelopes, lions and leopards. But they’d all vanished because of the drought. The plants, insects and birds too. The sand had become their graveyard. Everyone was praying for rain. Even the dead. From time to time the Tellems appeared as a sandstorm, accompanied by their vanished herds, or in company with the white fox. But the Dogons remained here, their spirit survived. The rice continued to grow and ripen to harvest. The onions too. The skilled hands of the Dogons went on fashioning figurines and masks.</p>
+<p>The mornings, when the darkness still clung to the landscape, the infants, grown one with their mothers’ backs, mutely watched the first blows of the mattocks. The fields had to be sown. The first rains had only just fallen. And their older brothers and sisters were still sleeping without a care in the world under the mantle of the stars.</p>
+<p>Then his grandfather went on with his tale: Before the time of Doyogu-Seru, the first man to die, death had not existed. That was why the Dogons made the great snake mask, in honour of the birth of death. When you were born &#8211; continued his grandfather &#8211; the rains dried up for three years. The sun grew bigger each day. By night new stars emerged. It began to seem to the Dogons as if they slept on stars, there were so many of them. The women stopped wailing over death and instead of weeping over it they wept over thirst. But the dancers were here, the masks, the figurines with their arms raised to Ama, to Nomo, the dead ancestors whose spirits, living here beside them, the eight living totems which protected them &#8211; the living power of Nyama.</p>
+<p>Thirst gave way in face of that protecting power. So the plants did not dry up, the infants grew, only the birds didn’t fly, the air was too hot. Soon heavy rains fell. The livestock were watered after such a long time when not a drop of rain had fallen.</p>
+<p>Dolo remembered when his grandfather had died. It was May. The masked dancers wove in a spiral around their house. The dead body of his ancestor was placed in a freshly hollowed-out tree trunk on the verandah, and in a trance the oldest Dogon explained, by means of mime, the symbols and the genesis of the cosmos. Night had long since fallen and it was as if the almighty Ama was riding on its shoulders. At one moment it seemed to him that the eight totems were sitting on his grandfather’s body, exchanging greetings with the spirit that had not yet left his body.</p>
+<p>Dolo was captivated by the dancers, the masks, the figurines, by the mannikin of death, and the sacrifice was brought out, that meant that Nomo was here too, Ama was there. And all the ancestors. Space had merged into a single point. The stars, wind, fire, water and time too. From the other side the sound of tools could be heard. One of the neighbours was completing the sculpture which was to be sacrificed. On the other side of the fence the children were drawing something incomprehensible. That morning they had hoped that the white fox would pass across the picture so that the holy ones could figure out the augury. And the children drew and played innocently and purely as their childlike hearts bade them.</p>
+<p>Dolo recalled the words of his grandfather. Death has a soul, he said, everyone has a body and several souls, and a living power, and is born and lives in water. It is everything. When a baby is born, it drinks water through the milk. Before death the old people ask for water. Everything is born in it: light, wind, earth, even fire. Plants, insects, birds. The soul. Even the deserts are created by water. At night, when everyone is asleep, water is transformed into a bird with enormous wings that flies over Bandiagara. In the morning it vanishes with the sun. And when Ama decides the sand can be transformed into rain, the desert into a sea. Life flows for a time, joy returns, men love only water more than their women. But when it vanishes, fear puts in an appearance, pain, hunger, thirst&#8230; Dolo felt happy at all this. His soul laughed. Death seemed to him to be the shadow of Sirius, lying upon the body of his grandfather. He rejoiced in the dancers’ airy leaping. And the spirits of all the other dead were there somewhere in the offing. At dusk they would have to set off for the marvellous land of the ancestors, to the realm of the holy spirits. Everything was everlasting that night, the spirits could neither be born nor die.</p>
+<p>The universe of immortality was gathered into the eye of Ama.</p>
+		
+		</div>
+		
+		<div style="clear:both"></div>
+		</div>
+						</div>		
+		<div id="footer" style="clear:both" class="clearfix">
+			<div id="footer-nav">
+				<a href="http://kirourdin.info/sitemap.xml" id="xml-sitemap">Sitemap</a>
+				<a class="social_icon" href="http://www.youtube.com/user/planetarismkirourdin" target="_blank" style="display: none;"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/youtube.png" alt="" ></a>	
+				<a class="social_icon" href="http://twitter.com/KiroUrdin" target="_blank" ><img src="http://kirourdin.info/wp-content/themes/planetarium/images/twitter.png" alt="" ></a>	
+				<a class="social_icon" href="http://plus.google.com/101420683847661526918/posts" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/gplus.png" alt="" ></a>	
+				<a class="social_icon" href="http://www.facebook.com/kiro.urdin.official" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/facebook.png" alt="" ></a>	
+				<a class="social_icon" href="http://vimeo.com/kirourdin" target="_blank" style=""><img src="http://kirourdin.info/wp-content/themes/planetarium/images/vimeo.png" alt="" ></a>	
+				<a class="social_icon" href="http://kirourdin.info/news/feed/rss/" target="_blank"><img src="http://kirourdin.info/wp-content/themes/planetarium/images/rss.png" alt="" ></a>
+			</div>		
+			&copy; Kiro Urdin. All photos on this site are free to use in publications without any copyright restrictions.
+			<br><br>
+			<div style="float: left; width: 200px;">
+				<h4>Mouche Gallery</h4>
+				<strong>Address</strong><br>
+				340 N Beverly Dr<br>
+				Beverly Hills, CA 90210, LA<br>
+				<strong>Phone +1 (310) 858 81 14</strong><br>
+			</div>
+			<div style="float: left; width: 200px;">
+				<h4>MM Gallery</h4>
+				<strong>Address</strong><br>
+				Place du Jeu de Balle 68<br>
+				1000, Brussels<br>
+				<strong>Phone +32 (0) 484 501 043</strong><br>
+			</div>
+		</div>				
+		</div>
+		
+	<!--[if !lte IE 8]><!--> 
+<!--<![endif]--> 
+<div id="su-footer-links" style="text-align: center;"></div>	
+<script type="text/javascript" >
+slideShow={
+counter: 0,
+slideOffset: 0,
+slideCount: 0,
+slideWidth: -4547,
+pause: false,
+strong: false
+}
+
+function rewindSlider(){
+if(slideShow.counter < slideShow.slideCount){
+return true;
+}else{
+rewind();
+return 0;
+} 
+}
+
+function fixStart(){
+if((slideShow.counter - 1) >= 0){
+return true;
+}else{
+return false;
+
+} 
+
+}
+
+function pauseSlide(strong){
+	if (strong){
+		slideShow.strong = true;
+		//$('#footer').html("Strong " + strong  + " - " + slideShow.strong); 		
+		}	
+	slideShow.pause = true;
+	}
+
+function resumeSlide(strong){
+	if (!slideShow.strong){
+		slideShow.pause = false;
+		//$('#footer').html("Normal Resume " + strong + " - " + slideShow.strong);
+		}
+	
+	if(strong){
+		slideShow.pause = false;
+		slideShow.strong = false;
+		//$('#footer').html("Remove Strong Resume " + strong + " - " + slideShow.strong); 
+		}
+	}
+
+function showSlide(counter){
+	$('#photo-frame #photo-slide span:eq('+(counter+1)+')').addClass('active');
+	var img_offset = $('#photo-frame #photo-slide span:eq('+counter+') img').attr('offset');
+//	$('').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));
+//	$('#photo-frame #photo-slide').animate({left: Math.max((img_offset), slideShow.slideWidth + 1048)},900,'swing');
+	$('#photo-frame #photo-slide').css('left', Math.max((img_offset), slideShow.slideWidth + 1048));}
+
+
+function nextSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter);
+	slideShow.counter=rewindSlider()*(slideShow.counter+1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+	}
+}	
+	
+function prevSlide(m){
+if (!slideShow.pause||m){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.counter-2);
+	slideShow.counter=fixStart()*(slideShow.counter-1);
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+	}
+}
+
+function rewind(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+//	$('#photo-frame #photo-slide').css('left',0);
+	$('#photo-frame #photo-slide').css('left', 0);
+	slideShow.counter=0;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+
+}	
+
+function jump_to_end(){
+	$('#photo-frame #photo-slide span').removeClass('active');
+	showSlide(slideShow.slideCount-1);
+	slideShow.counter=slideShow.slideCount;
+
+	$('#slide-controls li.label').html("Image "+(slideShow.counter+1)+" of "+(slideShow.slideCount+1));
+}	
+
+function slideInit(){
+rewind();
+}
+
+function setImageCount(img){
+slideShow.slideCount = img.length-1;
+}
+
+$(document).ready(function(){
+var img = $('#photo-frame #photo-slide img');
+var img_width = setImageCount(img);
+
+slideInit();
+var timer = setInterval("nextSlide()", 7000)
+
+
+$("a.contactbox").fancybox({
+		'hideOnContentClick' : false,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+
+$("a.fancy").fancybox({
+		'hideOnContentClick' : true,
+		'onComplete' : function(){pauseSlide(true);},
+		'onClosed': function(){resumeSlide(true);}
+		});
+
+$('#next-slide, .slide-button.next').click(function(){
+	nextSlide(1);	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#first-slide').click(function(){
+	rewind();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 3000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#last-slide').click(function(){
+	jump_to_end();	
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)	
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+
+$('#prev-slide, .slide-button.prev').click(function(){
+	prevSlide(1);
+	pauseSlide();	
+	var slideT = setTimeout("resumeSlide()", 8000)
+	//alert(slideShow.slideOffset+" - " + slideShow.counter)	
+	});
+		
+
+$('span.post-image').hover( 
+	function(){
+	pauseSlide();
+	},
+	
+	function(){
+	resumeSlide()
+	});
+
+});
+
+</script>	</body>
+</html>
