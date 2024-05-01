@@ -44,15 +44,15 @@ async function processImages(albums) {
   }
 }
 
-const textPage = (text) => (
-  <HtmlPage>
+const textPage = (text, options) => (
+  <HtmlPage {...options}>
     <div style="height: 100vh; line-height: 100vh;text-align: center; font-size: 5vmax; font-family: 'Merriweather'; background: #cccccb; color: #555554">
       {text}
     </div>
   </HtmlPage>
 );
 
-const ComingSoon = textPage("Coming Soon");
+const ComingSoon = textPage("Coming Soon", { title: "Comming Soon" });
 
 const renderPage = (Page) => {
   const output = printHTML(Page(HtmlPage));
@@ -71,29 +71,60 @@ export default async (albums) => {
     // '/projects': renderPage(Artwork2(albums)),
     "/artwork": renderPage(Artwork(albums)),
     "/planetarium": renderPage(Planetarium),
-    "/artwork/paintings": renderPage(Album(paintings)),
-    "/artwork/drawings": renderPage(Album(drawings)),
-    "/artwork/watercolours": renderPage(Album(watercolours)),
-    "/artwork/sculptures": renderPage(Album(sculptures)),
+    "/artwork/paintings": renderPage(
+      Album(paintings, { title: "Paintings - Artwork" }),
+    ),
+    "/artwork/drawings": renderPage(
+      Album(drawings, { title: "Drawings - Artwork" }),
+    ),
+    "/artwork/watercolours": renderPage(
+      Album(watercolours, { title: "Watercolours - Artwork" }),
+    ),
+    "/artwork/sculptures": renderPage(
+      Album(sculptures, { title: "Sculptures - Artwork" }),
+    ),
     "/artwork/films": renderPage(Filmography),
     "/photo-gallery": renderPage(PhotoGallery),
     "/photo-gallery/planetarium": renderPage(
-      Album(planetarium, { mode: "photo", background: "white" }),
+      Album(planetarium, {
+        mode: "photo",
+        background: "white",
+        title: "Planetarium - Photo Gallery",
+      }),
     ),
     "/photo-gallery/planetarium-dance": renderPage(
-      Album(ballet, { mode: "photo", background: "white" }),
+      Album(ballet, {
+        mode: "photo",
+        background: "white",
+        title: "Planetarium Dance - Photo Gallery",
+      }),
     ),
     "/photo-gallery/with-people": renderPage(
-      Album(people, { mode: "photo", background: "white" }),
+      Album(people, {
+        mode: "photo",
+        background: "white",
+        title: "People - Photo Gallery",
+      }),
     ),
     "/photo-gallery/tribes-of-omo-valley": renderPage(
-      Album(omoValley, { mode: "photo", background: "white" }),
+      Album(omoValley, {
+        mode: "photo",
+        background: "white",
+        title: "Tribes f Omo Valley - Photo Gallery",
+      }),
     ),
     "/photo-gallery/china-film-festival": renderPage(
-      Album(chinaFilmFestival, { mode: "photo", background: "white" }),
+      Album(chinaFilmFestival, {
+        mode: "photo",
+        background: "white",
+        title: "Ya'an Eco Film Festival - Photo Gallery",
+      }),
     ),
     "/photo-gallery/press-coverage": renderPage(
-      Album(press, { background: "#ccccc3" }),
+      Album(press, {
+        background: "#ccccc3",
+        title: "Press Coverage - Photo Gallery",
+      }),
     ),
     "/user/:id": (params) => `User id: ${params.id}`,
     "/user/:id/:page": () => "4",
@@ -107,7 +138,8 @@ export default async (albums) => {
     "/contact": () => printHTML(ComingSoon),
 
     // '/gallery/:album/:size/:filename(.*)': $ => albums[$.album].thumbs[$.filename][$.size],
-    "(.*)": () => printHTML(textPage("Not found.")),
+    "(.*)": () =>
+      printHTML(textPage("Not found.", { title: "404 - Page not found" })),
   });
 
   app.use(serveStatic("public"));

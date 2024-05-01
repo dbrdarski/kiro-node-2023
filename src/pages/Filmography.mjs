@@ -28,7 +28,7 @@ const FilmFeature = ({ props: { thumb, title, description, url } }) => (
 );
 
 export default (HtmlPage) => (
-  <HtmlPage>
+  <HtmlPage title="Filmography">
     <h2 style="font-family: 'Merriweather'; font-size: calc(.75em + 12px); background: #eb0e; margin: 0 6px 6px; padding: 1em;">
       <span>Artwork</span> &gt; <span>Films</span>
     </h2>
