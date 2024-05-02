@@ -340,7 +340,7 @@ export const ballet = {
     // title: "The Planetarium Dance",
     description:
       "The Planetarium Ballet is a collaboration between Kiro Urdin and choreographer Debbie Wilson",
-    url: "/planetrium-dance",
+    url: "/planetarium-dance",
     color: "#265",
   },
   cover: {
@@ -365,10 +365,14 @@ export const ballet = {
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-14.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-15.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-16.jpg" },
-    // { filename: "Planetarium-Dance-Poster-Kiro-Urdin-Debbie-Wilson.jpg" },
+    {
+      filename: "Planetarium-Dance-Poster-Kiro-Urdin-Debbie-Wilson.jpg",
+      hide: true,
+    },
     {
       filename:
         "UN-60th-Anniversary-Planetarium-Dance-Cover-Kiro-Urdin-and-Debbie-Wilson.jpg",
+      hide: true,
     },
     {
       filename:

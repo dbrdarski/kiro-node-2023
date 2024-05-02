@@ -7,6 +7,7 @@ import Album from "./pages/Album.mjs";
 import PhotoGallery from "./pages/PhotoGallery.mjs";
 import Filmography from "./pages/Filmography.mjs";
 import Planetarium from "./pages/Planetarium.mjs";
+import Ballet from "./pages/Ballet.mjs";
 
 import sharp from "sharp";
 // import PhotoAlbum from "./components/Album3.mjs"
@@ -71,6 +72,7 @@ export default async (albums) => {
     // '/projects': renderPage(Artwork2(albums)),
     "/": renderPage(Artwork(albums)),
     "/planetarium": renderPage(Planetarium),
+    "/planetarium-dance": renderPage(Ballet),
     "/artwork/paintings": renderPage(
       Album(paintings, { title: "Paintings - Artwork" }),
     ),
