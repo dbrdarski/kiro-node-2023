@@ -690,7 +690,7 @@ export const artworkMenuSlide = [
   {
     title: "Planetarium",
     album: "planetarium",
-    thumb: planetarium.images[18].filename,
+    thumb: planetarium.images[19].filename,
     link: "/planetarium",
     column: [1, 5],
     row: [1, 3],
