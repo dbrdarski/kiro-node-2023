@@ -67,9 +67,9 @@ export default async (albums) => {
   const router = new Router({
     // '/': () => Homepage,
     // '/foo': () => "1",
-    "/": renderPage(Biography),
+    "/biography": renderPage(Biography),
     // '/projects': renderPage(Artwork2(albums)),
-    "/artwork": renderPage(Artwork(albums)),
+    "/": renderPage(Artwork(albums)),
     "/planetarium": renderPage(Planetarium),
     "/artwork/paintings": renderPage(
       Album(paintings, { title: "Paintings - Artwork" }),

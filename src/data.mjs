@@ -2,32 +2,33 @@ export const imageSizes = {
   // "xs": {
   //   width: 300
   // },
-  "sm": {
-    width: 480
+  sm: {
+    width: 480,
   },
-  "md": {
-    width: 640
+  md: {
+    width: 640,
   },
-  "lg": {
-    width: 960
+  lg: {
+    width: 960,
   },
-  "xl": {
-    width: 1280
+  xl: {
+    width: 1280,
   },
   "thumb-xs": {
     width: 300,
-    height: 300
+    height: 300,
   },
-  "thumb": {
+  thumb: {
     width: 640,
-    height: 640
-  }
-}
+    height: 640,
+  },
+};
 
 export const drawings = {
   info: {
     title: "Drawings",
-    description: "I like the drawing because it is a line, whether a continous or a dashed onem the same as life."
+    description:
+      "I like the drawing because it is a line, whether a continous or a dashed onem the same as life.",
   },
   path: "drawings",
   images: [
@@ -51,16 +52,16 @@ export const drawings = {
     { filename: "Kiro-Urdin-Drawing-10.jpg" },
     { filename: "Kiro-Urdin-Drawing-11.jpg" },
     { filename: "Kiro-Urdin-Drawing-12.jpg" },
-    { filename: "Kiro-Urdin-Drawing-13.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-13.jpg" },
     { filename: "Kiro-Urdin-Drawing-14.jpg" },
     { filename: "Kiro-Urdin-Drawing-15.jpg" },
-    { filename: "Kiro-Urdin-Drawing-16.jpg" },
-    { filename: "Kiro-Urdin-Drawing-17.jpg" },
-    { filename: "Kiro-Urdin-Drawing-18.jpg" },
-    { filename: "Kiro-Urdin-Drawing-19.jpg" },
-    { filename: "Kiro-Urdin-Drawing-20.jpg" },
-    { filename: "Kiro-Urdin-Drawing-21.jpg" },
-    { filename: "Kiro-Urdin-Drawing-22.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-16.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-17.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-18.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-19.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-20.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-21.jpg" },
+    // { filename: "Kiro-Urdin-Drawing-22.jpg" },
     { filename: "Kiro-Urdin-Drawing-27.jpg" },
     { filename: "Kiro-Urdin-Drawing-34.jpg" },
     { filename: "Kiro-Urdin-Drawing-36.jpg" },
@@ -81,9 +82,9 @@ export const drawings = {
     { filename: "Thinking_Man.jpg" },
     { filename: "Time.jpg" },
     { filename: "Tree_of_Life.jpg" },
-    { filename: "Two_Worlds.jpg" }
-  ]
-}
+    { filename: "Two_Worlds.jpg" },
+  ],
+};
 
 export const paintings = {
   info: {
@@ -91,7 +92,7 @@ export const paintings = {
     description: `Nature in itself is colour. It lives in matter mixed with life.
       So it means that it lives inside and outside of man. Therefore, painting is
       so attractive. Through it man approached the real and the abstract, the concrete
-      and the imaginary, depending on the concept.`
+      and the imaginary, depending on the concept.`,
   },
   path: "paintings",
   images: [
@@ -99,12 +100,19 @@ export const paintings = {
     { filename: "Abstract_Rhapsody_[Kiro_Urdin,_oil_on_cavas,_120x160cm].jpg" },
     { filename: "Abstract_Vibes_[Kiro_Urdin,_oil_on_canvas,_120x150cm].jpg" },
     { filename: "African_Dream_[Kiro_Urdin,_oil_on_canvas,_130x160].jpg" },
-    { filename: "Alexander_the_Great_[Kiro_Urdin,_oil_on_canvas,_120x180cm].jpg" },
-    { filename: "Aliance_[Kiro_Urdin,_oil_and_acryl_on_canvas,_180x120cm].jpg" },
+    {
+      filename:
+        "Alexander_the_Great_[Kiro_Urdin,_oil_on_canvas,_120x180cm].jpg",
+    },
+    {
+      filename: "Aliance_[Kiro_Urdin,_oil_and_acryl_on_canvas,_180x120cm].jpg",
+    },
     { filename: "Amazon[Kiro_Urdin,_oil_on_canvas,_176x128cm].jpg" },
     { filename: "Aspen_[Kiro_Urdin,_oil_on_canvas,300x200cm].jpg" },
     { filename: "Atlas-Kiro-Urdin-oil-on-canvas-100x130cm.jpg" },
-    { filename: "Beggining_of_Love_[Kiro_Urdin,_oil_on_canvas,_130x160cm].jpg" },
+    {
+      filename: "Beggining_of_Love_[Kiro_Urdin,_oil_on_canvas,_130x160cm].jpg",
+    },
     { filename: "Between_Two_[Kiro_Urdin,_oil_on_canvas,_130x180cm].jpg" },
     { filename: "Big_Bang_Theory_[Kiro_Urdin,_oil_on_canvas,_150x200cm].jpg" },
     { filename: "Biodiversity_[Kiro_Urdin,_oil_on_canvas,_190x150cm].jpg" },
@@ -121,14 +129,22 @@ export const paintings = {
     { filename: "Dogona_[Kiro_Urdin,_oil_on_canvas,_400x300cm].jpg" },
     { filename: "Elegance_[Kiro_Urdin,_oil_on_canvas,_150x200cm].jpg" },
     { filename: "Embryos_[Kiro_Urdin,_acrylic_on_paper,_120x160cm].jpg" },
-    { filename: "Enigmatic_Woman_[Kiro_Urdin,_oil-and-acrylic-on-canvas,200x150cm].jpg" },
+    {
+      filename:
+        "Enigmatic_Woman_[Kiro_Urdin,_oil-and-acrylic-on-canvas,200x150cm].jpg",
+    },
     { filename: "Essential-Things_[Kiro_Urdin,_oil-on-canvas,-160x130cm].jpg" },
     { filename: "Europa_[Kiro_Urdin,_oil_on_canvas,_200x600cm].jpg" },
     { filename: "Exotic-Garden-Kiro-Urdin-oil-on-canvas-130x150cm.jpg" },
-    { filename: "Experimental_Music_[Kiro_Urdin,_oil-on-canvas-300x200cm].jpg" },
+    {
+      filename: "Experimental_Music_[Kiro_Urdin,_oil-on-canvas-300x200cm].jpg",
+    },
     { filename: "Fire_of_Love_[Kiro_Urdin,_oil_on_canvas,_90x135cm].jpg" },
     { filename: "First_Emotion_[Kiro_Urdin,_oil_on_canvas,_150x120cm].jpg" },
-    { filename: "Flight-of-the-Phoenix-[Kiro_Urdin,_oil-on-cavas,-120x180cm].jpg" },
+    {
+      filename:
+        "Flight-of-the-Phoenix-[Kiro_Urdin,_oil-on-cavas,-120x180cm].jpg",
+    },
     { filename: "Freedom_[Kiro_Urdin,_oil_on_canvas,_160x120cm].jpg" },
     { filename: "Futuristic_City_[Kiro_Urdin,_oil_on_canvas,_200x300cm].jpg" },
     { filename: "Futuristic-Man-[Kiro_Urdin,_oil-on-canvas,-180x130cm].jpg" },
@@ -142,13 +158,19 @@ export const paintings = {
     { filename: "Human_[Kiro_Urdin,_oil_on_canvas,_120x150cm].jpg" },
     { filename: "Humanoid_[Kiro_Urdin,_oil_on_canvas,_130x150cm].jpg" },
     { filename: "Intelligence_[Kiro_Urdin,_oil_on_canvas,_170x140cm].jpg" },
-    { filename: "Interior_of_an_Exterior_[Kiro_Urdin,_oil_on_canvas,_120x150cm].jpg" },
+    {
+      filename:
+        "Interior_of_an_Exterior_[Kiro_Urdin,_oil_on_canvas,_120x150cm].jpg",
+    },
     { filename: "Link-Kiro-Urdin-oli-on-canvas.jpg" },
     { filename: "Mandelas_World_[Kiro_Urdin,_acrylic,_150x120cm].jpg" },
     { filename: "Marvelous-World-[Kiro_Urdin,_oil-on-canvas,-120x180cm].jpg" },
     { filename: "Matter_Close_Up_[Kiro_Urdin,_oil_on_canvas,_120x150cm].jpg" },
     { filename: "Maya-Woman-[Kiro_Urdin,_oil-on-canvas,-100x80cm].jpg" },
-    { filename: "Memory_of_the_Flora_[Kiro_Urdin,_oil_on_canvas,_130x160cm].jpg" },
+    {
+      filename:
+        "Memory_of_the_Flora_[Kiro_Urdin,_oil_on_canvas,_130x160cm].jpg",
+    },
     { filename: "Microsoft-[Kiro_Urdin,_oil-on-canvas,-120x200cm].jpg" },
     { filename: "mystical-world-300x200-oil-by-kiro-urdin.jpg" },
     { filename: "New_Continent_[Kiro_Urdin,_oil-on-canvas,_190x150cm].jpg" },
@@ -163,12 +185,21 @@ export const paintings = {
     { filename: "Pitch-of-Grass-Kiro-Urdin-oil-on-canvas-70x90cm.jpg" },
     { filename: "Prince_[Kiro_Urdin,_acrylic,_200x150cm].jpg" },
     { filename: "Red_Sea_[Kiro_Urdin,_oil_on_canvas,_200x330cm].jpg" },
-    { filename: "Red_Signals_[Kiro_Urdin,_oil_and_acryl_on_canvas,_180x240cm].jpg" },
-    { filename: "Red-Circles-[Kiro_Urdin,_oil-and-acryl-on-canvas,-150x120cm].jpg" },
+    {
+      filename:
+        "Red_Signals_[Kiro_Urdin,_oil_and_acryl_on_canvas,_180x240cm].jpg",
+    },
+    {
+      filename:
+        "Red-Circles-[Kiro_Urdin,_oil-and-acryl-on-canvas,-150x120cm].jpg",
+    },
     { filename: "Red-Sea-Kiro-Urdin-oil-on-canvas-330x200cm.jpg" },
     { filename: "Return-to-the-Past-Kiro-Urdin-oil-on-canvas.jpg" },
     { filename: "Rhino_[Kiro_Urdin,_oil_on_canvas,_150x170cm].jpg" },
-    { filename: "Rythmical-Movements-[Kiro_Urdin,_oil-on-canvas,-110x140cm].jpg" },
+    {
+      filename:
+        "Rythmical-Movements-[Kiro_Urdin,_oil-on-canvas,-110x140cm].jpg",
+    },
     { filename: "Secret_Love-[Kiro_Urdin,_oil_on_canvas,_145x113cm].jpg" },
     { filename: "Secret_Message_[Kiro_Urdin,_oil_on_cavas,_140x180].jpg" },
     { filename: "Secret-Love-Kiro-Urdin-oil-on-canvas-145x113cm.jpg" },
@@ -186,19 +217,27 @@ export const paintings = {
     { filename: "Venetian_Woman_[Kiro_Urdin,_oil_on_canvas,_82x100cm].jpg" },
     { filename: "Venezia-Dream-[Kiro_Urdin,_oil-on-canvas,_165x120cm].jpg" },
     { filename: "Volume_and_Space_[Kiro_Urdin,_oil_on_canvas,_150x130cm].jpg" },
-    { filename: "Wall-Street-Impresion_[Kiro_Urdin,_oil-on-canvas,-170x200cm].jpg" },
-    { filename: "War-of-the-Spirits-[Kiro_Urdin,_oil-on-canvas,-170x280cm].jpg" },
-    { filename: "Woman_from_the_Equator_[Kiro_Urdin,_oil_on_canvas,_100x80cm].jpg" },
-    { filename: "Yellow-Secret-[Kiro_Urdin,_oil-on-canvas,-200x300cm].jpg" }
-  ]
-}
+    {
+      filename:
+        "Wall-Street-Impresion_[Kiro_Urdin,_oil-on-canvas,-170x200cm].jpg",
+    },
+    {
+      filename: "War-of-the-Spirits-[Kiro_Urdin,_oil-on-canvas,-170x280cm].jpg",
+    },
+    {
+      filename:
+        "Woman_from_the_Equator_[Kiro_Urdin,_oil_on_canvas,_100x80cm].jpg",
+    },
+    { filename: "Yellow-Secret-[Kiro_Urdin,_oil-on-canvas,-200x300cm].jpg" },
+  ],
+};
 
 export const watercolours = {
   info: {
     title: "Watercolours",
     description: `What is common about the watercolour is the transparency.
       My style of watercolour is somewhat different; I prefer to use several
-      layers of texture, similar to the way the oil paintings are done.`
+      layers of texture, similar to the way the oil paintings are done.`,
   },
   path: "watercolours",
   images: [
@@ -206,7 +245,10 @@ export const watercolours = {
     { filename: "Amazon-Queen-by-Kiro-Urdin-watercolour,-55x75cm.jpg" },
     { filename: "Antigona,-watercolour,-25x35cm.jpg" },
     { filename: "Ascend-watercolour,-90x150cm.jpg" },
-    { filename: "Black-and-Red-Expression-by-Kiro-Urdin-watercolour,-30x40cm.jpg" },
+    {
+      filename:
+        "Black-and-Red-Expression-by-Kiro-Urdin-watercolour,-30x40cm.jpg",
+    },
     { filename: "Black-Kingdom-Kiro-Urdin-watercolour-35x25cm.jpg" },
     { filename: "Blue-Galaxy-by-Kiro-Urdin-watercolour,-105x75cm.jpg" },
     { filename: "Cartier-by-Kiro-Urdin-watercolour,-75x50cm.jpg" },
@@ -256,16 +298,16 @@ export const watercolours = {
     { filename: "title-TODO-watercolour,-90x150px.jpg" },
     { filename: "Two-Mondenss,-watercolour,-25x35cm.jpg" },
     { filename: "Wide-Open-Kiro-Urdin-watercolour-106x75cm.jpg" },
-    { filename: "Wires-Kiro-Urdin-watercolour-25x35cm.jpg" }
-  ]
-}
+    { filename: "Wires-Kiro-Urdin-watercolour-25x35cm.jpg" },
+  ],
+};
 
 export const sculptures = {
   path: "sculptures",
   info: {
     title: "Sculptures",
     description: `Sculptures, beyond mere observation, beckon to
-      be touched — a silent exploration of form that resonates.`
+      be touched — a silent exploration of form that resonates.`,
     /* `The essence of sculptures lies not in being looked at
     but in enticing to be touched. It is an exploration of form that
     speaks in silence.`
@@ -289,19 +331,20 @@ export const sculptures = {
     { filename: "sculpture-kiro-urdin-18.jpg" },
     { filename: "sculpture-kiro-urdin-19.jpg" },
     { filename: "sculpture-kiro-urdin-20.jpg" },
-  ]
-}
+  ],
+};
 
 export const ballet = {
   path: "planetarium-dance",
   info: {
     // title: "The Planetarium Dance",
-    description: "The Planetarium Ballet is a collaboration between Kiro Urdin and choreographer Debbie Wilson",
+    description:
+      "The Planetarium Ballet is a collaboration between Kiro Urdin and choreographer Debbie Wilson",
     url: "/planetrium-dance",
-    color: "#265"
+    color: "#265",
   },
   cover: {
-    index: 0
+    index: 0,
   },
   images: [
     { filename: "debbie_wilson.jpg" },
@@ -323,19 +366,52 @@ export const ballet = {
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-15.jpg" },
     { filename: "Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-16.jpg" },
     // { filename: "Planetarium-Dance-Poster-Kiro-Urdin-Debbie-Wilson.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Cover-Kiro-Urdin-and-Debbie-Wilson.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-1.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-2.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-3.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-4.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-5.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-6.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-7.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-9.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-10.jpg" },
-    { filename: "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-12.jpg" }
-  ]
-}
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Cover-Kiro-Urdin-and-Debbie-Wilson.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-1.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-2.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-3.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-4.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-5.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-6.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-7.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-9.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-10.jpg",
+    },
+    {
+      filename:
+        "UN-60th-Anniversary-Planetarium-Dance-Kiro-Urdin-and-Debbie-Wilson-12.jpg",
+    },
+  ],
+};
 
 export const people = {
   path: "people",
@@ -344,7 +420,10 @@ export const people = {
     { filename: "Baroness_Daniele-Baccardi_and-Donna_Urdin.jpg" },
     { filename: "Kiro_Urdin_with_Riki_and_Sandra_Portanova1.jpg" },
     { filename: "Kiro_Urdin_with_Mick_Fleetwood.jpg" },
-    { filename: "Luciano_Pavarotti_-_Mr.Pieter_van_Vollenhoven_-_Kiro_Urdin_-_Andrea_Griminelli.jpg" },
+    {
+      filename:
+        "Luciano_Pavarotti_-_Mr.Pieter_van_Vollenhoven_-_Kiro_Urdin_-_Andrea_Griminelli.jpg",
+    },
     { filename: "Kiro_Urdin_with_Henry_Kissinger.jpg" },
     { filename: "Mick_Fleetwood.jpg" },
     { filename: "kiro_urdin_anatoli_karpov_ku_jovan_pavleski.jpg" },
@@ -362,20 +441,20 @@ export const people = {
     { filename: "Kiro_Urdin_and_Philip.jpg" },
     { filename: "Venko_Serafimov.jpg" },
     { filename: "Donna-Urdin.jpg" },
-  ]
-}
+  ],
+};
 
 export const portraits = {
-  path: 'portraits',
+  path: "portraits",
   images: [
     {
       filename: "Kiro-Urdin-Portrait-1.jpg",
       sizes: {
         thumb: {
           fit: "cover",
-          position: "top"
-        }
-      }
+          position: "top",
+        },
+      },
     },
     { filename: "Kiro-Urdin--Portrait-(6).jpg" },
     { filename: "Kiro-Urdin---Portrait-(15).jpg" },
@@ -391,15 +470,15 @@ export const portraits = {
     { filename: "Kiro-Urdin-Portrait-14.jpg" },
     // { filename: "Kiro-Urdin-Portrait-15.jpg" },
     { filename: "Kiro-Urdin-Portrait-16.jpg" },
-  ]
-}
+  ],
+};
 
 export const omoValley = {
   path: "omo-valley",
   info: {
     title: "Tribes of Omo Valley",
     description: "by Kiro Urdin",
-    color: "#363834"
+    color: "#363834",
   },
   images: [
     { filename: "Tribes-of-Omo-Valley-0.jpg" },
@@ -446,18 +525,19 @@ export const omoValley = {
     { filename: "Tribes-of-Omo-Valley-41.jpg" },
     { filename: "Tribes-of-Omo-Valley-42.jpg" },
     { filename: "Tribes-of-Omo-Valley-Cover.jpg" },
-  ]
-}
+  ],
+};
 
 export const planetarium = {
   path: "planetarium",
   info: {
-    description: "Planetarium is the first painting in human history to be worked all over the world.",
+    description:
+      "Planetarium is the first painting in human history to be worked all over the world.",
     url: "/planetarium",
-    color: "#933"
+    color: "#933",
   },
   images: [
-    // { filename: "Kiro_Urdin-Planetarium_Poster-V2.jpg" },
+    { filename: "Kiro_Urdin-Planetarium_Poster-V2.jpg", hide: true },
     // { filename: "Kiro_Urdin-Planetarium_Poster-V.jpg" },
     { filename: "Kiro_Urdin-Ohrid-Macedonia.jpg" },
     { filename: "Kiro_Urdin-Paris-France.jpg" },
@@ -492,8 +572,8 @@ export const planetarium = {
     { filename: "Kiro_Urdin-Plantarium-Luvr.jpg" },
     { filename: "Kiro-Urdin-Berlin-Wall.jpg" },
     { filename: "Kiro-Urdin-Planetarium-Pompei.jpg" },
-  ]
-}
+  ],
+};
 
 export const chinaFilmFestival = {
   path: "china-film-festival",
@@ -571,8 +651,8 @@ export const chinaFilmFestival = {
     { filename: "China-Nature-Film-Festival-67.jpg" },
     { filename: "China-Nature-Film-Festival-68.jpg" },
     { filename: "China-Nature-Film-Festival-69.jpg" },
-  ]
-}
+  ],
+};
 
 export const press = {
   path: "press-coverage",
@@ -599,8 +679,8 @@ export const press = {
     { filename: "KiroUrdin-Geneve-EuropArt.jpg" },
     { filename: "Kiru_Urdin_Press_San_Juan-1024x611.jpg" },
     { filename: "The-Aspen-Times-1024x737.jpg" },
-  ]
-}
+  ],
+};
 
 export const artworkMenuSlide = [
   {
@@ -675,7 +755,7 @@ export const artworkMenuSlide = [
     column: [9, 2],
     row: [3, 1],
   },
-]
+];
 
 export const projectsMenuSlide = [
   {
@@ -751,4 +831,4 @@ export const projectsMenuSlide = [
     column: [9, 2],
     row: [-3, 2],
   },
-]
+];

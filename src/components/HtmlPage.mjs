@@ -9,11 +9,11 @@ const socialProfiles = [
 ];
 
 const menuItems = [
-  { title: "Biography", url: "/" },
   // { title: 'Planetarsim', url: '/planetarism' },
-  { title: "Artwork", url: "/artwork" },
+  { title: "Artwork", url: "/" },
   { title: "Films", url: "/artwork/films" },
   { title: "Photo Gallery", url: "/photo-gallery" },
+  { title: "Biography", url: "/biography" },
   // { title: 'News', url: '/news' },
   { title: "Awards", url: "/awards" },
   { title: "Contact", url: "mailto:contact@kirourdin.com" },
