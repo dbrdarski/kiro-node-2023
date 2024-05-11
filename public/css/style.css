@@ -192,6 +192,7 @@ body[menu-active] {
     line-height: 1;
     padding-bottom: 25px;
     font-size: 52px;
+    font-size: 40px;
     color: #444;
     margin: 0;
 }
@@ -207,6 +208,9 @@ body[menu-active] {
     .gallery-info-card {
         max-width: 45%;
         font-size: calc(1.5vw + 1px);
+    }
+    .text-card-title {
+        font-size: 52px;
     }
 }
 
@@ -277,14 +281,12 @@ body[menu-active] {
 
 .gallery.artwork .text-card,
 .gallery.artwork .scroll-gallery-item {
-    /* width: calc((100% + 30px) / 3 * 2 - 20px * 2 ); */
-    width: calc(25% - 40px);
-    width: calc((100% + 40px) / 4 - 20px * 3);
+    width: calc(100% - 80px);
 }
 
 .gallery.artwork .text-card {
     /* width: calc((100% + 40px) / 2 ); */
-    width: calc((100% + 40px) / 2 - 20px * 4);
+    /* width: calc((100% + 40px) / 2 - 20px * 4); */
 }
 
 .gallery .text-card {
@@ -564,6 +566,10 @@ img {
 }
 
 @media screen and (min-width: 600px) {
+    .gallery.artwork .scroll-gallery-item {
+        width: calc((100% - 0px) / 2 - 20px * 3);
+    }
+
     .film-thumb {
         width: calc((100vw - var(--header-width) - 60px) / 2);
         height: calc((100vw - var(--header-width) - 80px) / 2.3 * var(--ratio));
@@ -579,6 +585,16 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+    .gallery.artwork .text-card,
+    .gallery.artwork .scroll-gallery-item {
+        width: calc((100%  + 20px) / 3 - 20px * 3);
+    }
+
+    .gallery.artwork .text-card {
+        width: calc(((100% + 20px) / 3 - 20px* 3) * 2 + 40px) !important;
+        /* width: calc((100% + 40px) / 2 - 20px * 4); */
+    }
+
     .photo-gallery-wrapper {
         grid-template-columns: auto auto auto;
         grid-auto-rows: auto;
@@ -886,5 +902,19 @@ img {
 
     .col-wide {
         width: 88%;
+    }
+
+    .gallery.artwork .text-card {
+        width: calc((100% - 0px) / 2 - 20px * 3);
+    }
+
+}
+
+@media screen and (min-width: 1360px) {
+    .gallery.artwork .scroll-gallery-item {
+        width: calc((100% + 40px) / 4 - 20px * 3);
+    }
+    .gallery.artwork .text-card {
+        width: calc((100% - 0px) / 2 - 20px * 3) !important;;
     }
 }

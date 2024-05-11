@@ -547,7 +547,6 @@ export const planetarium = {
     { filename: "Kiro_Urdin-Paris-France.jpg" },
     { filename: "Kiro_Urdin-Piza.jpg" },
     { filename: "Kiro_Urdin-Planetaium-Japan.jpg" },
-    { filename: "Kiro_Urdin-Planetarium-Big_poster.jpg" },
     { filename: "Kiro_Urdin-Planetarium_06.jpg" },
     { filename: "Kiro_Urdin-Planetarium_15.jpg" },
     { filename: "Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg" },
@@ -576,6 +575,7 @@ export const planetarium = {
     { filename: "Kiro_Urdin-Plantarium-Luvr.jpg" },
     { filename: "Kiro-Urdin-Berlin-Wall.jpg" },
     { filename: "Kiro-Urdin-Planetarium-Pompei.jpg" },
+    { filename: "Kiro_Urdin-Planetarium-Big_poster.jpg" },
   ],
 };
 
@@ -690,7 +690,7 @@ export const artworkMenuSlide = [
   {
     title: "Planetarium",
     album: "planetarium",
-    thumb: planetarium.images[19].filename,
+    thumb: planetarium.images[18].filename,
     link: "/planetarium",
     column: [1, 5],
     row: [1, 3],

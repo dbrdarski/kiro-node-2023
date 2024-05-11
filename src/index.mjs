@@ -6,6 +6,7 @@ import connect from "connect";
 
 import generateImages from "./generate-images.mjs";
 import serveOld from "../scrap/index.mjs";
+
 import { port, oldSite, newSite } from "../env.mjs";
 
 import {
@@ -68,7 +69,7 @@ const albums = {
   people,
   planetarium,
   portraits,
-  "omo-vallery": omoValley,
+  "omo-valley": omoValley,
   "planetarium-dance": ballet,
   "china-film-festival": chinaFilmFestival,
   "press-coverage": press,

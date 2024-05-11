@@ -150,7 +150,7 @@ export default async (albums) => {
   });
   app.use("/", (req, res, next) => {
     const r = router.find(req.originalUrl);
-    console.log(r);
+    // console.log(r);
     res.end(r.handler(r.params));
   });
 
