@@ -7,6 +7,7 @@ import Album from "./pages/Album.mjs";
 import PhotoGallery from "./pages/PhotoGallery.mjs";
 import Filmography from "./pages/Filmography.mjs";
 import Planetarium from "./pages/Planetarium.mjs";
+import Planetarism from "./pages/Planetarism.mjs";
 import Ballet from "./pages/Ballet.mjs";
 
 import sharp from "sharp";
@@ -72,6 +73,7 @@ export default async (albums) => {
     // '/projects': renderPage(Artwork2(albums)),
     "/": renderPage(Artwork(albums)),
     "/planetarium": renderPage(Planetarium),
+    "/planetarism": renderPage(Planetarism),
     "/planetarium-dance": renderPage(Ballet),
     "/artwork/paintings": renderPage(
       Album(paintings, { title: "Paintings - Artwork" }),
@@ -131,12 +133,10 @@ export default async (albums) => {
     "/user/:id": (params) => `User id: ${params.id}`,
     "/user/:id/:page": () => "4",
     "/people/:name": (params) => `Hello, ${params.name}`,
-    "/planetarism": () => printHTML(ComingSoon),
     "/artwork/aphorisms": () => printHTML(ComingSoon),
     "/artwork/poetry": () => printHTML(ComingSoon),
     "/artwork/publications": () => printHTML(ComingSoon),
     "/awards": () => printHTML(ComingSoon),
-    "/planetarism": () => printHTML(ComingSoon),
     "/contact": () => printHTML(ComingSoon),
 
     // '/gallery/:album/:size/:filename(.*)': $ => albums[$.album].thumbs[$.filename][$.size],
