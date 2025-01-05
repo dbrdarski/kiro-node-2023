@@ -15,6 +15,8 @@ const images = [
   ballet.images[26],
 ];
 
+const debbie = ballet.images[0]
+
 export default (HtmlPage) => (
   <HtmlPage title="Planterium Dance with Debbie Wilson">
     <section class="content-area">
@@ -37,12 +39,21 @@ export default (HtmlPage) => (
     </section> */}
     <section class="content-area">
       <aside class="col-aside">
-        <img
-          style="object-position: top; margin-bottom: 5em;"
-          src="/media/cached/planetarium-dance/lg/debbie_wilson.jpg"
-          alt=""
-        />
         <div class="image-grid">
+          <a
+            class="big-photo"
+            href={`/media/images/${ballet.path}/${debbie.filename}`}
+            data-pswp-height={debbie.height}
+            data-pswp-width={debbie.width}
+            data-cropped="true"
+            style="aspect-ratio: 1 / 1.5"
+          >
+            <img
+              style="object-position: top; margin-bottom: 5em;"
+              src="/media/cached/planetarium-dance/lg/debbie_wilson.jpg"
+              alt=""
+            />
+          </a>
           {images.map((image) => (
             <a
               data-pswp-height={image.height}

@@ -29,6 +29,7 @@ import {
 
 import Biography from "./pages/Biography.mjs";
 import Artwork from "./pages/Artwork.mjs";
+import Publications from "./pages/Publications.mjs";
 // import Artwork2 from "./pages/Artwork2.mjs"
 
 globalThis.h = h;
@@ -87,6 +88,7 @@ export default async (albums) => {
     "/artwork/sculptures": renderPage(
       Album(sculptures, { title: "Sculptures - Artwork" }),
     ),
+    "/artwork/literature": renderPage(Publications),
     "/artwork/films": renderPage(Filmography),
     "/photo-gallery": renderPage(PhotoGallery),
     "/photo-gallery/planetarium": renderPage(

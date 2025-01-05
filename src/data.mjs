@@ -694,6 +694,7 @@ export const artworkMenuSlide = [
     link: "/planetarium",
     column: [1, 5],
     row: [1, 3],
+    size: "lg",
   },
   {
     title: "Watercolours",
@@ -770,9 +771,10 @@ export const projectsMenuSlide = [
     link: "/artwork/films",
     column: [9, 5],
     row: [-6, 3],
+    size: "lg",
   },
   {
-    title: "Aphorisms",
+    title: "Literature", // "Aphorisms",
     album: "thumbs",
     thumb: "script.jpg",
     link: "/artwork/aphorisms",
@@ -796,15 +798,15 @@ export const projectsMenuSlide = [
     row: [-6, 2],
   },
   {
-    title: "Publications",
+    title: "Tabula Rasa",
     album: "thumbs",
-    thumb: "planetarium_dance.jpg",
+    thumb: "tabula-rasa-thumb-2.jpg",
     link: "/artwork/publications",
     column: [11, 3],
     row: [-3, 2],
   },
   {
-    title: "Poetry",
+    title: "Publications", // "Poetry",
     album: "thumbs",
     thumb: "poetry.jpg",
     link: "/artwork/poetry",

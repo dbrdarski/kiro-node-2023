@@ -582,6 +582,7 @@ img {
 }
 
 .gg-item {
+    position: relative;
     display: flex;
     border: 2px solid #ccccc3;
     /* padding: 2px;
@@ -596,6 +597,25 @@ img {
     background: #292929;
 }
 
+.gg-item-title {
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    padding: calc(0.16em + 14px) calc(0.52em + 12px);
+    padding: calc(0.3em + 10px) calc(.8em + 4px);
+    font-family: 'Merriweather';
+    /* font-size: 32px; */
+    font-size: calc(.012em + 12px);
+    font-size: calc(.018em + 2px);
+}
+
+.gg-item-title.lg {
+    font-size: calc((.018em + 2px) * 1.25);
+}
+
+.gg-item-title.xl {
+    font-size: calc((.018em + 2px) * 1.4);
+}
 /* @media screen and (min-width: 1400px) { */
 .gallery {
     overflow: hidden;

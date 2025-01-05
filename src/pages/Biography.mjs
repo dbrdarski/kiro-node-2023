@@ -11,8 +11,8 @@ export default (HtmlPage) => (
             class="big-photo"
             href={`media/images/portraits/${poster.filename}`}
             data-pswp-height={poster.height}
-            data-cropped="true"
             data-pswp-width={poster.width}
+            data-cropped="true"
           >
             <img
               style="object-position: top;"

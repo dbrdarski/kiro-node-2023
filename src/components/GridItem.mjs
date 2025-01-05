@@ -1,6 +1,4 @@
-
-
-export default ({ props: { type, link, row: [row, rowspan], column: [column, colspan], title, thumb, bg, album, ...props }, children }) => {
+export default ({ props: { type, link, row: [row, rowspan], column: [column, colspan], title, thumb, bg, album, size = "md", ...props }, children }) => {
   const Tag = link ? "a" : "div"
   return (
     <Tag
@@ -19,7 +17,7 @@ export default ({ props: { type, link, row: [row, rowspan], column: [column, col
           </video>
         )}
       </div>
-      {title && <div style="position: absolute; font-size: 32px; color: white; font-weight: 700; padding: calc(0.16em + 14px) calc(0.52em + 12px); font-family: 'Merriweather'; font-size: calc(.012em + 12px);">{title}</div>}
+      {title && <div class={`gg-item-title ${size}`}>{title}</div>}
     </Tag >
   )
 }

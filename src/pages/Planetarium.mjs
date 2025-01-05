@@ -1,7 +1,7 @@
 import { planetarium } from "../data.mjs";
 
 const images = [
-  planetarium.images[0],
+  planetarium.images[1],
   planetarium.images[3],
   planetarium.images[9],
   planetarium.images[17],
@@ -14,6 +14,8 @@ const images = [
   planetarium.images[14],
   planetarium.images[26],
 ];
+
+const poster = planetarium.images[33];
 
 export default (HtmlPage) => (
   <HtmlPage title="Planterium">
@@ -35,12 +37,22 @@ export default (HtmlPage) => (
     </section>
     <section class="content-area">
       <aside class="col-aside">
-        <img
-          style="object-position: top; margin-bottom: 5em;"
-          src="/media/cached/planetarium/lg/Kiro_Urdin-Planetarium_Poster-V2.jpg"
-          alt=""
-        />
+      {/* "/media/cached/planetarium/lg/Kiro_Urdin-Planetarium_Poster-V2.jpg" */}
         <div class="image-grid">
+          <a
+            class="big-photo"
+            href={`/media/images/${planetarium.path}/${poster.filename}`}
+            data-pswp-height={poster.height}
+            data-pswp-width={poster.width}
+            data-cropped="true"
+            style="aspect-ratio: 1 / 1.75"
+          >
+            <img
+              style="object-position: 62% 100%; margin-bottom: 5em;"
+              src={`media/cached/${planetarium.path}/lg/${poster.filename}`}
+              alt=""
+            />
+          </a>
           {images.map((image) => (
             <a
               data-pswp-height={image.height}

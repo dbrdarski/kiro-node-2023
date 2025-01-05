@@ -21,7 +21,7 @@ const menuItems = [
 
 const htmlPage = ({
   children,
-  props: { background = "#f0f0f0", title = "" },
+  props: { background = "#f0f0f0", title = "", header, scripts },
 }) => (
   <html lang="en">
     <head>
@@ -39,6 +39,7 @@ const htmlPage = ({
       */}
       <link rel="stylesheet" href="/css/style.css" />
       <link rel="stylesheet" href="/css/photoswipe.css" />
+      { header }
       <title>
         {title} | Kiro Urdin - Artistic Founder of Planetarism Movement
       </title>
@@ -55,6 +56,7 @@ const htmlPage = ({
         <script src="/imagesloaded.js" />
         <script src="/AnimOnScroll.js" /> */}
       <script src="/index.js" />
+      { scripts }
     </body>
   </html>
 );
