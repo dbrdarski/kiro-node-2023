@@ -46,7 +46,8 @@ body[menu-active] {
     color: white;
     background: #111;
     text-align: center;
-    font-family: 'Oswald', 'Merriweather', serif;
+    /* font-family: 'Oswald', 'Merriweather', serif; */
+    font-family: 'Merriweather', serif;
     transform: translateX(-260px);
     z-index: 1;
 }
@@ -102,7 +103,9 @@ body[menu-active] {
 
 .site-description {
     color: #686868;
+    color: #cccccc;
     font-size: 14px;
+    font-size: 15px;
     line-height: 1.6em;
     font-weight: 300;
     text-transform: uppercase;
@@ -982,4 +985,22 @@ img {
         flex-direction: column;
         justify-content: space-between;
     }
+}
+
+.df-lightbox-wrapper .df-container {
+  background: #ddddd8 !important;
+}
+
+.df-ui-controls .df-ui-wrapper,
+.df-ui-controls .df-ui-btn {
+  background: #333 !important;
+  color: white !important;
+}
+
+.df-ui-page label{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.15em !important;
+  font-weight: 300 !important;
+  letter-spacing: .075em;
+  color: #fffd !important;
 }

@@ -1,8 +1,9 @@
-export default ({ props: { type, link, row: [row, rowspan], column: [column, colspan], title, thumb, bg, album, size = "md", ...props }, children }) => {
+export default ({ props: { type, link, target, row: [row, rowspan], column: [column, colspan], title, thumb, bg, album, size = "md", ...props }, children }) => {
   const Tag = link ? "a" : "div"
   return (
     <Tag
-      {...link && { href: link} }
+      {...link && { href: link }}
+      {...target && { target }}
       class={`gg-item ${props.class || ""}`}
       style={`--grid-x-start: ${column}; --grid-x-end: ${column + colspan}; --grid-y-start: ${row}; --grid-y-end: ${row + rowspan};`}
     >
