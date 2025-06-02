@@ -1,0 +1,1430 @@
+export const ws = Token(/\s+/)
+export const nl = Token(/[\r\n\s]+/)
+
+$.CommentLine = Type(
+  () => Token(/\/\/(.*)/),
+  (value) => ({
+    type: "CommentLine",
+    value: value.slice(2)
+  })
+)
+
+$.File = Type(
+  () => $.Program,
+  (x) => ({ type: "File", program: x }),
+)
+
+const StatementTypes = Symbol()
+
+$.Program = Type(
+  () => List($.Statement),
+  (x) => ({ type: "Program", body: x }),
+)
+
+$[StatementTypes] = Type(
+  () => Either(
+    $.IfStatement,
+    $.ForInStatement,
+    $.ForOfStatement,
+    $.SwitchStatement,
+    $.ExpressionStatement,
+    $.VariableDeclaration,
+    $.CommentLine,
+    $.Mutator,
+    $.ImportDeclaration,
+    $.ExportDeclaration,
+    $.DebuggerStatement
+  )
+)
+
+$.Statement = Type(
+  () => Match(
+    $[StatementTypes],
+    nl
+  ),
+  (statement) => ({ type: "Statement", statement }),
+)
+
+$.ExpressionStatement = Type(
+  () => Match($.Expression),
+  (expression) => ({ type: "ExpressionStatement", expression }),
+)
+
+$.DebuggerStatement = Type(
+  () => Token("@debugger"),
+  () => ({
+    type: "DebuggerStatement"
+  })
+)
+
+$.VariableDeclarator = Type(
+  () => $.Identifier
+)
+
+const ObjectPatternTypes = Symbol()
+
+$[ObjectPatternTypes] = Type(
+  () => Match(
+    Token(":"),
+    ws,
+    $.ObjectPattern
+  ),
+  (_t, _, pattern) => pattern
+)
+
+$.RestPattern = Type(
+  () => Match(
+    Token("..."),
+    $.Identifier
+  ),
+  (_, value) => value
+)
+
+$.MatchedObjectProperty = Type(
+  () => Either(
+    $.MatchedDynamicProperty,
+    $.MatchedProperty,
+    $.MatchedShorthandProperty,
+    $.RestPattern
+  ),
+  (property, value = null) => ({
+    type: "ObjectProperty",
+    property,
+    value
+  })
+)
+
+$.MatchedShorthandProperty = Type(
+  () => Match(
+    $.Identifier,
+    Maybe(ws)
+  ),
+  (name, _,) => ({
+    type: "MatchedProperty",
+    name,
+    shorthand: false,
+    computed: false
+  })
+)
+
+$.MatchedProperty = Type(
+  () => Match(
+    $.Identifier,
+    Token(":"),
+    ws,
+    $[MatchType],
+    Maybe(ws)
+  ),
+  (name, _, _1, value) => ({
+    type: "MatchedProperty",
+    name,
+    value,
+    shorthand: false,
+    computed: false
+  })
+)
+$.MatchedDynamicProperty = Type(
+  () => Match(
+    Token("["),
+    $.Expression,
+    Token("]"),
+    Token(":"),
+    ws,
+    $[MatchType],
+    Maybe(ws)
+  ),
+  (_l, name, _r, _, _ws, value) => ({
+    type: "MatchedProperty",
+    name,
+    value,
+    shorthand: false,
+    computed: true
+  })
+)
+
+$.ObjectPattern = Type(
+  () =>
+    Match(
+      Token("{"),
+      Maybe(ws),
+      List($.MatchedObjectProperty),
+      Maybe(ws),
+      Token("}")
+    ),
+  (_, _1, properties) => ({
+    type: "ObjectPattern",
+    properties,
+  })
+)
+
+const ArrayPatternTypes = Symbol()
+$[ArrayPatternTypes] = Type(
+  () => Match(
+    $[MatchType],
+    Maybe(ws)
+  )
+)
+
+$.ArrayPattern = Type(
+  () =>
+    Match(
+      Token("["),
+      Maybe(ws),
+      List($[ArrayPatternTypes]),
+      Token("]")
+    ),
+  (_, _1, properties) => ({
+    type: "ArrayPattern",
+    properties,
+  })
+)
+
+const MemberExpressionType = Symbol()
+$[MemberExpressionType] = Type(
+  () => Either(
+    $.MemberProperty,
+    $.DynamicMemberProperty,
+    $.MemberRangeProperty
+  )
+)
+
+$.MemberProperty = Type(
+  () => Match(
+    Token("."),
+    $.Identifier
+  ), (_, member) => ({
+    type: "MemberProperty",
+    member,
+    computed: false,
+  })
+)
+
+$.MemberRangeProperty = Type(
+  () => Match(
+    Token("["),
+    Maybe(ws),
+    Maybe($.Index),
+    Token("..."),
+    Maybe($.Index),
+    Maybe(ws),
+    Token("]"),
+  ),
+  (_, _1, from, _r, to) => ({
+    type: "MemberRangeProperty",
+    from,
+    to,
+    computed: true,
+  })
+)
+
+
+$.DynamicMemberProperty = Type(
+  () => Match(
+    Token("["),
+    Maybe(ws),
+    $.Expression,
+    Maybe(ws),
+    Token("]"),
+  ),
+  (_, _1, member) => ({
+    type: "DynamicMemberProperty",
+    member,
+    computed: true,
+  })
+)
+
+$.MemberExpression = Type(
+  () => Match(
+    Token("#"),
+    $.Expression,
+    List($[MemberExpressionType])
+  ),
+  (_, target, members) => members.reduce(
+    (target, member) => ({
+      type: "MemberExpression",
+      target,
+      member
+    }),
+    target
+  )
+)
+
+const MutatorType = Symbol()
+$[MutatorType] = Type(
+  () => Either(
+    $[MatchType],
+    $.MemberExpression
+  )
+)
+
+$.Mutator = Type(
+  () => Match(
+    Token(":="),
+    Maybe(ws),
+    $[MutatorType],
+    Token("::"),
+    Maybe(ws),
+    $.Expression
+  ),
+  (_, _ws, left, _1, _ws2, right) => ({
+    type: "MutatorStatement",
+    left,
+    right,
+  })
+)
+
+const MatchType = Symbol()
+$[MatchType] = Type(
+  () => Either(
+    $.VariableDeclarator,
+    $.ArrayPattern,
+    $.ObjectPattern
+  ),
+)
+
+$.VariableDeclaration = Type(
+  () =>
+    Match(
+      Token("@def"),
+      ws,
+      $[MatchType],
+      Token(":"),
+      Maybe(ws),
+      $.Expression
+    ),
+  (_def, _ws, declaration, _t, _ws2, expression) => ({
+    type: "VariableDeclaration",
+    declaration,
+    expression
+  })
+)
+
+const UnaryOperator = Token("@not", "*-")
+const BinaryOperator = Token("+", "-", "=", "*", "/", "**", "%", "@lt", "@gt", "@lte", "@gte", "=", '!=')
+const LogicalOperator = Token("&&", "||", "??")
+
+$.UnaryExpression = Type(
+  () => Match(
+    UnaryOperator,
+    Maybe(ws),
+    $.Expression
+  ),
+  (operation, _, expression) => ({
+    type: "UnaryExpression",
+    operation,
+    expression
+  })
+)
+
+$.BinaryExpression = Type(
+  () =>
+    Match(
+      BinaryOperator,
+      Maybe(ws),
+      $.Expression,
+      ws,
+      $.Expression,
+    ),
+  (operation, _0, left, _, right) => ({
+    type: "BinaryExpression",
+    operation,
+    left,
+    right,
+  }),
+)
+
+const AlternateStatement = Symbol()
+const AlternateStatementType = Symbol()
+
+$[AlternateStatementType] = Type(
+  () => Either(
+    $.IfStatement,
+    $.BlockStatement
+  )
+)
+
+$[AlternateStatement] = Type(
+  () => Match(
+    Maybe(ws),
+    Token("@else"),
+    ws,
+    $[AlternateStatementType]
+  ),
+  (_ws, _, ws, statement) => statement
+)
+
+SwitchCase = Symbol()
+SwitchCaseTestType = Symbol()
+// SwitchCaseConsequentType = Symbol()
+
+$[SwitchCaseTestType] = Type(
+  () => Match(
+    ws,
+    $.Expression
+  ),
+  (_, expression) => expression
+)
+
+$[SwitchCase] = Type(
+  () => Match(
+    ws,
+    Token("@case"),
+    List($[SwitchCaseTestType]),
+    ws,
+    $.BlockStatement
+  ),
+  (ws, _, tests, ws2, consequent) => ({
+    tests,
+    consequent
+  })
+)
+
+$.SwitchStatement = Type(
+  () => Match(
+    Token("@switch"),
+    ws,
+    $.Expression,
+    List($[SwitchCase])
+  ),
+  (_, ws, discriminant, cases) => ({
+    type: "SwitchStatement",
+    discriminant,
+    cases,
+  })
+)
+
+$.IfStatement = Type(
+  () => Match(
+    Token("@if"),
+    ws,
+    $.Expression,
+    Maybe(ws),
+    Maybe($.BlockStatement),
+    Maybe($[AlternateStatement])
+  ),
+  (_, ws, test, _2, consequent, alternate) => ({
+    type: "IfStatement",
+    test,
+    consequent,
+    alternate,
+  })
+)
+
+$.ForOfStatement = Type(
+  () => Match(
+    Token("@for"),
+    ws,
+    $[MatchType],
+    ws,
+    Token("@of"),
+    ws,
+    $.Expression,
+    ws,
+    $.BlockStatement
+  ),
+  (_f, _, left, ws2, _i, ws3, right, _wss, body) => ({
+    type: "ForOfStatement",
+    left,
+    right,
+    body,
+  })
+)
+
+$.ForInStatement = Type(
+  () => Match(
+    Token("@for"),
+    ws,
+    $.Identifier,
+    ws,
+    Token("@in"),
+    ws,
+    $.Expression,
+    ws,
+    $.BlockStatement
+  ),
+  (_f, _, left, ws2, _i, ws3, right, _wss, body) => ({
+    type: "ForInStatement",
+    left,
+    right,
+    body,
+  })
+)
+
+$.ConditionalExpression = Type(
+  () => Match(
+    Token("@if"),
+    ws,
+    $.Expression,
+    ws,
+    Token("@then"),
+    ws,
+    $.Expression,
+    ws,
+    Token("@else"),
+    ws,
+    $.Expression
+  ),
+  (_, ws, test, ws2, ws_1, _2, consequent, ws3, _3, ws_4, alternate) => ({
+    type: "ConditionalExpression",
+    test,
+    consequent,
+    alternate,
+    shorthand: false
+  })
+)
+
+$.ShorthandConditionalExpression = Type(
+  () => Match(
+    Token("?:"),
+    ws,
+    $.Expression,
+    ws,
+    $.Expression,
+    ws,
+    $.Expression
+  ),
+  (_, ws, test, ws2, consequent, ws3, alternate) => ({
+    type: "ConditionalExpression",
+    test,
+    consequent,
+    alternate,
+    shorthand: true
+  })
+)
+
+$.LogicalExpression = Type(
+  () =>
+    Match(
+      LogicalOperator,
+      Maybe(ws),
+      $.Expression,
+      ws,
+      $.Expression,
+    ),
+  (operation, _0, left, _, right) => ({
+    type: "LogicalExpression",
+    operation,
+    left,
+    right,
+  }),
+)
+
+$.ExpressionArgument = Type(() =>
+  Match(ws, $.Expression),
+  (_, expr) => expr
+)
+
+$.BinaryChainExpression = Type(
+  () =>
+    Match(
+      Token("<(", ">("),
+      Maybe(ws),
+      BinaryOperator,
+      List($.ExpressionArgument),
+      Maybe(ws),
+      Token(")")
+    ),
+  ([chainOperator], _, operation, seq) => ({
+   type: "BinaryChainExpression",
+   chainOperator,
+   operation,
+   expressionSequence: seq
+  })
+)
+
+const CallableTypes = Symbol()
+
+$[CallableTypes] = Type(
+  () => Either(
+    $.FunctionExpression,
+    $.CallExpression,
+    $.Identifier
+  )
+)
+
+$.CallExpression = Type(
+  () =>
+    Match(
+      Maybe(Token("?")),
+      Token("!("),
+      // $.Expression,
+      $[CallableTypes],
+      List($.ExpressionArgument),
+      Token(")"),
+    ),
+  (optional, _, callee, arguments) => ({
+    type: optional
+      ? "OptionalCallExpression"
+      : "CallExpression",
+    callee,
+    arguments
+  })
+)
+
+$.CallChainExpression = Type(
+  () =>
+    Match(
+      Token("<(", ">("),
+      Maybe(ws),
+      Token("!"),
+      List($.ExpressionArgument),
+      Maybe(ws),
+      Token(")")
+    ),
+    ([chainOperator], _, operation, seq) => ({
+      type: "CallChainExpression",
+      chainOperator,
+      callSequence: seq
+    })
+)
+
+$.DefaultValue = Type(
+  () => Match(
+    Token(":"),
+    Maybe(ws),
+    $.Expression
+  ),
+  (_, _1, expression) => expression
+)
+
+$.FunctionArgument = Type(
+  () =>
+    Match(
+      $.Identifier,
+      Maybe(
+        Match(
+          $.DefaultValue,
+          Maybe(ws),
+        )
+      ),
+      Maybe(ws)
+    ),
+  (identifier, defaultValue) => ({
+    identifier,
+    ...defaultValue && { defaultValue }
+  })
+)
+
+$.AsyncModifier = Type(
+  () => Match(
+    Token("@async"),
+    ws,
+  ),
+)
+
+$.FunctionHead = Type(
+  () =>
+    Match(
+      Token("("),
+      List($.FunctionArgument),
+      Token(")")
+    ),
+  (_, arguments) => ({
+    type: 'FunctionHead',
+    arguments,
+  })
+)
+
+$.FunctionBody = Type(
+  () => Either(
+    $.FunctionBodyExpression,
+    $.FunctionBodyBlock
+  )
+)
+
+$.FunctionBodyExpression = Type(
+  () =>
+    Match(
+      Token(":"),
+      Maybe(nl),
+      $.Expression
+    ),
+  (_, _nl, expression) => ({
+    type: "FunctionBody",
+    body: null,
+    expression
+  })
+)
+
+const BlockStatement = () => Match(
+  Token("{"),
+  Maybe(nl),
+  List($.Statement),
+  Maybe(nl),
+  Token("}")
+)
+
+$.BlockStatement = Type(
+  BlockStatement,
+  (_, _nl, body) => ({
+    type: "BlockStatement",
+    body,
+  })
+)
+
+$.FunctionBodyBlock = Type(
+  BlockStatement,
+  (_, _nl, body) => ({
+    type: "FunctionBody",
+    body,
+    expression: null
+  })
+)
+
+$.FunctionExpression = Type(
+  () =>
+    Match(
+      Maybe($.AsyncModifier),
+      $.FunctionHead,
+      $.FunctionBody
+    ),
+  (async, { type, ...head }, { body, expression }) => ({
+    type: 'FunctionExpression',
+    ...head,
+    body,
+    expression,
+    async: !!async
+  })
+)
+
+$.AwaitExpression = Type(
+  () => Match(
+    Token("@await"),
+    ws,
+    $.Expression
+  ),
+  (_, ws, expression) => ({
+    type: "AwaitExpression",
+    expression,
+  })
+)
+
+$.Expression = Type(
+  () =>
+    Either(
+      $.DynamicImportExpression,
+      $.MemberExpression,
+      $.Literal,
+      $.Identifier,
+      $.UnaryExpression,
+      $.ConditionalExpression,
+      $.ShorthandConditionalExpression,
+      $.LogicalExpression,
+      $.BinaryExpression,
+      $.BinaryChainExpression,
+      $.CallExpression,
+      $.CallChainExpression,
+      $.FunctionExpression,
+      $.AwaitExpression,
+      $.JSXElement
+    ),
+  (node) => node,
+)
+
+$.Identifier = Type(
+  () => Token(/[a-zA-Z]+[a-zA-Z0-9]*/),
+  name => ({ type: "Identifier", name }),
+)
+
+
+const JSXElementAttributeValueSegment = Symbol()
+const JSXElementAttributeValueTypes = Symbol()
+const JSXElementAttributeType = Symbol()
+const JSXChildrenTypes = Symbol()
+
+$.JSXElement = Type(
+  () => Either(
+    $.JSXTagElement,
+    $.JSXSelfClosingTagElement,
+    $.JSXFragment
+  )
+)
+
+$.JSXFragment = Type(
+  () => Match(
+    $.JSXOpeningFragment,
+    List($.JSXChild),
+    $.JSXClosingFragment
+  ),
+  (JSXOpeningElement, children, JSXClosingElement) => ({
+    type: "JSXFragment",
+    JSXOpeningElement,
+    children,
+    JSXClosingElement,
+    selfClosing: false,
+  })
+)
+
+$.JSXOpeningFragment = Type(
+  () => Token("<>"),
+  () => ({
+    type: "JSXOpeningFragment"
+  })
+)
+
+$.JSXClosingFragment = Type(
+  () => Token("</>"),
+  () => ({
+    type: "JSXClosingFragment"
+  })
+)
+
+
+$[JSXElementAttributeValueTypes] = Type(
+  () => Either(
+    $.JSXAttribute,
+    $.JSXAttributeExpression
+  )
+)
+
+$.JSXSpreadAttribute = Type(
+  () => Match(
+    ws,
+    Token("{..."),
+    $.Expression,
+    Token("}")
+  ),
+  (ws, _, argument) => ({
+    type: "JSXSpreadAttribute",
+    argument,
+  })
+)
+
+$.JSXAttribute = Type(
+  () => Match($.StringLiteral)
+)
+
+$.JSXAttributeExpression = Type(
+  () => Match(
+    Token("{"),
+    Maybe(ws),
+    $.Expression,
+    Maybe(ws),
+    Token("}")
+  ),
+  (_0, _1, expression) => ({
+    type: "JSXAttributeExpression",
+    expression
+  })
+)
+
+
+$[JSXElementAttributeValueSegment] = Type(
+  () => Match(
+    Token("="),
+    $[JSXElementAttributeValueTypes]
+  ),
+  (_, value) => value
+)
+
+$[JSXElementAttributeType] = Type(
+  () => Either(
+    $.JSXElementAttribute,
+    $.JSXSpreadAttribute
+  )
+)
+
+$.JSXElementAttribute = Type(
+  () => Match(
+    ws,
+    $.Identifier,
+    Maybe($[JSXElementAttributeValueSegment])
+  ),
+  (_, key, value) => ({
+    type: "JSXElementAttribute",
+    key,
+    value
+  })
+)
+
+$.JSXTagElement = Type(
+  () => Match(
+    $.JSXOpeningElement,
+    List($.JSXChild),
+    $.JSXClosingElement
+  ),
+  (JSXOpeningElement, children, JSXClosingElement) => {
+    if (JSXOpeningElement.name.name !== JSXClosingElement.name.name) {
+      throw Error("JSX attributes tag mismatch!")
+    }
+    return {
+      type: "JSXElement",
+      JSXOpeningElement,
+      children,
+      selfClosing: false,
+    }
+  }
+)
+$.JSXExpression = Type(
+  () => Match(
+    Token("{"),
+    Maybe(ws),
+    $.Expression,
+    Token("}")
+  ),
+  (_, _1, expression) => ({
+    type: "JSXExpression",
+    expression,
+  })
+)
+
+$[JSXChildrenTypes] = Type(
+  () => Either(
+    $.JSXElement,
+    $.JSXExpression,
+    $.JSXText
+  )
+)
+
+$.JSXChild = Type(
+  () => Match(
+    Maybe(ws),
+    $[JSXChildrenTypes],
+    Maybe(ws),
+  ),
+  (_, child) => child
+)
+
+$.JSXOpeningElement = Type(
+  () => Match(
+    Token("<"),
+    $.Identifier,
+    List($[JSXElementAttributeType]),
+    Maybe(ws),
+    Token(">")
+  ),
+  (_, name, attributes) => ({
+    type: "JSXOpeningElement",
+    name,
+    attributes,
+    selfClosing: false,
+  })
+)
+
+$.JSXText = Type(
+  () => Token(/[^\{<]+/),
+  text => ({
+    type: "JSXText",
+    text
+  })
+)
+
+$.JSXClosingElement = Type(
+  () => Match(
+    Token("</"),
+    $.Identifier,
+    Token(">")
+  ),
+  (_, name, attributes) => ({
+    type: "JSXClosingElement",
+    name,
+    attributes
+  })
+)
+$.JSXSelfClosingTagElement = Type(
+  () => $.JSXSelfClosingTagOpeningElement,
+  (JSXOpeningElement) => ({
+    type: "JSXElement",
+    JSXOpeningElement,
+  })
+)
+
+$.JSXSelfClosingTagOpeningElement = Type(
+  () => Match(
+    Token("<"),
+    $.Identifier,
+    List($[JSXElementAttributeType]),
+    Maybe(ws),
+    Token("/>")
+  ),
+  (_, name, attributes) => ({
+    type: "JSXOpeningElement",
+    name,
+    attributes,
+    selfClosing: true,
+  })
+)
+
+const templateLiteralContent = /^(?:\\.|(?!\${|`).)+/
+const regExpLiteralRegex = /\/((?![*+?])(?:[^\r\n\[/\\]|\\.|\[(?:[^\r\n\]\\]|\\.)*\])+)\/((?:g(?:im?|mi?)?|i(?:gm?|mg?)?|m(?:gi?|ig?)?)?)/
+const numeriLiteralRegex =  /([+-]?(?:(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?|0[bB][01]+|0[xX][\da-fA-F]+|Infinity|NaN))\b/
+const bigIntLiteralRegex = /[-]{0,1}[0-9]+n/
+const indexRegex = /[-]{0,1}[0-9]+/
+
+const handleLiteral = (type, handler = JSON.parse) => $ => ({
+  type,
+  value: handler($),
+  raw: $
+})
+const bigIntHandler = raw => ({ raw, rawValue: raw.slice(0, -1) })
+const SpreadElementTypes = Symbol()
+const TemplateLiteralContentType = Symbol()
+
+$.Literal = Type(
+  () =>
+    Either(
+      $.NumericLiteral,
+      $.StringLiteral,
+      $.BooleanLiteral,
+      $.ArrayLiteral,
+      $.ObjectLiteral,
+      $.RegExpLiteral,
+      $.TemplateLiteral,
+      $.BigIntLiteral,
+      $.NullLiteral
+    )
+)
+
+const ArrayLiteralTypes = Symbol()
+
+$.NullLiteral = Type(
+  () => Token("@null"),
+  () => ({ type: "NullLiteral" })
+)
+
+$[ArrayLiteralTypes] = Type(
+  () => Either(
+    $.Expression,
+    $.SpreadElement
+  )
+)
+
+$.ArrayLiteral = Type(
+  () =>
+    Match(
+      Token("["),
+      Maybe(ws),
+      List(
+        Match(
+          $[ArrayLiteralTypes],
+          Maybe(ws)
+        )
+      ),
+      Token("]"),
+    ),
+  (_, ws, items) => ({
+    type: "ArrayLiteral",
+    items
+  })
+)
+
+
+$.Property = Type(
+  () =>
+    Match(
+      $.Identifier,
+      Token(":"),
+      Maybe(ws),
+      $.Expression,
+      Maybe(ws),
+    ),
+  (key, _t, _, value) => ({
+    key,
+    value,
+    shorthand: false,
+    computed: false,
+  })
+)
+
+$.ShorthandProperty = Type(
+  () =>
+    Match($.Identifier, Maybe(ws)),
+  (key) => ({
+    key,
+    value: key,
+    shorthand: true,
+    computed: false,
+  })
+)
+
+$.DynamicProperty = Type(
+  () =>
+    Match(
+      Token("["),
+      $.Expression,
+      Token("]:"),
+      Maybe(ws),
+      $.Expression,
+      Maybe(ws)
+    ),
+  (_t, key, _$1, _, value) => ({
+    key,
+    value,
+    shorthand: false,
+    computed: true,
+  })
+)
+
+$.ObjectProperty = Type(
+  () =>
+      Either(
+        $.DynamicProperty,
+        $.Property,
+        $.ShorthandProperty,
+        $.SpreadElement
+    )
+)
+
+$.ObjectLiteral = Type(
+  () =>
+    Match(
+      Token("{"),
+      Maybe(ws),
+      List($.ObjectProperty),
+      Maybe(ws),
+      Token("}"),
+      Maybe(ws),
+    ),
+  (_t, _, properties) => ({
+    type: "ObjectLiteral",
+    properties
+  })
+)
+
+$.Index = Type(
+  () => Token(indexRegex),
+  handleLiteral("Index")
+)
+
+// $.NumericLiteral = Type(
+//   () => Token(/[-]{0,1}[0-9]+/),
+//   handleLiteral("NumericLiteral")
+// )
+
+$.NumericLiteral = Type(
+  () => Token(numeriLiteralRegex),
+  handleLiteral("NumericLiteral", Number)
+)
+
+$.BigIntLiteral = Type(
+  () => Token(bigIntLiteralRegex),
+  handleLiteral("BigIntLiteral", bigIntHandler)
+)
+
+$.StringLiteral = Type(
+  // () => Token(/((["'])(?:(?=(\\?))\2.)*?\1)/),
+  () => Token(/(["](?:(?=(\\?))\1.)*?["])/),
+  handleLiteral("StringLiteral")
+)
+
+$.BooleanLiteral = Type(
+  () => Token(/true|false/),
+  handleLiteral("BooleanLiteral")
+)
+
+$.RegExpLiteral = Type(
+  () => Token(regExpLiteralRegex),
+  x => {
+    const value = RegExp(x.slice(1, -1))
+
+    return {
+      type: "RegExpLiteral",
+      pattern: value.source,
+      flags: value.flags,
+      value,
+    }
+  }
+)
+
+$[SpreadElementTypes] = Type(
+  () => Either(
+    $.Identifier,
+    $.ObjectLiteral,
+    $.ArrayLiteral,
+    $.CallExpression,
+    $.CallChainExpression,
+    $.MemberExpression
+  )
+)
+
+$.SpreadElement = Type(
+  () => Match(
+    Token("..."),
+    $[SpreadElementTypes],
+    Maybe(ws)
+  ),
+  (_, argument) => ({
+    type: "SpreadElement",
+    argument
+  })
+)
+
+$.TemplateLiteral = Type(
+  () => Match(
+    Token("`"),
+    List($[TemplateLiteralContentType]),
+    Token("`"),
+  ),
+  (_, template) => ({
+    type: "TemplateLiteral",
+    template,
+  })
+)
+
+$.TemplateExpression = Type(
+  () => Match(
+    Token("${"),
+    $.Expression,
+    Token("}")
+  ),
+  (_, expression) => ({
+    type: "TemplateExpression",
+    expression
+  })
+)
+
+$.TemplateElement = Type(
+  () => Token(templateLiteralContent),
+  element => ({
+    type: "TemplateElement",
+    element
+  })
+)
+
+$[TemplateLiteralContentType] = Type(
+  () => Either(
+    $.TemplateElement,
+    $.TemplateExpression
+  )
+)
+
+const ImportSpecifiers = Symbol()
+const ImportSpecifierLocalSegment = Symbol()
+const ImportSpecifierType = Symbol()
+const ExportSpecifiers = Symbol()
+const ExportSpecifierType = Symbol()
+const ExportSpecifierLocalSegment = Symbol()
+
+$.DynamicImportExpression = Type(
+  () => Match(
+    Token("@import"),
+    Maybe(ws),
+    Token("("),
+    Maybe(ws),
+    $.StringLiteral,
+    Maybe(ws),
+    Maybe($.ObjectLiteral),
+    Maybe(ws),
+    Token(")")
+  ),
+  (_i, ws, _, _ws, source, _sw2, options) => ({
+    type: "DynamicImportExpression",
+    source,
+    options
+  })
+)
+
+$.ImportDeclaration = Type(
+  () => Match(
+    Token("@import"),
+    Maybe(
+      $.ImportDefaultSpecifier,
+    ),
+    $[ImportSpecifierType],
+    ws,
+    Token("@from"),
+    ws,
+    $.StringLiteral
+  ),
+  (_, defaultSpecifier, specifiers, ws, from, ws2, source) => ({
+    type: "ImportDeclaration",
+    source,
+    specifiers: [
+      ...(defaultSpecifier ? [defaultSpecifier] : []),
+      ...(specifiers ?? [])
+    ]
+  })
+)
+
+$[ImportSpecifierType] = Type(
+  () => Either(
+    $.ImportNamespaceSpecifier,
+    $[ImportSpecifiers]
+  ),
+)
+
+$[ExportSpecifierType] = Type(
+  () => Either(
+    $.ExportNamespaceSpecifier,
+    Maybe($[ExportSpecifiers])
+  ),
+)
+
+$.ImportDefaultSpecifier = Type(
+  () => Match(
+    ws,
+    $.Identifier
+  ),
+  (_, specifier) => ({
+    type: "ImportDefaultSpecifier",
+    imported: specifier,
+    local: specifier,
+  })
+)
+
+$.ExportDefaultSpecifier = Type(
+  () => Match(
+    ws,
+    $.Identifier
+  ),
+  (_, specifier) => ({
+    type: "ExportDefaultSpecifier",
+    imported: specifier,
+    local: specifier,
+  })
+)
+
+$.ImportNamespaceSpecifier = Type(
+  () => Match(
+    ws,
+    Token("*:"),
+    Maybe(ws),
+    $.Identifier
+  ),
+  (ws0, _, ws, specifier) => [{
+    type: "ImportNamespaceSpecifier",
+    local: specifier,
+  }]
+)
+
+$[ImportSpecifiers] = Type(
+  () => Match(
+    ws,
+    Token("{"),
+    List($.ImportSpecifier),
+    Maybe(ws),
+    Token("}"),
+  ),
+  (ws, _, specifiers) => specifiers
+)
+
+$[ExportSpecifiers] = Type(
+  () => Match(
+    ws,
+    Token("{"),
+    List($.ExportSpecifier),
+    Maybe(ws),
+    Token("}"),
+  ),
+  (ws, _, specifiers) => specifiers
+)
+
+$.ImportSpecifier = Type(
+  () => Match(
+    Maybe(ws),
+    $.Identifier,
+    Maybe($[ImportSpecifierLocalSegment])
+  ),
+  (_, imported, local) => ({
+    type: "ImportSpecifier",
+    imported,
+    local: local ?? imported
+  })
+)
+
+$.ExportSpecifier = Type(
+  () => Match(
+    Maybe(ws),
+    $.Identifier,
+    Maybe($[ExportSpecifierLocalSegment])
+  ),
+  (_, imported, local) => ({
+    type: "ExportSpecifier",
+    imported,
+    local: local ?? imported
+  })
+)
+
+$[ImportSpecifierLocalSegment] = Type(
+  () => Match(
+    Token(":"),
+    Maybe(ws),
+    $.Identifier
+  ),
+  (_, ws, identifier) => identifier
+)
+
+$[ExportSpecifierLocalSegment] = Type(
+  () => Match(
+    Token(":"),
+    Maybe(ws),
+    $.Identifier
+  ),
+  (_, ws, identifier) => identifier
+)
+
+$.ExportDefaultDeclaration = Type(
+  () => Match(
+    Token("@export"),
+    ws,
+    Token("@default"),
+    ws,
+    $.Expression
+  ),
+  (_, ws, _1, _ws, declaration) => ({
+    type: "ExportDefaultDeclaration",
+    declaration
+  })
+)
+
+$.ExportDeclaration = Type(
+  () => Either(
+    $.ExportNamedSequenceDeclaration,
+    $.ExportVariableDeclaration,
+    $.ExportNamedDeclaration,
+    $.ExportDefaultDeclaration
+  )
+)
+
+$.ExportVariableDeclaration = Type(
+  () => Match(
+    Token("@export"),
+    ws,
+    $.VariableDeclaration
+  ),
+  (_, ws, declaration) => ({
+    name: "ExportNamedDeclaration",
+    source: null,
+    specifiers: [],
+    declaration,
+  })
+)
+
+$.ExportNamedDeclaration = Type(
+  () => Match(
+    Token("@export"),
+    Maybe($.ExportDefaultSpecifier),
+    Maybe($[ImportSpecifierType]),
+    ws,
+    Token("@from"),
+    ws,
+    $.StringLiteral
+  ),
+  (_, defaultSpecifier, specifiers, ws, from, ws2, source) => {
+    if ((defaultSpecifier ?? specifiers) == null) {
+      throw Error("Invalid export type!")
+    }
+    return {
+      type: "ExportNamedDeclaration",
+      source,
+      specifiers: [
+        ...(defaultSpecifier ? [defaultSpecifier] : []),
+        ...(specifiers ?? [])
+      ],
+      declaration: null
+    }
+  }
+)
+
+$.ExportNamedSequenceDeclaration = Type(
+  () => Match(
+    Token("@export"),
+    $[ImportSpecifierType]
+  ),
+  (_, specifiers) => ({
+    type: "ExportNamedDeclaration",
+    source: null,
+    specifiers,
+    declaration: null
+  })
+)
