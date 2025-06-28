@@ -1,16 +1,20 @@
-import { h, frag, printHTML } from "./jsx.mjs";
-import connect from "connect";
-import serveStatic from "serve-static";
-import Router from "url-router";
-import HtmlPage from "./components/HtmlPage.mjs";
-import Album from "./pages/Album.mjs";
-import PhotoGallery from "./pages/PhotoGallery.mjs";
-import Filmography from "./pages/Filmography.mjs";
-import Planetarium from "./pages/Planetarium.mjs";
-import Planetarism from "./pages/Planetarism.mjs";
-import Ballet from "./pages/Ballet.mjs";
+import { h, frag, printHTML } from "./jsx.mjs"
+import connect from "connect"
+import serveStatic from "serve-static"
+import Router from "url-router"
+import HtmlPage from "./components/HtmlPage.mjs"
+import Album from "./pages/Album.mjs"
+import PhotoGallery from "./pages/PhotoGallery.mjs"
+import Filmography from "./pages/Filmography.mjs"
+import Planetarium from "./pages/Planetarium.mjs"
+import Planetarism from "./pages/Planetarism.mjs"
+import Ballet from "./pages/Ballet.mjs"
+import Biography from "./pages/Biography.mjs"
+import Artwork from "./pages/Artwork.mjs"
+import Publications from "./pages/Publications.mjs"
+import TabulaRasa from "./pages/TabulaRasa.mjs"
 
-import sharp from "sharp";
+import sharp from "sharp"
 // import PhotoAlbum from "./components/Album3.mjs"
 
 import {
@@ -25,25 +29,21 @@ import {
   omoValley,
   chinaFilmFestival,
   press,
-} from "./data.mjs";
+} from "./data.mjs"
 
-import Biography from "./pages/Biography.mjs";
-import Artwork from "./pages/Artwork.mjs";
-import Publications from "./pages/Publications.mjs";
-import TabulaRasa from "./pages/TabulaRasa.mjs";
 // import Artwork2 from "./pages/Artwork2.mjs"
 
-globalThis.h = h;
-globalThis.frag = frag;
+globalThis.h = h
+globalThis.frag = frag
 
 async function processImages(albums) {
   for await (const album of Object.values(albums)) {
-    album.thumbs = {};
+    album.thumbs = {}
     for await (const image of album.images) {
-      const file = sharp(`public/media/images/${album.path}/${image.filename}`);
-      const { height, width } = await file.metadata();
-      image.height = height;
-      image.width = width;
+      const file = sharp(`public/media/images/${album.path}/${image.filename}`)
+      const { height, width } = await file.metadata()
+      image.height = height
+      image.width = width
     }
   }
 }
@@ -56,17 +56,17 @@ const textPage = (text, options) => (
   </HtmlPage>
 );
 
-const ComingSoon = textPage("Coming Soon", { title: "Comming Soon" });
+const ComingSoon = textPage("Coming Soon", { title: "Comming Soon" })
 
 const renderPage = (Page) => {
-  const output = printHTML(Page(HtmlPage));
-  return () => output;
-};
+  const output = printHTML(Page(HtmlPage))
+  return () => output
+}
 
 export default async (albums) => {
-  await processImages(albums, imageSizes);
+  await processImages(albums, imageSizes)
 
-  const app = connect();
+  const app = connect()
 
   const router = new Router({
     // '/': () => Homepage,
@@ -134,9 +134,9 @@ export default async (albums) => {
         title: "Press Coverage - Photo Gallery",
       }),
     ),
-    "/user/:id": (params) => `User id: ${params.id}`,
-    "/user/:id/:page": () => "4",
-    "/people/:name": (params) => `Hello, ${params.name}`,
+    // "/user/:id": (params) => `User id: ${params.id}`,
+    // "/user/:id/:page": () => "4",
+    // "/people/:name": (params) => `Hello, ${params.name}`,
     "/artwork/aphorisms": () => printHTML(ComingSoon),
     "/artwork/poetry": () => printHTML(ComingSoon),
     "/artwork/publications": () => printHTML(ComingSoon),
@@ -146,31 +146,17 @@ export default async (albums) => {
     // '/gallery/:album/:size/:filename(.*)': $ => albums[$.album].thumbs[$.filename][$.size],
     "(.*)": () =>
       printHTML(textPage("Not found.", { title: "404 - Page not found" })),
-  });
+  })
 
-  app.use(serveStatic("public"));
+  app.use(serveStatic("public"))
   app.use("/favicon", (req, res, next) => {
-    res.end("ok");
-  });
+    res.end("ok")
+  })
   app.use("/", (req, res, next) => {
-    const r = router.find(req.originalUrl);
-    // console.log(r);
-    res.end(r.handler(r.params));
-  });
+    const r = router.find(req.originalUrl)
+    // console.log(r)
+    res.end(r.handler(r.params))
+  })
 
-  return app;
-
-  // const [styles, {
-  //   App,
-  //   Container,
-  //   Body
-  // }] = $
-
-  // styles[App] = `
-  // font-size: 12px;
-  // font-family: Verdana;
-  // `
-
-  // styles[Container] = ``
-  // styles[$`${Container} > ${Body}:first-child`] = ``
-};
+  return app
+}

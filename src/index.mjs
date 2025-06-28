@@ -1,13 +1,24 @@
-import http from "http";
-import serve from "./serve.mjs";
+import http from "http"
+import serve from "./serve.mjs"
+import gallery from "./gallery.mjs"
 
-import vhost from "vhost";
-import connect from "connect";
+import vhost from "vhost"
+import connect from "connect"
 
-import generateImages from "./generate-images.mjs";
-import serveOld from "../scrap/index.mjs";
+import { initWebSocketConnection } from "./admin/server/index.mjs"
+import { useSettings } from "./framework/helpers.mjs"
+import generateImages, {
+  checkMediaFiles,
+  checkGeneratedFiles,
+  generatedImagePaths,
+  createImageMap,
+  generateActions
+} from "./generate-images.mjs"
+import serveOld from "../scrap/index.mjs"
 
-import { port, oldSite, newSite } from "../env.mjs";
+import { initCollections } from "./admin/api/collections.mjs"
+
+import { port, oldSite, newSite } from "../env.mjs"
 
 import {
   imageSizes,
@@ -22,33 +33,32 @@ import {
   omoValley,
   chinaFilmFestival,
   press,
-} from "./data.mjs";
+} from "./data.mjs"
 
-// async function processImages(albums, sizes) {
-//   for (const album of Object.values(albums)) {
-//     album.thumbs = {}
-//     for (const image of album.images) {
-//       const file = sharp(`public/media/images/${album.path}/${image.filename}`)
-//       const { height, width } = await file.metadata()
-//       image.height = height
-//       image.width = width
-//       setTimeout(async () => {
-//         const resized = album.thumbs[image.filename] = {}
-//         const allSizes = image.sizes ? mergeObjects(sizes, image.sizes) : sizes
-//         for (const [size, options] of Object.entries(allSizes)) {
-//           queueMicrotask(async () => {
-//             resized[size] = await file.resize(options).toBuffer()
-//           })
-//         }
-//         console.log(image.filename)
-//       }, 500)
-//     }
-//   }
-// }
+import { getCollections } from "./collections.mjs"
 
-const app = connect();
+const updateImages = (oldState, currentState, actions) => {
+  const snapshot = createImageMap(oldState)
+  const updated = createImageMap(currentState)
+  for (const image of currentState) {
+    const hashesMatch = image.hash in snapshot.hashes
+    const pathMatch = image.path in snapshot.paths
+    if (!hashesMatch) {
+      actions.create(image)
+    } else if (!pathMatch) {
+      actions.move(snapshot.hashes[image.hash].generated, image)
+    }
+  }
 
-const [_, __, ...params] = process.argv;
+  for (const image of oldState) {
+    image.hash in updated.hashes || image.path in updated.paths || actions.remove(image.generated)
+  }
+  return currentState
+}
+
+const app = connect()
+
+const [_, __, ...params] = process.argv
 
 const albums = {
   films: {
@@ -73,23 +83,52 @@ const albums = {
   "planetarium-dance": ballet,
   "china-film-festival": chinaFilmFestival,
   "press-coverage": press,
-};
+}
 
-console.log("PARAMS", params);
+console.log("PARAMS", params)
 
 if (params.length) {
-  const [command] = params;
+  const [command] = params
   switch (command) {
+    case "media": {
+      console.log("MEDIA SCRIPT")
+      console.log("===============")
+      const settings = useSettings("resources/data/media.json", [])
+      const persistedState = settings.read()
+      const inputDir = "resources/media/images"
+      const outputDir = "resources/media/generated"
+      const actions = generateActions(inputDir, outputDir, imageSizes)
+
+      const images = await checkMediaFiles(`${inputDir}/*/*`)
+        .then(updatedState => updateImages(persistedState, updatedState, actions))
+      const generated = await checkGeneratedFiles(`${outputDir}/*/*/*`)
+      const sizes = Object.keys(imageSizes)
+      for (const image of images) {
+        image.generated = []
+        for (const path of generatedImagePaths(image.path.replace(inputDir, outputDir), sizes)) {
+          if (path in generated) {
+            image.generated.push(path)
+          }
+        }
+      }
+
+      settings.write(images)
+      await initCollections()
+      app.use(await gallery(images, getCollections))
+      http.createServer(app).listen(port)
+      initWebSocketConnection()
+      break
+    }
     case "generate:images": {
-      console.log("GENERATE SCRIPT");
-      console.log("===============");
-      generateImages(albums, imageSizes);
-      break;
+      console.log("GENERATE SCRIPT")
+      console.log("===============")
+      generateImages(albums, imageSizes)
+      break
     }
   }
 } else {
-  const kiro2 = await serve(albums);
-  app.use(vhost(newSite.host, kiro2));
-  app.use(vhost(oldSite.host, serveOld));
-  http.createServer(app).listen(port);
+  const kiro2 = await serve(albums)
+  app.use(vhost(newSite.host, kiro2))
+  app.use(vhost(oldSite.host, serveOld))
+  http.createServer(app).listen(port)
 }

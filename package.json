@@ -6,9 +6,12 @@
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -s -d dist --keep-file-extension",
+    "build": "babel src -s -d dist --keep-file-extension && npm run build:fe",
     "start": "npm run build && node dist/index.mjs",
     "dev": "nodemon --exec npm start",
+    "build:fe": "esbuild dist/admin/client/index.mjs --bundle --external:fs --external:crypto --outfile=public/bundle.js",
+    "dev:media": "nodemon --exec npm run media",
+    "media": "npm run build && node dist/index.mjs media",
     "generate:images": "npm run build && node dist/index.mjs generate:images"
   },
   "author": "Dane Brdarski",
@@ -20,8 +23,11 @@
     "photoswipe": "^5.3.8",
     "serve-static": "^1.15.0",
     "sharp": "^0.32.4",
+    "sortablejs": "^1.15.6",
     "url-router": "^13.0.0",
-    "vhost": "^3.0.2"
+    "vhost": "^3.0.2",
+    "ws": "^8.18.2",
+    "ws-wrapper": "^3.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
@@ -29,6 +35,7 @@
     "@babel/node": "^7.20.7",
     "@babel/plugin-transform-react-jsx": "^7.21.5",
     "@babel/preset-env": "^7.21.5",
-    "nodemon": "^2.0.22"
+    "esbuild": "0.25.5",
+    "nodemon": "^3.1.10"
   }
 }

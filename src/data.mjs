@@ -28,7 +28,7 @@ export const drawings = {
   info: {
     title: "Drawings",
     description:
-      "I like the drawing because it is a line, whether a continous or a dashed onem the same as life.",
+      "I like the drawing because it is a line, whether a continous or a dashed one, the same as life.",
   },
   path: "drawings",
   images: [
