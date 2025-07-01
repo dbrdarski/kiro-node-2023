@@ -45,11 +45,19 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
   console.log("DISPATCH: ", { element, matchedAttr, event })
 
   switch (matchedAttr) {
+    // case "create-collection": {
+    //   const data = new FormData(event.target)
+    //   const name = data.get("collection-name")
+    //   api.createCollection(name)
+    //   window.location.reload()
+    //   break
+    // }
     case "create-collection": {
       const data = new FormData(event.target)
       const name = data.get("collection-name")
       const title = data.get("collection-title")
       const description = data.get("collection-description")
+      console.log({ name, title, description })
       api.createCollection(name, { title, description })
       window.location.reload()
       break
@@ -66,13 +74,6 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
     }
     case"delete-collection": {
       api.deleteCollection(event.target.dataset.name)
-      window.location.reload()
-      break
-    }
-    case "create-collection": {
-      const data = new FormData(event.target)
-      const name = data.get("collection-name")
-      api.createCollection(name)
       window.location.reload()
       break
     }
@@ -112,7 +113,6 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
     }
     case "edit-collection-items": {
       const element = event.target
-      console.log({ element })
       element.parentElement.parentElement.parentElement.setAttribute("mode", "edit")
       break
     }

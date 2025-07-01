@@ -3,9 +3,10 @@ import Modal from "../components/Modal.mjs"
 import Input from "../components/Input.mjs"
 import Select from "../components/Select.mjs"
 import Image from "../icons/Image.mjs"
-import { getCollections } from "../../collections.mjs"
+import { getCollections, validateCollection } from "../../collections.mjs"
 import Delete from "../icons/Delete.mjs"
 // import ArrowDown from "../icons/ArrowDown.mjs"
+
 const renderCollections = (collections) => (
   <div style="">
     {/* <pre style="font-size: 12px">{ JSON.stringify(collections, null, 2) }</pre> */}
@@ -96,12 +97,44 @@ const CollectionModal = ({ props: { name, title, action, ...props }}) => (
   </Modal>
 )
 
+const MessageLog = ({ props: { items } }) => (
+  <div>
+    { items.map(item => (
+      <>
+        {item.message},&nbsp;
+        <div style="padding-left: 10px;">{Array.isArray(item.data) ? <MessageLog items={item.data} /> : JSON.stringify(item.data, null, 2)}</div>
+      </>
+    ))}
+  </div>
+)
+
 export default () => HtmlPage => (
   <HtmlPage title="Collections">
     <h3 style="margin-top: 0">Collections</h3>
 
     { renderCollections(getCollections()) }
     <div><Btn on="@click:open-modal-create-collection">Create new collection</Btn></div>
+
+
+    { getCollections().map(c => (
+      <>
+      <h4 style="font-size: 14px; font-weight: bold;">Error Messages in {c.name}:</h4>
+      <pre style="font-size: 12px; padding: 10px; border: 1px solid #eab; border-radius: 4px; background: #f6d0d6;">
+        {/* {JSON.stringify(validateCollection(c).ERR, null, 2)} */}
+        <MessageLog items={validateCollection(c).ERR} />
+      </pre>
+      </>
+    ))}
+
+    { getCollections().map(c => (
+      <>
+      <h4 style="font-size: 14px; font-weight: bold;">Warning Messages in {c.name}:</h4>
+      <pre style="font-size: 12px; padding: 10px; border: 1px solid #ec3; border-radius: 4px; background: #f6e0b6;">
+        <MessageLog items={validateCollection(c).WARN} />
+      </pre>
+      </>
+    ))}
+
     <CollectionModal
       name="create-collection"
       title="Create collection"

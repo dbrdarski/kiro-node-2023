@@ -7,8 +7,11 @@ import path, { dirname } from "path"
 import { api } from "./admin/api/index.mjs"
 import MediaLibrary from "./admin/pages/MediaLibrary.mjs"
 import Collections from "./admin/pages/Collections.mjs"
+import { setMediaData } from "./media.mjs"
 
 console.log({ api })
+
+// API HERE is NEEDED TO RUN / INIT APIS
 
 const app = connect()
 
@@ -31,6 +34,8 @@ export default async (images, getCollections) => {
     acc[dir].push(img)
     return acc
   }, {})
+
+  // setMediaData(images)
 
   const router = new Router({
     "/": renderPage(MediaLibrary(groupedImages)),

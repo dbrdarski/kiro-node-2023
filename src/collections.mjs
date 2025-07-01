@@ -1,5 +1,6 @@
 import { once } from "./framework/utils.mjs"
-
+import { ERR, WARN, validate, Collection, addValidator } from "./framework/validators.mjs"
+import { getMediaData } from "./media.mjs"
 // const collectionTypes = {
 //   images: {},
 //   videos: {},
@@ -28,6 +29,7 @@ export const getCollections = () => [...list]
 export const getCollection = (name) => keys[name]
 
 export const createCollection = (name, metadata = {}, items = []) => {
+  console.log("!!!!!!!!", { name, metadata, items })
   if (name in keys) {
     throw Error(`Collection '${name}' already exists!`)
   }
@@ -67,12 +69,10 @@ export const deleteCollection = (name) => {
 }
 
 export const updateCollectionMetadata = (name, metadata) => {
-  console.log({ name, metadata })
   if (!(name in keys)) {
     throw Error(`Invalid collection ${name}`)
   }
   const collection = keys[name]
-  console.log({ collection })
   collection.metadata = metadata
   saveCollection(list)
 }
@@ -87,6 +87,7 @@ export const updateCollectionItems = (name, items) => {
 }
 
 export const addCollectionItems = (name, items) => {
+  console.log("addCollectionItems", { name, items })
   if (!(name in keys)) {
     throw Error(`Invalid collection ${name}`)
   }
@@ -104,3 +105,34 @@ export const removeCollectionItems = (name, items) => {
   collection.items = collection.items.filter(item => deleted.has(item))
   saveCollection(list)
 }
+
+class ImageLink {
+  hash = String
+  path = String
+}
+
+class AlbumMeta {
+  title = String
+  description = String
+}
+
+class Album {
+  name = String
+  metadata = AlbumMeta
+  items = Collection(ImageLink)
+}
+
+addValidator(ImageLink, (logger, img) => {
+
+  const media = getMediaData()
+  console.log({ media })
+  const hashMatch = img.hash in media.hashes
+  const pathMatch = img.path in media.paths
+  if (hashMatch === pathMatch) {
+    return hashMatch || logger(ERR, "Missing file", img, 1)
+  }
+  return logger(WARN, "File updated", img, 1)
+})
+
+
+export const validateCollection = validate(Album)

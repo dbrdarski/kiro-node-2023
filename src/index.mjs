@@ -36,6 +36,7 @@ import {
 } from "./data.mjs"
 
 import { getCollections } from "./collections.mjs"
+import { setMediaData } from "./media.mjs"
 
 const updateImages = (oldState, currentState, actions) => {
   const snapshot = createImageMap(oldState)
@@ -53,6 +54,8 @@ const updateImages = (oldState, currentState, actions) => {
   for (const image of oldState) {
     image.hash in updated.hashes || image.path in updated.paths || actions.remove(image.generated)
   }
+
+  setMediaData(updated)
   return currentState
 }
 

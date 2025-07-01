@@ -17,12 +17,6 @@ export const initWebSocketConnection = () => {
     ws = new WebSocketWrapper(ws)
     ws.on("error", console.error)
 
-    // ws.on("msg", data => {
-    //   const [a, b, c] = data
-    //   console.log(id, { a, b, c })
-    //   return data
-    // })
-
     ws.on("api", data => {
       const [index, args] = data
       console.log({ index, args })
