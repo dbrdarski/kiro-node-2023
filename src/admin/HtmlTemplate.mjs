@@ -1,4 +1,5 @@
 import { getCollections, validateCollection } from "../collections.mjs"
+import { renderErrorLogCounts } from "./renderers.mjs"
 
 const menuItems = [{
   url: "/pages",
@@ -9,14 +10,7 @@ const menuItems = [{
 }, {
   url: "/collections",
   text: "Collections",
-  extra: log => (
-    <>
-      { log.ERR && <span style="display: inline-flex;height: 22px;width: 22px;justify-content: center;background: #f30;border-radius: 100px;padding: 4px;align-items: center;font-size: 12px;font-weight: bold;margin: -18px 4px;">
-        { String(log.ERR) }
-      </span> }
-      { log.WARN && <span style="display: inline-flex;height: 22px;width: 22px;justify-content: center;background: #eb0;border-radius: 100px;padding: 4px;align-items: center;font-size: 12px;font-weight: bold;margin: -18px 4px;">{ String(log.WARN) }</span> }
-    </>
-  )
+  extra: log => renderErrorLogCounts(log.ERR, log.WARN)
 }, {
   url: "/",
   text: "Media Library",
@@ -28,7 +22,7 @@ const htmlPage = ({
 }) => {
   const collections = getCollections()
   const errorLog = collections
-    .map(x => validateCollection(x).count)
+    .map(x => validateCollection(x).log.count)
     .reduce(
       (acc, log) => {
         acc.ERR += log.ERR

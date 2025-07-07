@@ -29,7 +29,6 @@ export const getCollections = () => [...list]
 export const getCollection = (name) => keys[name]
 
 export const createCollection = (name, metadata = {}, items = []) => {
-  console.log("!!!!!!!!", { name, metadata, items })
   if (name in keys) {
     throw Error(`Collection '${name}' already exists!`)
   }
@@ -107,6 +106,7 @@ export const removeCollectionItems = (name, items) => {
 }
 
 class ImageLink {
+  static primaryKey = "hash"
   hash = String
   path = String
 }
@@ -117,22 +117,29 @@ class AlbumMeta {
 }
 
 class Album {
+  static primaryKey = "name"
   name = String
   metadata = AlbumMeta
   items = Collection(ImageLink)
 }
 
-addValidator(ImageLink, (logger, img) => {
+class AlbumCollection {
+  static primaryKey = "type"
+  type = String
+  albums = Collection(Album)
+}
 
+addValidator(ImageLink, (logger, data) => {
   const media = getMediaData()
-  console.log({ media })
-  const hashMatch = img.hash in media.hashes
-  const pathMatch = img.path in media.paths
+  const hashMatch = data.hash in media.hashes
+  const pathMatch = data.path in media.paths
+  const primaryKey = data.hash
   if (hashMatch === pathMatch) {
-    return hashMatch || logger(ERR, "Missing file", img, 1)
+    return hashMatch || logger(ERR, "Missing file", { primaryKey, data }, 1)
   }
-  return logger(WARN, "File updated", img, 1)
+  return logger(WARN, "File updated", { primaryKey, data: { target: data, current: media.hashes[data.hash] ?? media.paths[data.path],  } }, 1)
 })
 
 
 export const validateCollection = validate(Album)
+export const validateAlbums = (albums) => validate(AlbumCollection)({ type: "album", albums })

@@ -9,12 +9,17 @@ export const addValidator = (validatorClass, validatorFn = validatorClass) => {
   return validatorFn
 }
 
-const withGlobalValidator = validator => validators.get(validator) ?? validator
+const withGlobalValidator = validatorFn => validators.get(validatorFn) ?? (isClass(validatorFn)
+  ? validator(validatorFn) : validatorFn)
 
 export const countIssues = (acc, log) => acc + (log.count ?? 0)
 
 const createLogger = () => {
   let count
+  const grouped = {
+    [ERR]: {},
+    [WARN]: {},
+  }
   const log = {
     [ERR]: [],
     [WARN]: [],
@@ -30,54 +35,59 @@ const createLogger = () => {
   }
   Object.seal(log)
 
-  return [log, (code, message, data, count) => {
-    log[code].push({ code, message, data, count }) }
-  ]
+  return {
+    log,
+    grouped,
+    logger: (code, message, { primaryKey, key, data, children, nodes }, count) => {
+      const type = grouped[code]
+      const item = { key, primaryKey, code, message, nodes, children, ...!children && { data }, count }
+      type[primaryKey ?? key] = item
+      log[code].push(item)
+    }
+  }
 }
 
 export const Optional = Validator => (logger, x) => x == null || Validator(logger, x)
 export const Collection = Validator => (logger, xs) => {
-  const [log, childLogger] = createLogger()
+  // const { log, logger: childLogger, grouped } = createLogger()
   const validator = withGlobalValidator(Validator)
-  xs.forEach(validator.bind(null, childLogger))
-  log[ERR].length && logger(ERR, "Errors in collection", log[ERR], log.count[ERR])
-  log[WARN].length && logger(WARN, "Warnings in collection", log[WARN], log.count[WARN])
+  xs.forEach(validator.bind(null, logger))
+  // log[ERR].length && logger(ERR, "Errors in collection", { data: null, children: log[ERR], nodes: grouped[ERR] }, log.count[ERR])
+  // log[WARN].length && logger(WARN, "Warnings in collection", { data: null, children: log[WARN], nodes: grouped[WARN] }, log.count[WARN])
 }
 
-addValidator(String, (logger, x) => typeof x === "string" || logger(ERR, "Expecting a string", x, 1))
-addValidator(Boolean, (logger, x) => typeof x === "boolean" || logger(ERR, "Expecting a boolean", x, 1))
-addValidator(Number, (logger, x) => typeof x === "number" || logger(ERR, "Expecting a number", x, 1))
-// addValidator(BigInt, (logger, x) => typeof x === "bigint" || logger(ERR, "Expecting a bigint", x, 1))
-// addValidator(Symbol, (logger, x) => typeof x === "symbol" || logger(ERR, "Expecting a symbol", x, 1))
-addValidator(Object, (logger, x) => x && typeof x === "object" || logger(ERR, "Expecting an object", x, 1))
-addValidator(Array, (logger, x) => Array.isArray(x) || logger(ERR, "Expecting an array", x, 1))
+addValidator(String, (logger, x) => typeof x === "string" || logger(ERR, "Expecting a string", { data: x }, 1))
+addValidator(Boolean, (logger, x) => typeof x === "boolean" || logger(ERR, "Expecting a boolean", { data: x },  1))
+addValidator(Number, (logger, x) => typeof x === "number" || logger(ERR, "Expecting a number", { data: x },  1))
+// addValidator(BigInt, (logger, x) => typeof x === "bigint" || logger(ERR, "Expecting a bigint", { data: x },  1))
+// addValidator(Symbol, (logger, x) => typeof x === "symbol" || logger(ERR, "Expecting a symbol", { data: x },  1))
+addValidator(Object, (logger, x) => x && typeof x === "object" || logger(ERR, "Expecting an object", { data: x },  1))
+addValidator(Array, (logger, x) => Array.isArray(x) || logger(ERR, "Expecting an array", { data: x },  1))
 
 const validator = Schema => {
   const schema = new Schema
   const schemaKeys = Object.keys(schema)
   return (logger, data) => {
     const keys = Object.keys(data)
+    const primaryKey = data[Schema.primaryKey]
     for (const key of keys) {
-      key in schema || logger(WARN, `Unknown key: ${key}`, data)
+      key in schema || logger(WARN, `Unknown key: ${key}`, { data }, 1)
     }
-      for (const key of schemaKeys) {
-      const [log, childLogger] = createLogger()
+    for (const key of schemaKeys) {
+      const { log, logger: childLogger, grouped } = createLogger()
       const propValidator = withGlobalValidator(schema[key])
       const prop = data[key]
-        console.log("VALIDATOR", { key, prop, propValidator, $: schema[key], type: typeof propValidator })
-      isClass(propValidator)
-        ? validator(propValidator)(childLogger, prop)
-        : propValidator(childLogger, prop)
-        log[ERR].length && logger(ERR, `Errors in schema property: ${key}`, log[ERR], log.count[ERR])
-        log[WARN].length && logger(WARN, `Warnings in schema property: ${key}`, log[WARN], log.count[WARN])
+      propValidator(childLogger, prop)
+      log[ERR].length && logger(ERR, `Errors in schema property: ${key}`, { primaryKey, key, data, children: log[ERR], nodes: grouped[ERR] }, log.count[ERR])
+      log[WARN].length && logger(WARN, `Warnings in schema property: ${key}`, { primaryKey, key, data, children: log[WARN], nodes: grouped[WARN] }, log.count[WARN])
     }
   }
 }
 
-export const validate = schema => data => {
-  const [log, logger] = createLogger()
-  validator(schema)(logger, data)
-  return log
+export const validate = Schema => data => {
+  const { log, logger, grouped } = createLogger()
+  validator(Schema)(logger, data)
+  return { log, grouped }
 }
 
 // class Entity {

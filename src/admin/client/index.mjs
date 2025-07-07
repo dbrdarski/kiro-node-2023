@@ -165,6 +165,13 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
       container.remove()
       break
     }
+    case "fix-image-data": {
+      const target = event.currentTarget
+      const container = target.parentElement
+      Object.assign(container.dataset, target.dataset)
+      container.removeAttribute("data-status")
+      break
+    }
     // case "open-modal:createCollection": {
     // }
     default: {
