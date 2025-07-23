@@ -18,6 +18,7 @@ setActionsHandler(
 )
 
 // api.generateImages()
+console.log({ api })
 api.echo(33)
 const actionRegex = /(@(?<event>[^:]+)[:])?(?:\s)?(?<action>[^:]+)$/
 

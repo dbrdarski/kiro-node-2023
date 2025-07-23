@@ -1,4 +1,4 @@
-import { getCollections } from "../../collections.mjs"
+import { albums } from "../albums.mjs"
 import Btn from "../components/Btn.mjs"
 import Folder from "../icons/Folder.mjs"
 
@@ -42,7 +42,7 @@ export default images => HtmlPage => (
               on="@change:select-images"
             >
               <option disabled selected>Add to collection</option>
-              {getCollections().map(collection => (
+              {albums.all().map(collection => (
                 <option value={collection.name}>{ collection.name }</option>
               ))}
             </select>

@@ -10,3 +10,15 @@ export const once = fn => {
     return cache
   }
 }
+
+export const idGenerator = () => {
+    const existingIds = new Set
+    return () => {
+        const id = Math.random().toString(36).substring(2, 15)
+        if (existingIds.has(id)) {
+            return idGenerator()
+        }
+        existingIds.add(id)
+        return id
+    }
+}

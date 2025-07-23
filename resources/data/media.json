@@ -1,17 +1,5 @@
 [
   {
-    "hash": "7ZJ73LEmUzRSxMY4PTEiBZwpT-nxI7YZPvTL2Jdpz-kDfdkAwBs8Tp_ORAQOtuaTdgBIRRKV_qiLVUmEwuk-B4",
-    "path": "resources/media/images/x/Marin-Dimevski2.jpg",
-    "generated": [
-      "resources/media/generated/x/sm/Marin-Dimevski2.jpg",
-      "resources/media/generated/x/md/Marin-Dimevski2.jpg",
-      "resources/media/generated/x/lg/Marin-Dimevski2.jpg",
-      "resources/media/generated/x/xl/Marin-Dimevski2.jpg",
-      "resources/media/generated/x/thumb-xs/Marin-Dimevski2.jpg",
-      "resources/media/generated/x/thumb/Marin-Dimevski2.jpg"
-    ]
-  },
-  {
     "hash": "0eCU95GEdDiYMvyXN0qts4rqfNQ5uREIiXEFRgoemdc-sCTJV--AVWjD_N8RujWQ6fy1JvzY7Omptq5gG4aB3w",
     "path": "resources/media/images/x/Luciano_Pavarotti_-_Mr.Pieter_van_Vollenhoven_-_Kiro_Urdin_-_Andrea_Griminelli.jpg",
     "generated": [
@@ -48,15 +36,27 @@
     ]
   },
   {
-    "hash": "n6nHXsEiVUMn7weXGzt9LTykNRRkZj8gl1f8PsC73TIZc1J8hjiToYBg2B_AvxzKuKtB9TI2MUBBsU8EhByXbI",
-    "path": "resources/media/images/people/Mick_Fleetwood.jpg",
+    "hash": "nV3i9XWLSMRh7tIc6ID0WXpic6D7iUtrIJr9d-LS4PYKwvUlikqDbM45SR0kNhft5trbLpwYsMb18DnwIQJX8w",
+    "path": "resources/media/images/people/Venko_Serafimov.jpg",
     "generated": [
-      "resources/media/generated/people/sm/Mick_Fleetwood.jpg",
-      "resources/media/generated/people/md/Mick_Fleetwood.jpg",
-      "resources/media/generated/people/lg/Mick_Fleetwood.jpg",
-      "resources/media/generated/people/xl/Mick_Fleetwood.jpg",
-      "resources/media/generated/people/thumb-xs/Mick_Fleetwood.jpg",
-      "resources/media/generated/people/thumb/Mick_Fleetwood.jpg"
+      "resources/media/generated/people/sm/Venko_Serafimov.jpg",
+      "resources/media/generated/people/md/Venko_Serafimov.jpg",
+      "resources/media/generated/people/lg/Venko_Serafimov.jpg",
+      "resources/media/generated/people/xl/Venko_Serafimov.jpg",
+      "resources/media/generated/people/thumb-xs/Venko_Serafimov.jpg",
+      "resources/media/generated/people/thumb/Venko_Serafimov.jpg"
+    ]
+  },
+  {
+    "hash": "7ZJ73LEmUzRSxMY4PTEiBZwpT-nxI7YZPvTL2Jdpz-kDfdkAwBs8Tp_ORAQOtuaTdgBIRRKV_qiLVUmEwuk-B4",
+    "path": "resources/media/images/people/Marin-Dimevski2.jpg",
+    "generated": [
+      "resources/media/generated/people/sm/Marin-Dimevski2.jpg",
+      "resources/media/generated/people/md/Marin-Dimevski2.jpg",
+      "resources/media/generated/people/lg/Marin-Dimevski2.jpg",
+      "resources/media/generated/people/xl/Marin-Dimevski2.jpg",
+      "resources/media/generated/people/thumb-xs/Marin-Dimevski2.jpg",
+      "resources/media/generated/people/thumb/Marin-Dimevski2.jpg"
     ]
   },
   {
@@ -205,14 +205,14 @@
   },
   {
     "hash": "2NBJQ1Cb_3ITlbvtQ9DlFxNE2unsP6C-a_xHogN83XcX0CBxvihYvEPB7prW_qkRorQW1JCZxDKv05HjfSwntM",
-    "path": "resources/media/images/people/Donna-Urdin2.jpg",
+    "path": "resources/media/images/people/Donna-Urdin3.jpg",
     "generated": [
-      "resources/media/generated/people/sm/Donna-Urdin2.jpg",
-      "resources/media/generated/people/md/Donna-Urdin2.jpg",
-      "resources/media/generated/people/lg/Donna-Urdin2.jpg",
-      "resources/media/generated/people/xl/Donna-Urdin2.jpg",
-      "resources/media/generated/people/thumb-xs/Donna-Urdin2.jpg",
-      "resources/media/generated/people/thumb/Donna-Urdin2.jpg"
+      "resources/media/generated/people/sm/Donna-Urdin3.jpg",
+      "resources/media/generated/people/md/Donna-Urdin3.jpg",
+      "resources/media/generated/people/lg/Donna-Urdin3.jpg",
+      "resources/media/generated/people/xl/Donna-Urdin3.jpg",
+      "resources/media/generated/people/thumb-xs/Donna-Urdin3.jpg",
+      "resources/media/generated/people/thumb/Donna-Urdin3.jpg"
     ]
   },
   {
@@ -249,6 +249,426 @@
       "resources/media/generated/people/xl/Baroness_Daniele-Baccardi_and-Donna_Urdin.jpg",
       "resources/media/generated/people/thumb-xs/Baroness_Daniele-Baccardi_and-Donna_Urdin.jpg",
       "resources/media/generated/people/thumb/Baroness_Daniele-Baccardi_and-Donna_Urdin.jpg"
+    ]
+  },
+  {
+    "hash": "i6YyunmSzND5YIHi1Y5-Mv1u7M2DhF6jcCXmr2YQ9uUviDN-UARJqoZOe3oGPfGe9jrw2FXAMT5h3m6d9oOn8s",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Plantarium-Luvr.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Plantarium-Luvr.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Plantarium-Luvr.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Plantarium-Luvr.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Plantarium-Luvr.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Plantarium-Luvr.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Plantarium-Luvr.jpg"
+    ]
+  },
+  {
+    "hash": "4PzTjbBDqNrbjfCYb_iyBqRXEkuFLVZWb4vMkcSiWrktSbkbE_qU73EZ3xoVQkDdfBGrt6iYuV1EakYs8Vvsvo",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium_Poster-V2.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium_Poster-V2.jpg"
+    ]
+  },
+  {
+    "hash": "OeV9I7S67o5NaKXT_bqF_8K4Nom7AoL-Oee37bqJFEE5vUme45f_usEawPnEmtWEOOjP_zll4HHsY5ShxqsLhQ",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium_Poster-V.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium_Poster-V.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium_Poster-V.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium_Poster-V.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium_Poster-V.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium_Poster-V.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium_Poster-V.jpg"
+    ]
+  },
+  {
+    "hash": "T9AhTw4tJm-OgLURBdw65DYiJykDPmO4tIAtQM9i76wffY4wOTxTXgJpE9SEwYVnyDfkSE5Di3n1uyuTTGxXcc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium_15.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium_15.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium_15.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium_15.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium_15.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium_15.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium_15.jpg"
+    ]
+  },
+  {
+    "hash": "Kas3qYESLJnVOvzT50rojkBq5gjOf4YjJxcGLRl_XOM_3cvCix2c6xb4ngi09ZtbIVDE-jP_KyyIXaOmGpFLWg",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium_06.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium_06.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium_06.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium_06.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium_06.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium_06.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium_06.jpg"
+    ]
+  },
+  {
+    "hash": "AzwSgGA6BeEz2FAYwkuHdCcmF5bb5cZfnbFIN-sReJ0C9c1CQ8kuHlofoozmP957tT5QyAZUD-n_MkUQCEM2G0",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Thailand.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Thailand.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Thailand.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Thailand.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Thailand.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Thailand.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Thailand.jpg"
+    ]
+  },
+  {
+    "hash": "qct6X_1AAFluZKg2jDraVpqzPvLt4-tEpGhFq46DTb8NqDaRGGnIBAybhP9Ut_QePhDHMjwXcopI8qKmGXLxhQ",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Stonehendge.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Stonehendge.jpg"
+    ]
+  },
+  {
+    "hash": "zkE_m00bfPJxpFXtzVVEx1ynR356dFriXq126f61uuI5i5y9f7HdtM21bxihmHkhOdkAQNmMtuCppQlbMAPVo8",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Nile-Egypt.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Nile-Egypt.jpg"
+    ]
+  },
+  {
+    "hash": "VzEcXUTQXnFIfcax2VLWbJaAa-H_ebt2jEMEnYHgBFoTw8vT8HuDHtl37mnoPkejsFNWwG5axLYNaiUd-KeLx8",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Nice2.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Nice2.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Nice2.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Nice2.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Nice2.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Nice2.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Nice2.jpg"
+    ]
+  },
+  {
+    "hash": "hSMut5KBq42UntxN9Y0Aw_z48GyadocCKsePgdjyEPkrv3kwQK4AjW2Xro_kHdg7EMMfGlZcnMQ87hq7A5VWI0",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-New_York.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-New_York.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-New_York.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-New_York.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-New_York.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-New_York.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-New_York.jpg"
+    ]
+  },
+  {
+    "hash": "gmb7s6A61eISOHTPSV5D3P9_PyEsZM5INmcvByXdQp8rV3_OKu9sQvIXm6GmA0bqyRalvq1VHkI6T3qMsK-w7o",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Nerezi-Macedonia2.jpg"
+    ]
+  },
+  {
+    "hash": "ClMeUEzS5lfoSo2Pj9hZoRiNabns-KC1uvUSmwf7bqMv11TLIqkPLTH_1TpCGvhmfGSZXOF-tlbMUbOZw0PjSg",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Nerezi-Macedonia1.jpg"
+    ]
+  },
+  {
+    "hash": "uBsg3pQ2Vo6gcvzBsgZeNorQnkfORJs_wTA3BZSL1usit6ku19PNVR0ceywlk-yTWJ7UgAuH-AlcMl9PVMOOnc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Mont_Saint-Michel3.jpg"
+    ]
+  },
+  {
+    "hash": "JwDggvmB0hGrpEL4SxvtPBkuuMsNiXwRXD0zblNodiwX31gPUxrIg5xFC5gEiG7KDAqU6wMMPpisB0zk8Ku90c",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Mont_Saint-Michel2.jpg"
+    ]
+  },
+  {
+    "hash": "D92SgyASmbBi6SmYtWLRuUusVHNgLO2jN6GuV9j_BkMQt0X2CdkpTOWAlRMu6LmrVuOTbTtRSLCbjDEXkPNqT8",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Mont_Saint-Michel1.jpg"
+    ]
+  },
+  {
+    "hash": "LZteTGjpHIW6340IC06SoxQPs1rhcIh_6dxI4l6sFhwCQwh_s0Eq6PeyuP2--N6XpP2mhEjSrB1XehKVBkIpxc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Maccu-Picchu.jpg"
+    ]
+  },
+  {
+    "hash": "tOe6g6lFgLTa5b6lvaQzP8u9CaXsZ_1I4Na4inYdFzQOC-mCiDpYOX7IbM4T3m2Yv4RBbEaZgwu-9aaXw9jtqE",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-London.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-London.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-London.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-London.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-London.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-London.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-London.jpg"
+    ]
+  },
+  {
+    "hash": "MjonQVvY-kUl9enk6OGzfynt9wWmG30hng6Lsv7sIfwENJIigyWl4b1MTi-d5ilV5YoGMWT1dqyqkg6shAARTc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Keopsis_Pyramid-Egypt.jpg"
+    ]
+  },
+  {
+    "hash": "OQEGEmXLK1WDoRjGEIPlNCQ4Modp-nAm_XZ2zBIJ-1waDMqoe-dkbc0j-ERMLHe6iLfSF-ufKXBDCn7Uj-_Tog",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Kenya.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Kenya.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Kenya.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Kenya.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Kenya.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Kenya.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Kenya.jpg"
+    ]
+  },
+  {
+    "hash": "Co9tXG8PoWNQWNvo8mjx1WuEy0rlj68tx0Q3Ao5QKdwZIqgCN1dEjjjJn8Ox3V_Td02hYzNYj6u4rVdQOm3cj8",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem6.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem6.jpg"
+    ]
+  },
+  {
+    "hash": "WGnMHeQs8vExJtB20QRymiwXDdMKa9rXRSSncQ11qfgBHc0bPJVRuP0Pn0HGIo5Tb6dQii2DElCRmGbdFbz-Z4",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem5.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem5.jpg"
+    ]
+  },
+  {
+    "hash": "T-IlAwVSgy_GbgrMszYErkzHEwZRichLvvmpkBXAChoKUJBjoqr_cgDmBLAo2jUvQD5J5PuoPfGucam8ZuT3Fo",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem4.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem4.jpg"
+    ]
+  },
+  {
+    "hash": "qa_vGoI77pvXL6d8Vppju03jtHtcExaBxbv-JeEbnhwC5MqZKIXYyblRtEJ-z600RWMKfzcIG3LqORXMO4Qkpc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem3.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem3.jpg"
+    ]
+  },
+  {
+    "hash": "98e4nHO0zwIfDA0SYaA5nfj6oayNvWc7kPaXlZ5Zjg0awSZJVBdg5HFORfBglRBukWZ8VaP1dHgzMDzwl0dwxI",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem2.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem2.jpg"
+    ]
+  },
+  {
+    "hash": "9-5nR1g_lR3cW51IOU6JOmDqKuMfYjTCvg5Vc-wnKS0q0hcpvH_qfHh85D532eqlmGd6T5ZEdIEf5jqI43sGTU",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Jerusalem1.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Jerusalem1.jpg"
+    ]
+  },
+  {
+    "hash": "WH78893YoQh05Q09nTr7D1BLryEfzSdizT6lj_QPNqYgIwxi92GpQRaj_UWlhJSHdBSRLK8_M3dDj-1kicIvbA",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-China_wall.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-China_wall.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-China_wall.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-China_wall.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-China_wall.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-China_wall.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-China_wall.jpg"
+    ]
+  },
+  {
+    "hash": "GKwjhQLLyZW7Q2qCq0T3cOUbtqJD5Rh4ig2ySe2EywcJh0uZaj5ILRiKYgchwRqK9J-LcaxW4kFwlkuKW-DO6c",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Big_poster.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Big_poster.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Big_poster.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Big_poster.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Big_poster.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Big_poster.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Big_poster.jpg"
+    ]
+  },
+  {
+    "hash": "F_HRNGu2GdIzpKrBxz091jpcSAtDk44w1-utD6yJVuonYtgXPdYjU7So_4yOeUZrjktWz9zdmlbW82OROoBYNc",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Berlin.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Berlin.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Berlin.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Berlin.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Berlin.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Berlin.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Berlin.jpg"
+    ]
+  },
+  {
+    "hash": "35qywB_whd0Qc5IwkCjT0XA9W1AeE4bbEyhHidtGWX4SkQPQ6rAajtnfZdce-Lh0ducHtFI_BjBPHTtbLsiREk",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetarium-Atomium-Bruseels.jpg"
+    ]
+  },
+  {
+    "hash": "QWY5D2DTgBPIFqTi5f_-BUkkyzY6aFhVFIvwubjxHPQVHEc0F9NtkJtn8EJhx-wkPEX_J4NWxWJe1uVoVMfkW8",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Planetaium-Japan.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Planetaium-Japan.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Planetaium-Japan.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Planetaium-Japan.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Planetaium-Japan.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Planetaium-Japan.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Planetaium-Japan.jpg"
+    ]
+  },
+  {
+    "hash": "dNJCk5nL7SoDm8HeWGMcOicH8iZZ-88dVH6G2Nh0J60ukcztWnubJhyGSrhdcFAGjLjnLYZtvHajSTga9qUZNs",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Piza.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Piza.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Piza.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Piza.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Piza.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Piza.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Piza.jpg"
+    ]
+  },
+  {
+    "hash": "yKEAtI2HqtwNkKCJ1XkBPQUiv4mv-XLdZxUQN3bipFwEu-vbwtp8Y_dc8y4RQAZkgA-eFuWCnSpVQG3u73gzBY",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Paris-France.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Paris-France.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Paris-France.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Paris-France.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Paris-France.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Paris-France.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Paris-France.jpg"
+    ]
+  },
+  {
+    "hash": "Bv78bxB9p4yCibzGNkX1ZJFsVajTUEAotbV2jT79MQMP6iqBwnERxmKATq0kaVKFbmEftMXUppL3g3DM3hQ11w",
+    "path": "resources/media/images/planetarium/Kiro_Urdin-Ohrid-Macedonia.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro_Urdin-Ohrid-Macedonia.jpg",
+      "resources/media/generated/planetarium/md/Kiro_Urdin-Ohrid-Macedonia.jpg",
+      "resources/media/generated/planetarium/lg/Kiro_Urdin-Ohrid-Macedonia.jpg",
+      "resources/media/generated/planetarium/xl/Kiro_Urdin-Ohrid-Macedonia.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro_Urdin-Ohrid-Macedonia.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro_Urdin-Ohrid-Macedonia.jpg"
+    ]
+  },
+  {
+    "hash": "ePG0B2YFhpxxS0Q80BTyHZlAV3gb9_kYVIqcd9VrUL8ZF_sGyKn6AkKOZn-PxXUBLZMttU4ROrZisG7cJwWtVA",
+    "path": "resources/media/images/planetarium/Kiro-Urdin-Planetarium-Pompei.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro-Urdin-Planetarium-Pompei.jpg",
+      "resources/media/generated/planetarium/md/Kiro-Urdin-Planetarium-Pompei.jpg",
+      "resources/media/generated/planetarium/lg/Kiro-Urdin-Planetarium-Pompei.jpg",
+      "resources/media/generated/planetarium/xl/Kiro-Urdin-Planetarium-Pompei.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro-Urdin-Planetarium-Pompei.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro-Urdin-Planetarium-Pompei.jpg"
+    ]
+  },
+  {
+    "hash": "Iu7MSL1JLHgA1FMOmp68og9BMyKa1SpBs4p1qKro5dgnMnfqTXYyI7IVVnDtKBk4NWjAwdncVy1qmJeRmCps0w",
+    "path": "resources/media/images/planetarium/Kiro-Urdin-Berlin-Wall.jpg",
+    "generated": [
+      "resources/media/generated/planetarium/sm/Kiro-Urdin-Berlin-Wall.jpg",
+      "resources/media/generated/planetarium/md/Kiro-Urdin-Berlin-Wall.jpg",
+      "resources/media/generated/planetarium/lg/Kiro-Urdin-Berlin-Wall.jpg",
+      "resources/media/generated/planetarium/xl/Kiro-Urdin-Berlin-Wall.jpg",
+      "resources/media/generated/planetarium/thumb-xs/Kiro-Urdin-Berlin-Wall.jpg",
+      "resources/media/generated/planetarium/thumb/Kiro-Urdin-Berlin-Wall.jpg"
     ]
   }
 ]

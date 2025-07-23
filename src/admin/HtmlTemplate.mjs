@@ -1,12 +1,13 @@
-import { getCollections, validateCollection } from "../collections.mjs"
+import { albums, validateAlbum } from "./albums.mjs"
+import { casinos } from "./entities.mjs"
 import { renderErrorLogCounts } from "./renderers.mjs"
 
 const menuItems = [{
   url: "/pages",
   text: "Pages"
 }, {
-  url: "/entries",
-  text: "Entries"
+  url: "/entities",
+  text: "Entities"
 }, {
   url: "/collections",
   text: "Collections",
@@ -20,9 +21,9 @@ const htmlPage = ({
   children,
   props: { background = "#fff", title = "", header, scripts },
 }) => {
-  const collections = getCollections()
+  const collections = albums.all()
   const errorLog = collections
-    .map(x => validateCollection(x).log.count)
+    .map(x => validateAlbum(x).log.count)
     .reduce(
       (acc, log) => {
         acc.ERR += log.ERR

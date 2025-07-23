@@ -1,13 +1,14 @@
 import { action } from "../api-create.mjs"
-import * as collections from "../../collections.mjs"
+import { albums } from "../albums.mjs"
+// import * as collections from "../../collections.mjs"
 
-export const getCollection = action(collections.getCollection)
-export const getCollections = action(collections.getCollections)
-export const createCollection = action(collections.createCollection)
-export const renameCollection = action(collections.renameCollection)
-export const deleteCollection = action(collections.deleteCollection)
-export const addCollectionItems = action(collections.addCollectionItems)
-export const removeCollectionItems = action(collections.removeCollectionItems)
-export const updateCollectionItems = action(collections.updateCollectionItems)
-export const updateCollectionMetadata = action(collections.updateCollectionMetadata)
-export const initCollections = action(collections.initCollections)
+export const getCollection = action(albums.get)
+export const getCollections = action(albums.all)
+export const createCollection = action(albums.create)
+export const renameCollection = action(albums.rename)
+export const deleteCollection = action(albums.delete)
+export const addCollectionItems = action(albums.addItems)
+export const removeCollectionItems = action(albums.removeItems)
+export const updateCollectionItems = action(albums.updateItems)
+export const updateCollectionMetadata = action(albums.updateMetadata)
+export const initCollections = action(albums.init)

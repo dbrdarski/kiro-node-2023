@@ -1,18 +1,6 @@
 import fs from "fs"
 import crypto from "crypto"
 
-const idGenerator = () => {
-    const existingIds = new Set
-    return () => {
-        const id = Math.random().toString(36).substring(2, 15)
-        if (existingIds.has(id)) {
-            return idGenerator()
-        }
-        existingIds.add(id)
-        return id
-    }
-}
-
 export const doubleHashFile = (filePath, alg1 = 'sha256', alg2 = 'blake2s256', encoding = 'base64url') =>
   new Promise((resolve, reject) => {
     const hash1 = crypto.createHash(alg1)

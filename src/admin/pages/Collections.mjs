@@ -3,7 +3,7 @@ import Modal from "../components/Modal.mjs"
 import Input from "../components/Input.mjs"
 import Select from "../components/Select.mjs"
 import Image from "../icons/Image.mjs"
-import { getCollections, validateAlbums, validateCollection } from "../../collections.mjs"
+import { albums, validateAlbums } from "../albums.mjs"
 import Delete from "../icons/Delete.mjs"
 // import ArrowDown from "../icons/ArrowDown.mjs"
 import { renderErrorLogCounts } from "../renderers.mjs"
@@ -146,7 +146,7 @@ const MessageLog = ({ props: { items } }) => (
 )
 
 export default () => HtmlPage => {
-  const logs = validateAlbums(getCollections())
+  const logs = validateAlbums(albums.all())
   const errors = logs.grouped.ERR?.album ?? {}
   const warnings = logs.grouped.WARN?.album ?? {}
 
@@ -154,21 +154,21 @@ export default () => HtmlPage => {
     <HtmlPage title="Collections">
       <h3 style="margin-top: 0">Collections</h3>
 
-      { renderCollections(getCollections(), { errors, warnings }) }
+      { renderCollections(albums.all(), { errors, warnings }) }
       <div><Btn on="@click:open-modal-create-collection">Create new collection</Btn></div>
 
       {/* <h4 style="font-size: 14px; font-weight: bold;">Error Messages</h4>
       <pre style="font-size: 12px; padding: 10px; border: 1px solid #eab; border-radius: 4px; background: #f6d0d6;">
-        {JSON.stringify(validateAlbums(getCollections()).grouped.ERR, null, 2)}
-        <MessageLog items={validateAlbums(getCollections()).log.ERR} />
+        {JSON.stringify(validateAlbums(albums.all()).grouped.ERR, null, 2)}
+        <MessageLog items={validateAlbums(albums.all()).log.ERR} />
       </pre>
 
       <h4 style="font-size: 14px; font-weight: bold;">Warning Messages</h4>
       <pre style="font-size: 12px; padding: 10px; border: 1px solid #ec3; border-radius: 4px; background: #f6e0b6;">
-        <MessageLog items={validateAlbums(getCollections()).log.WARN} />
+        <MessageLog items={validateAlbums(albums.all()).log.WARN} />
       </pre> */}
 
-      {/* { getCollections().map(c => (
+      {/* { albums.all().map(c => (
         <>
         <h4 style="font-size: 14px; font-weight: bold;">Error Messages in {c.name}:</h4>
         <pre style="font-size: 12px; padding: 10px; border: 1px solid #eab; border-radius: 4px; background: #f6d0d6;">
@@ -177,7 +177,7 @@ export default () => HtmlPage => {
         </>
       ))}
 
-      { getCollections().map(c => (
+      { albums.all().map(c => (
         <>
         <h4 style="font-size: 14px; font-weight: bold;">Warning Messages in {c.name}:</h4>
         <pre style="font-size: 12px; padding: 10px; border: 1px solid #ec3; border-radius: 4px; background: #f6e0b6;">

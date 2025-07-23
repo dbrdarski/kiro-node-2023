@@ -17,6 +17,7 @@ import generateImages, {
 import serveOld from "../scrap/index.mjs"
 
 import { initCollections } from "./admin/api/collections.mjs"
+import { initCasinos } from "./admin/api/enitities.mjs"
 
 import { port, oldSite, newSite } from "../env.mjs"
 
@@ -35,7 +36,8 @@ import {
   press,
 } from "./data.mjs"
 
-import { getCollections } from "./collections.mjs"
+import { albums } from "./admin/albums.mjs"
+import { casinos } from "./admin/entities.mjs"
 import { setMediaData } from "./media.mjs"
 
 const updateImages = (oldState, currentState, actions) => {
@@ -63,7 +65,7 @@ const app = connect()
 
 const [_, __, ...params] = process.argv
 
-const albums = {
+const allAlbums = {
   films: {
     path: "films",
     images: [
@@ -116,8 +118,12 @@ if (params.length) {
       }
 
       settings.write(images)
-      await initCollections()
-      app.use(await gallery(images, getCollections))
+      await Promise.all([
+        initCollections(),
+        initCasinos()
+      ])
+      app.use(await gallery(images, albums.all))
+      // await casinos.all()
       http.createServer(app).listen(port)
       initWebSocketConnection()
       break
@@ -125,12 +131,12 @@ if (params.length) {
     case "generate:images": {
       console.log("GENERATE SCRIPT")
       console.log("===============")
-      generateImages(albums, imageSizes)
+      generateImages(allAlbums, imageSizes)
       break
     }
   }
 } else {
-  const kiro2 = await serve(albums)
+  const kiro2 = await serve(allAlbums)
   app.use(vhost(newSite.host, kiro2))
   app.use(vhost(oldSite.host, serveOld))
   http.createServer(app).listen(port)

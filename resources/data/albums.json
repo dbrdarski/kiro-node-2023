@@ -1,0 +1,114 @@
+[
+  {
+    "name": "people",
+    "metadata": {
+      "title": "People",
+      "description": "Kiro Urdin with friends and family"
+    },
+    "items": [
+      {
+        "status": "OK",
+        "hash": "PxRjD84IOTlrohLk_lFkd91xTLjO4NRArBHTsvlGjLQj27rlGbI9zU80_ZT9-djIG08w1gDi7KMVdMOtPfVKu4",
+        "path": "resources/media/images/people/kiro_urdin_and_gerard_meulensteen.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "Xl7k4miazeqjsDpz_M_6fB6wn296kcuBn2JINk9XTxIOlYex85f70HgJrbCZ18w04IrnWOK6FMZ7GunzKLOAj4",
+        "path": "resources/media/images/people/kiro_urdin_anatoli_karpov_ku_jovan_pavleski.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "nV3i9XWLSMRh7tIc6ID0WXpic6D7iUtrIJr9d-LS4PYKwvUlikqDbM45SR0kNhft5trbLpwYsMb18DnwIQJX8w",
+        "path": "resources/media/images/people/Venko_Serafimov.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "7ZJ73LEmUzRSxMY4PTEiBZwpT-nxI7YZPvTL2Jdpz-kDfdkAwBs8Tp_ORAQOtuaTdgBIRRKV_qiLVUmEwuk-B4",
+        "path": "resources/media/images/people/Marin-Dimevski2.jpg"
+      },
+      {
+        "hash": "0eCU95GEdDiYMvyXN0qts4rqfNQ5uREIiXEFRgoemdc-sCTJV--AVWjD_N8RujWQ6fy1JvzY7Omptq5gG4aB3w",
+        "path": "resources/media/images/x/Luciano_Pavarotti_-_Mr.Pieter_van_Vollenhoven_-_Kiro_Urdin_-_Andrea_Griminelli.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "WLg-cb9GsdcrmUAqmxk5LlP6JP5BrZo36jugaU4JD30Gx7Surr_RgylsxbbjdcR8NukakhPX281-1yRgZQbda0",
+        "path": "resources/media/images/people/Kiro_Urdin_with_Riki_and_Sandra_Portanova1.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "n9gT_cqeglNapLY2YcNwk1qES-ONHp88-OMjgujB3Ac_r5xLGnt-P1t6mLL0cswOTi3AUscKZV4pUGLmJc3TMw",
+        "path": "resources/media/images/people/Kiro_Urdin_with_Mick_Fleetwood.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "OvKrIP5CAmnRzgrGYKmdlQoxz2NntUy7TzFNfe3i1tctWHe2pBvTycqQN8e8JVoP1P-_Fm_k2eESJTbseFVySE",
+        "path": "resources/media/images/people/Kiro_Urdin_with_Henry_Kissinger.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "2bF4NUXstFd95oG3O-DypzqCes5pupTFF0eu97p0ORIAkcnmGvwfvDhRBpeBSxKIkYK0xV0jjsfeeMB8CLp0tI",
+        "path": "resources/media/images/people/Kiro_Urdin_with_Brothers_Kocho_and_Vasil.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "0EtqoXpEx8Puzh1jpwNxHjAe6CddNE083iMAoGGfVjQcDqlCRM-fwvHJryI4o0ieTD9Vy8LeV2DisGZb_U1JbQ",
+        "path": "resources/media/images/people/Kiro_Urdin_and_Vladimir_Petrovski_Karter.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "Gyb8pvIdHtrZIsiUTuzBv2CzW9m3uJNSAfj0oeo6XpU7RjmllKHh4OdDlLNYabexlan2hXa7-ECmhUiraMS1dk",
+        "path": "resources/media/images/people/Kiro_Urdin_and_Philip.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "X4Xofy1jaOSZXKL-fHn74oPVdVsrfF8nMk7OV2ZxG_0AKGukZL0H837n-UWolrDuyMypMszuSB_jram6RQw-6M",
+        "path": "resources/media/images/people/Kiro_Urdin_and_Friend4.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "x_q2x7Eaah2rVEGs70ZlCtsshKdZ1wTpDT7GzwzYaG431HkK612eKTWFjsaixWaWt1PtUhbwDnnoy_q_xH70BA",
+        "path": "resources/media/images/people/Kiro_Urdin_and_Friend2.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "NIb3cRwJGCrJ1aAzi2xUVyK1sCHRnRSOqwFf2_NkaeoAT7yhCDe2BArzem1Rt0SdIB3F1P2PsZ7XL7XJvfbpIQ",
+        "path": "resources/media/images/people/Kiro_Urdin__with_Friends_2.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "kc5LgP8yPRiwKaaqnkxxzxu47Ou0hD5fbneOWaX2xhM4KnCWn0XCU6aIsXa-zUVIZ-QptWMZZjrEK6r9DCWEZs",
+        "path": "resources/media/images/people/Kiro-Urdin-and-Guy-Pas-Geneva.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "X58G3theb4KZG-CRJyehWDn9iHPIuewZ9Fz7cx-T_VoBTyQcYHOCNs4rPPIPlnBs_vHAov8ZcIFlAWR0fgKWxE",
+        "path": "resources/media/images/people/Ivan-Mitevski-and-Dragan-Tanevski.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "riubyvKD76Vb27VNAADpz2GxlrqG_TmnLtrXrnRS4BI9unHg3ayKIrayKqZc-nhBHv5CFRJiBnDuwAslY3XutU",
+        "path": "resources/media/images/people/Gerard-Meulensteen2.jpg"
+      },
+      {
+        "hash": "2NBJQ1Cb_3ITlbvtQ9DlFxNE2unsP6C-a_xHogN83XcX0CBxvihYvEPB7prW_qkRorQW1JCZxDKv05HjfSwntM",
+        "path": "resources/media/images/people/Donna-Urdin3.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "CppCpKgoYj9U3h39ajIph88_-2Oh53UpZues8OhOHawZhbCAhHsolkLRv3FLpkc2Ge7bTkAfxr3AeC0ZD_7Wdk",
+        "path": "resources/media/images/people/Donna-Urdin.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "pfI5BkIVa_H6X3WGO5Mu5E5MMYco5344ZxQCli7dLTIbiNLPA2wshFqWN_UyISKaI-or37-vNZwK1PmYKJ9dqc",
+        "path": "resources/media/images/people/Corinne_Timsit_and_Anatoli_Karpov.jpg"
+      },
+      {
+        "status": "OK",
+        "hash": "K_rE_-BzB5RgHWBLs5UmSsxqYlkHTc6j6GE-oME0GN8EgwdU9pWCyzlZrwgTRgveYyOOErEQUf_IQlvQoPFfYc",
+        "path": "resources/media/images/people/Baroness_Daniele-Baccardi_and-Donna_Urdin.jpg"
+      }
+    ]
+  }
+]

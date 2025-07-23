@@ -7,15 +7,16 @@ import path, { dirname } from "path"
 import { api } from "./admin/api/index.mjs"
 import MediaLibrary from "./admin/pages/MediaLibrary.mjs"
 import Collections from "./admin/pages/Collections.mjs"
-import { setMediaData } from "./media.mjs"
+import Entities from "./admin/pages/Entities.mjs"
 
-console.log({ api })
 
 // API HERE is NEEDED TO RUN / INIT APIS
+console.log({ api })
 
 const app = connect()
 
 const renderPage = (Page) => () => printHTML(Page(HtmlPage))
+const dynamicPage = (Page) => (props) => printHTML(Page(HtmlPage, props))
 
 const textPage = (text, options) => (
   <HtmlPage {...options}>
@@ -40,6 +41,9 @@ export default async (images, getCollections) => {
   const router = new Router({
     "/": renderPage(MediaLibrary(groupedImages)),
     "/collections": renderPage(Collections(getCollections)),
+    "/entities": renderPage(Entities(getCollections)),
+    "/entities/new": renderPage(Entities(getCollections)),
+    "/entities/edit/:id": renderPage(Entities(getCollections)),
     "(.*)": () => printHTML(textPage("404 - Not found", { title: "404 - Page not found" })),
   })
 
