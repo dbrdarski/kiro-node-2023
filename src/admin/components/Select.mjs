@@ -9,13 +9,14 @@ const style = `
   outline: 0 none;
 `
 
-export default ({ props, children }) => (
+export default ({ props: { options = [], ...props }, children }) => (
   <>
     <select
       { ...props }
       style={style}
       form-input
     >
+      {options.map(({ label, ...props }) => <option {...props}>{label}</option>)}
       { children }
     </select>
     <style>{`

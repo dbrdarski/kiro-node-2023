@@ -8,6 +8,7 @@ import { api } from "./admin/api/index.mjs"
 import MediaLibrary from "./admin/pages/MediaLibrary.mjs"
 import Collections from "./admin/pages/Collections.mjs"
 import Entities from "./admin/pages/Entities.mjs"
+import EditEntity from "./admin/pages/EditEntity.mjs"
 
 
 // API HERE is NEEDED TO RUN / INIT APIS
@@ -42,8 +43,8 @@ export default async (images, getCollections) => {
     "/": renderPage(MediaLibrary(groupedImages)),
     "/collections": renderPage(Collections(getCollections)),
     "/entities": renderPage(Entities(getCollections)),
-    "/entities/new": renderPage(Entities(getCollections)),
-    "/entities/edit/:id": renderPage(Entities(getCollections)),
+    "/entities/new": renderPage(EditEntity()),
+    "/entities/edit/:id": dynamicPage(EditEntity),
     "(.*)": () => printHTML(textPage("404 - Not found", { title: "404 - Page not found" })),
   })
 

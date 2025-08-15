@@ -17,7 +17,7 @@ import generateImages, {
 import serveOld from "../scrap/index.mjs"
 
 import { initCollections } from "./admin/api/collections.mjs"
-import { initCasinos } from "./admin/api/enitities.mjs"
+import { initCasinos } from "./admin/api/entities.mjs"
 
 import { port, oldSite, newSite } from "../env.mjs"
 
