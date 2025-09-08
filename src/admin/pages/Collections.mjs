@@ -20,12 +20,12 @@ const renderCollections = (collections, { errors, warnings }) => (
 
       return (
         <div
-          style="border: 1px solid #09f5; border-radius: 4px; margin-bottom: 16px;"
+          style="border: 1px solid #09f5; border: 1px solid #b8ddff; border-radius: 4px; margin-bottom: 16px;"
           mode="preview"
           data-name={collection.name}
           on='@edit-collection-items-init:edit-collection-items'
         >
-          <div style="display: grid; grid-template-columns: auto auto 8fr auto auto auto; align-items: center;  box-shadow: 0 1px #09f5; padding: 5px; gap: 5px;">
+          <div style="display: grid; grid-template-columns: auto auto 8fr auto auto auto; align-items: center; box-shadow: 0 1px #09f5; box-shadow: 0 1px #b8ddff; padding: 5px; gap: 5px;">
             <div style="font-size: 16px; padding: 10px;"><strong>{collection.name}</strong></div>
             <div style="font-size: 16px; padding: 10px;">{String(collection.items.length)} photos</div>
             <div style="font-size: 16px; padding: 10px;">{renderErrorLogCounts(errs?.count, warns?.count)}</div>
@@ -37,6 +37,7 @@ const renderCollections = (collections, { errors, warnings }) => (
                 data-title={collection.metadata?.title ?? ""}
                 data-description={collection.metadata?.description ?? ""}
                 on="@change:collection-action"
+                outlined
               >
                 <option disabled selected>Select action</option>
                 <option value="open-modal-update-collection">Update metadata</option>
@@ -51,7 +52,7 @@ const renderCollections = (collections, { errors, warnings }) => (
             <div style="padding: 5px"><strong style="color: black;">Description:</strong> {collection.metadata?.description ?? "N/A"}</div>
           </div>
           {collection.items.length && (
-            <div style="border-top: 1px solid #09f5;" sortable-container edit-control-scroll>
+            <div style="border-top: 1px solid #09f5; border-top: 1px solid #b8ddff;" sortable-container edit-control-scroll>
               {collection.items.map((img, i) => {
                 const error = errs?.nodes?.[img.hash]
                 const warning = warns?.nodes?.[img.hash]

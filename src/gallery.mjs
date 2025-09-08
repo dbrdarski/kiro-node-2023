@@ -43,8 +43,8 @@ export default async (images, getCollections) => {
     "/": renderPage(MediaLibrary(groupedImages)),
     "/collections": renderPage(Collections(getCollections)),
     "/entities": renderPage(Entities(getCollections)),
-    "/entities/new": renderPage(EditEntity()),
-    "/entities/edit/:id": dynamicPage(EditEntity),
+    "/entities/casinos/new": renderPage(EditEntity()),
+    "/entities/casinos/edit/:id": dynamicPage(EditEntity),
     "(.*)": () => printHTML(textPage("404 - Not found", { title: "404 - Page not found" })),
   })
 

@@ -32,7 +32,7 @@ export const record = (name, path) => {
   }
 
   const deleteRecord = (id) => {
-    if (!(id in keys)) {
+    if (!(id in records)) {
       throw Error(`Invalid '${name}' record ${id}`)
     }
     delete records[id]
@@ -40,9 +40,10 @@ export const record = (name, path) => {
   }
 
   const updateRecord = (id, data) => {
-    if (!(id in data)) {
+    if (!(id in records)) {
       throw Error(`Invalid '${name}' record ${id}`)
     }
+    console.log("UPDATE", { id, data })
     records[id].data = data
     saveRecords(records)
   }

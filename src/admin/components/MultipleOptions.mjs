@@ -1,4 +1,7 @@
 const style = `
+  display: flex;
+  align-items: center;
+  gap: 12px;
   height: 37px;
   padding: 0 9px;
   color: #09f;
@@ -18,17 +21,24 @@ const outlinedInput = `
 `
 
 
-export default ({ props: { options = [], outlined, label, ...props }, children }) => (
-  <label>
+export default ({ props: { options = [], outlined, label, oncreate, ...props }, children }) => (
+  <div>
     {label && <span style="display: block; color: #09f; margin-bottom: 5px; font-size: 13px; font-weight: 300;">{label}</span>}
-    <select
+    <div
       { ...props }
       style={`${style}; ${outlined ? outlinedInput : standardInput}`}
       form-input
     >
-      {options.map(({ label, ...props }) => <option {...props}>{label}</option>)}
+      {options.map(({ label, value, ...props }) => (
+        <label
+          style="display: inline-flex; align-items: center; gap: 0px; font-size: 14px;"
+        >
+          <input type="checkbox" {...props} />
+          {label}
+        </label>
+      ))}
       { children }
-    </select>
+    </div>
     <style>{`
       [form-input]:active,
       [form-input]:focus {
@@ -42,5 +52,5 @@ export default ({ props: { options = [], outlined, label, ...props }, children }
         pointer-events: none;
       }
     `}</style>
-  </label>
+  </div>
 )

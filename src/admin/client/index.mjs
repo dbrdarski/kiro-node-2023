@@ -22,6 +22,16 @@ console.log({ api })
 api.echo(33)
 const actionRegex = /(@(?<event>[^:]+)[:])?(?:\s)?(?<action>[^:]+)$/
 
+const mapValue = mapping => value => mapping[value]
+const mapOptionToValue = mapValue({
+  enabled: true,
+  disabled: false
+})
+const mapValueToOption = mapValue({
+  true: "enabled",
+  false: "disabled"
+})
+
 const updateButtonsDisabledState = container => {
   const saveBtn = container.querySelector("[on=add-to-collection--save]")
   const selectAllBtn = container.querySelector("[on=select-all-images]")
@@ -53,6 +63,76 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
     //   window.location.reload()
     //   break
     // }
+    case "create-payment-processor": {
+      const data = new FormData(event.target)
+      const name = data.get("name")
+      const icon = data.get("icon")
+      const description = data.get("description")
+      const paymentEnabled = mapOptionToValue(data.get("payments"))
+      const withdrawalEnabled = mapOptionToValue(data.get("withdrawals"))
+      api.createPaymentProcessor({
+        name,
+        icon,
+        description,
+        paymentEnabled,
+        withdrawalEnabled,
+      })
+      window.location.reload()
+      break
+    }
+    case "update-payment-processor": {
+      const data = new FormData(event.target)
+      // console.log({ data })
+      const key = data.get("primary-key")
+      const name = data.get("name")
+      const icon = data.get("icon")
+      const description = data.get("description")
+      const paymentEnabled = mapOptionToValue(data.get("payments"))
+      const withdrawalEnabled = mapOptionToValue(data.get("withdrawals"))
+      api.updatePaymentProcessor(key, {
+        name,
+        icon,
+        description,
+        paymentEnabled,
+        withdrawalEnabled,
+      })
+      window.location.reload()
+      break
+    }
+    case "delete-payment-processor": {
+      const data = new FormData(event.target)
+      // console.log({ data })
+      const key = data.get("primary-key")
+      api.deletePaymentProcessor(key)
+      window.location.reload()
+      break
+    }
+    case "init-modal-update-payment-processor": {
+      const element = event.target
+      const { key, name, icon, description, paymentEnabled, withdrawalEnabled } = initiator.dataset
+      const idInput = element.querySelector("[name=primary-key]")
+      const nameInput = element.querySelector("[name=name]")
+      const iconInput = element.querySelector("[name=icon]")
+      const descriptionInput = element.querySelector("[name=description]")
+      const paymentsSelector = element.querySelector("[name=payments]")
+      const withdrawalsSelector = element.querySelector("[name=withdrawals]")
+      idInput.value = key
+      nameInput.value = name
+      iconInput.value = icon
+      descriptionInput.value = description
+      paymentsSelector.value = mapValueToOption(paymentEnabled)
+      withdrawalsSelector.value = mapValueToOption(withdrawalEnabled)
+      break
+    }
+    case "init-modal-delete-payment-processor": {
+      const element = event.target
+      const { key, name } = initiator.dataset
+      const nameEl = element.querySelector("[entity-name]")
+      const idInput = element.querySelector("[name=primary-key]")
+      idInput.value = key
+      nameEl.innerHTML = name
+      break
+    }
     case "create-collection": {
       const data = new FormData(event.target)
       const name = data.get("collection-name")
@@ -63,7 +143,7 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
       window.location.reload()
       break
     }
-    case"update-collection": {
+    case "update-collection": {
       event.target.querySelector("[name=collection-name]").removeAttribute("disabled")
       const data = new FormData(event.target)
       const name = data.get("collection-name")
@@ -73,7 +153,7 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
       window.location.reload()
       break
     }
-    case"delete-collection": {
+    case "delete-collection": {
       api.deleteCollection(event.target.dataset.name)
       window.location.reload()
       break

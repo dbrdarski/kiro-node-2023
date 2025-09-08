@@ -1,22 +1,69 @@
+import Btn from "../components/Btn.mjs"
 import Input from "../components/Input.mjs"
 import Select from "../components/Select.mjs"
+import Textarea from "../components/Textarea.mjs"
+import MultipleOptions from "../components/MultipleOptions.mjs"
+import Expand from "../components/Expand.mjs"
+import EditPaymentProcessors from "../modals/EditPaymentProcessors.mjs"
+import { paymentProcessors } from "../entities.mjs"
 
-const MultiSelect = () => <div>MultiSelect</div>
+// const MultiSelect = () => <div>MultiSelect</div>
 const MultiInput = () => <div>MultiInput</div>
-const RatingInput = () => <div>RatingInput</div>
+const RatingInput = () => <Select
+  label="Rating"
+  name="casino-rating"
+  options={[
+  { selected: true, disabled: true, label: "Select rating" },
+  { value: "1", label: "1 star" },
+  { value: "2", label: "2 star" },
+  { value: "3", label: "3 star" },
+  { value: "4", label: "4 star" },
+  { value: "5", label: "5 star" },
+]} />
+
+const pageStyle = `
+  .casino-form-section {
+    display: grid;
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .casino-form-section {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .casino-form-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .casino-form-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
+`
 
 // ({ props: { name, title, action, ...props } }) =>
-export default ({ action = () => { } } = {}) => HtmlPage => (
+export default ({ submitText, action = () => { } } = {}) => HtmlPage => (
   <HtmlPage>
-    <h3>Hello</h3>
+    <style>{pageStyle}</style>
+    <h3 style="margin-top: 0">Create new entity</h3>
     <form name="new-page">
       <div className="form-columns">
         <div className="form-section">
-          <h3>Basic Info</h3>
+          <h4 style="">Basic Info</h4>
           <div class="casino-form-section">
-            <Input type="text" placeholder="Casino Name" name="casino-name" required />
+            <Input type="text" label="Casino Name" name="casino-name" required />
             <Select
               name="casino-status"
+              label="Casino Status"
               options={[
                 { selected: true, disabled: true, label: "Select status" },
                 { value: "open", label: "Open" },
@@ -27,8 +74,8 @@ export default ({ action = () => { } } = {}) => HtmlPage => (
             >
             </Select>
 
-            <Input type="input" name="casino-logo" accept="image/*" />
-            <Input type="text" placeholder="Bonus Text" name="bonus-text" />
+            <Input type="input" label="Casino Logo" name="casino-logo" accept="image/*" cask/>
+            <Input type="text" label="Bonus Text" name="bonus-text" />
 
             <RatingInput
               name="rating"
@@ -36,75 +83,87 @@ export default ({ action = () => { } } = {}) => HtmlPage => (
               defaultValue={3}
             />
 
-            <Input type="textarea" placeholder="Terms and Conditions Text" name="terms-text" />
-            <Input type="url" placeholder="Terms and Conditions Link" name="terms-link" />
+            <Input type="textarea" label="Terms and Conditions Text" name="terms-text" />
+            <Input type="url" label="Terms and Conditions Link" name="terms-link" />
 
-            <Select
+            {/* <Select
               name="button-text"
+              label="Casino status"
               options={[
                 { selected: true, disabled: true, label: "Select status" },
                 { value: "play", label: "Play" },
                 { value: "closed", label: "Closed" },
                 { value: "blacklisted", label: "Blacklisted" }
               ]}
-            />
+            />*/}
 
-            <Input type="url" placeholder="Affiliate Tracking Link" name="affiliate-link" />
-            <Input type="text" placeholder="Review Button Text" name="review-button-text" />
-            <Input type="text" placeholder="Company Button Text" name="company-button-text" />
-            <Input type="text" placeholder="License" name="license" />
-            <Input type="text" placeholder="Company Owner" name="owner" />
+            <Input type="url" label="Affiliate Tracking Link" name="affiliate-link" />
+            <Input type="text" label="Review Button Text" name="review-button-text" />
+            <Input type="text" label="Company Button Text" name="company-button-text" />
+            <Input type="text" label="License" name="license" />
+            <Input type="text" label="Company Owner" name="owner" />
           </div>
         </div>
         <div className="form-section">
-          <h3>Casino Details</h3>
-          <Input type="text" placeholder="Bonus Code" name="bonus-code" />
-          <Input type="text" placeholder="Wagering Requirements" name="wagering-requirements" />
-          <Input type="text" placeholder="Payout Time" name="payout-time" />
-          <Input type="number" placeholder="Game Count" name="game-count" min="0" />
-          <Input type="number" placeholder="Game Providers" name="game-providers" min="0" />
-          <Input type="number" placeholder="Jackpot Slots" name="jackpot-slots" min="0" />
-          <Input type="textarea" placeholder="Casino Offers Text" name="offers-text" />
+          <h4 style="">Casino Details</h4>
+          <div class="casino-form-section">
+            <Input type="text" label="Bonus Code" name="bonus-code" />
+            <Input type="text" label="Wagering Requirements" name="wagering-requirements" />
+            <Input type="text" label="Payout Time" name="payout-time" />
+            <Input type="number" label="Game Count" name="game-count" min="0" />
+            <Input type="number" label="Game Providers" name="game-providers" min="0" />
+            <Input type="number" label="Jackpot Slots" name="jackpot-slots" min="0" />
+            <Input type="textarea" label="Casino Offers Text" name="offers-text" />
+          </div>
         </div>
 
         <div className="form-section">
-          <h3>Payment Methods</h3>
-          <MultiSelect
-            name="deposit-methods"
-            options={[
-              { value: "visa", label: "Visa" },
-              { value: "mastercard", label: "Mastercard" },
-              { value: "skrill", label: "Skrill" },
-              { value: "neteller", label: "Neteller" },
-              { value: "paypal", label: "PayPal" },
-              { value: "bank-transfer", label: "Bank Transfer" },
-              { value: "crypto", label: "Cryptocurrency" }
-            ]}
-          />
+          <h4 style="display: flex">
+            <span>Payment Methods</span>
+            <Expand />
+            <Btn size="xs" on="@click:open-modal-create-payment-processor">Add payment method</Btn>
 
-          <MultiSelect
-            name="withdrawal-methods"
-            options={[]}
-          />
+          </h4>
+          <div class="casino-form-section" style="grid-template-columns: 1fr;">
+            <MultipleOptions
+              label="Deposit Methods"
+              name="deposit-methods"
+              options={paymentProcessors.all().filter(x => x.data.paymentEnabled).map(({ data: { name }}) => ({ label: name, value: name })) }
+            />
 
-          <h3>Pros and Cons</h3>
-          <MultiInput
-            name="pros"
-            placeholder="Add positive point"
-            addButtonText="Add another positive"
-          />
+            <MultipleOptions
+              label="Withdrawal Methods"
+              name="withdrawal-methods"
+              options={paymentProcessors.all().filter(x => x.data.withdrawalEnabled).map(({ data: { name }}) => ({ label: name, value: name }))}
+            />
+          </div>
 
-          <MultiInput
-            name="cons"
-            placeholder="Add negative point"
-            addButtonText="Add another negative"
-          />
+          <h4 style="">Pros and Cons</h4>
+          <div class="casino-form-section">
+            <Textarea
+              name="pros"
+              label="Add positive point"
+              addButtonText="Add another positive"
+            />
+
+            <Textarea
+              name="cons"
+              label="Add negative point"
+              addButtonText="Add another negative"
+            />
+          </div>
         </div>
       </div>
 
       <div className="form-actions">
-        <button type="submit">{action || "Save Changes"}</button>
+        <h4 style=""></h4>
+        <Btn>{submitText || "Save Changes"}</Btn>
       </div>
     </form>
+    <EditPaymentProcessors
+      action="create"
+      actionLabel="Create"
+    />
+    <div id="modal-section" />
   </HtmlPage>
 )

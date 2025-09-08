@@ -3,7 +3,31 @@
     "id": "kt1vu6j8xh",
     "data": {
       "name": "Petko",
-      "description": "Najdobrp kazino",
+      "description": "Najdobro kazino",
+      "zaKockari": true
+    }
+  },
+  "qt1vu6j8xh": {
+    "id": "qt1vu6j8xh",
+    "data": {
+      "name": "Petko",
+      "description": "Najdobro kazino",
+      "zaKockari": true
+    }
+  },
+  "wt1vu6j8xh": {
+    "id": "wt1vu6j8xh",
+    "data": {
+      "name": "Petko",
+      "description": "Najdobro kazino",
+      "zaKockari": true
+    }
+  },
+  "et1vu6j8xh": {
+    "id": "et1vu6j8xh",
+    "data": {
+      "name": "Petko",
+      "description": "Najdobro kazino",
       "zaKockari": true
     }
   },
@@ -11,7 +35,7 @@
     "id": "s2iqtzht529",
     "data": {
       "name": "Dudu",
-      "description": "Monkey uncle!!!!",
+      "description": "Monkey's uncle!!!!",
       "bs": true
     }
   }

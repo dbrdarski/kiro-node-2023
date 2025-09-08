@@ -21,7 +21,7 @@ const outlinedInput = `
 
 export default ({ props: { label, outlined, ...props }, children }) => (<label>
   {label && <span style="display: block; color: #09f; margin-bottom: 5px; font-size: 13px; font-weight: 300;">{label}</span>}
-  <input {...props } style={`${style}; ${outlined ? outlinedInput : standardInput}`} form-input />
+  <textarea {...props } style={`${style}; ${outlined ? outlinedInput : standardInput}`} form-input />
   <style>{`
     [form-input]:active,
     [form-input]:focus {

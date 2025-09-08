@@ -1,0 +1,72 @@
+{
+  "at1vu6j8xh": {
+    "id": "at1vu6j8xh",
+    "data": {
+      "name": "Visa",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": false
+    }
+  },
+  "2t1vu6j8xh": {
+    "id": "2t1vu6j8xh",
+    "data": {
+      "name": "Mastercard",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": false
+    }
+  },
+  "kuf9qrn5yac": {
+    "id": "kuf9qrn5yac",
+    "data": {
+      "name": "Skrill",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": true
+    }
+  },
+  "93hcrk9wzz": {
+    "id": "93hcrk9wzz",
+    "data": {
+      "name": "Neteller",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": true
+    }
+  },
+  "9paf2m6v61o": {
+    "id": "9paf2m6v61o",
+    "data": {
+      "name": "PayPal",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": true
+    }
+  },
+  "awvkrqr068k": {
+    "id": "awvkrqr068k",
+    "data": {
+      "name": "Bank Transfer",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": true
+    }
+  },
+  "roix7kun99": {
+    "id": "roix7kun99",
+    "data": {
+      "name": "Cryptocurrency",
+      "icon": "",
+      "description": "",
+      "paymentEnabled": true,
+      "withdrawalEnabled": true
+    }
+  }
+}
