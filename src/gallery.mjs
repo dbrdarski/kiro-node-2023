@@ -10,7 +10,6 @@ import Collections from "./admin/pages/Collections.mjs"
 import Entities from "./admin/pages/Entities.mjs"
 import EditEntity from "./admin/pages/EditEntity.mjs"
 
-
 // API HERE is NEEDED TO RUN / INIT APIS
 console.log({ api })
 
@@ -44,7 +43,7 @@ export default async (images, getCollections) => {
     "/collections": renderPage(Collections(getCollections)),
     "/entities": renderPage(Entities(getCollections)),
     "/entities/casinos/new": renderPage(EditEntity()),
-    "/entities/casinos/edit/:id": dynamicPage(EditEntity),
+    "/entities/casinos/edit/:id": dynamicPage(EditEntity()),
     "(.*)": () => printHTML(textPage("404 - Not found", { title: "404 - Page not found" })),
   })
 

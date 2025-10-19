@@ -45,6 +45,7 @@ export const print = vdom => {
 }
 
 export const printHTML = vdom => `<!DOCTYPE html>${print(vdom)}`
+export const printHTMLPartial = vdom => print(vdom)
 
 // const createVariant = (namespace, key, index, value) => [index, key, Symbol(`${namespace}.${key}`)]
 

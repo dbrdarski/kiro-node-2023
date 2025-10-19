@@ -21,7 +21,7 @@ const outlinedInput = `
 `
 
 
-export default ({ props: { options = [], outlined, label, oncreate, ...props }, children }) => (
+export default ({ props: { options = [], name, outlined, label, oncreate, ...props }, children }) => (
   <div>
     {label && <span style="display: block; color: #09f; margin-bottom: 5px; font-size: 13px; font-weight: 300;">{label}</span>}
     <div
@@ -33,7 +33,7 @@ export default ({ props: { options = [], outlined, label, oncreate, ...props }, 
         <label
           style="display: inline-flex; align-items: center; gap: 0px; font-size: 14px;"
         >
-          <input type="checkbox" {...props} />
+          <input type="checkbox" name={name} value={value} {...props} />
           {label}
         </label>
       ))}

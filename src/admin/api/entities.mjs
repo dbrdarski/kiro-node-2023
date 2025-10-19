@@ -1,5 +1,7 @@
 import { action } from "../api-create.mjs"
-import { casinos, paymentProcessors } from "../entities.mjs"
+import { printHTMLPartial } from "../../jsx.mjs"
+import { casinos, paymentProcessors, points } from "../entities.mjs"
+import PaymentMethods from "../pages/renderers/PaymentMethods.mjs"
 
 export const getCasino = action(casinos.get)
 export const getCasinos = action(casinos.all)
@@ -14,3 +16,19 @@ export const createPaymentProcessor = action(paymentProcessors.create)
 export const updatePaymentProcessor = action(paymentProcessors.update)
 export const deletePaymentProcessor = action(paymentProcessors.delete)
 export const initPaymentProcessors = action(paymentProcessors.init)
+export const renderPaymentProcessors = action(({ depositMethods, withdrawalMethods }) => {
+  return printHTMLPartial(
+    <PaymentMethods
+      depositMethods={depositMethods}
+      withdrawalMethods={withdrawalMethods}
+      paymentProcessorsApi={paymentProcessors}
+    />
+  )
+})
+
+export const getPoint = action(points.get)
+export const getPoints = action(points.all)
+export const createPoint = action(points.create)
+export const updatePoint = action(points.update)
+export const deletePoint = action(points.delete)
+export const initPoints = action(points.init)

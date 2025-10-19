@@ -1,0 +1,20 @@
+{
+  "ajuba3b7dud": {
+    "id": "ajuba3b7dud",
+    "data": {
+      "name": "The best deals!!!!",
+      "type": "positive",
+      "shortDescription": "Yes we offer the best deals available!!!",
+      "fullDescription": "Yes we offer the best deals available!!! No shittin' bro! We are no. 1 in the bussiness."
+    }
+  },
+  "pbylg46zgx": {
+    "id": "pbylg46zgx",
+    "data": {
+      "name": "Bad bad!!!!",
+      "type": "negative",
+      "shortDescription": "Very very bad!",
+      "fullDescription": "And so sad!"
+    }
+  }
+}

@@ -29,6 +29,7 @@ export const record = (name, path) => {
 
     records[id] = { id, data }
     saveRecords(records)
+    return id
   }
 
   const deleteRecord = (id) => {
@@ -37,6 +38,7 @@ export const record = (name, path) => {
     }
     delete records[id]
     saveRecords(records)
+    return id
   }
 
   const updateRecord = (id, data) => {
@@ -46,6 +48,7 @@ export const record = (name, path) => {
     console.log("UPDATE", { id, data })
     records[id].data = data
     saveRecords(records)
+    return getRecord(id)
   }
 
   return {

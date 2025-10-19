@@ -1,42 +1,364 @@
 {
-  "kt1vu6j8xh": {
-    "id": "kt1vu6j8xh",
+  "y36ji3jsaz": {
+    "id": "y36ji3jsaz",
     "data": {
-      "name": "Petko",
-      "description": "Najdobro kazino",
-      "zaKockari": true
+      "name": "Gugulu",
+      "status": "blacklisted",
+      "description": "Simply the best!",
+      "rating": "1",
+      "termsText": "",
+      "termsUrl": "https://asdasd.asd.asd",
+      "affiliateLinkUrl": "https://asdasd.asd.asd",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [
+        "2222",
+        "qweqweqwe"
+      ],
+      "withdrawalMethods": [],
+      "positivePoints": [],
+      "negativePoints": []
     }
   },
-  "qt1vu6j8xh": {
-    "id": "qt1vu6j8xh",
+  "7wbvoxtfsxr": {
+    "id": "7wbvoxtfsxr",
     "data": {
-      "name": "Petko",
-      "description": "Najdobro kazino",
-      "zaKockari": true
+      "name": "The Best Casinos Ltd",
+      "status": "coming-soon",
+      "description": "Better than all the rest",
+      "rating": "4",
+      "termsText": "Terma and Conditions",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "Review",
+      "companyButtonText": "Submit",
+      "license": "",
+      "owner": "Company",
+      "bonusCode": "Bonus",
+      "wageringRequirements": "Requirements",
+      "payoutTime": "4",
+      "gameCount": "20",
+      "gameProviders": "22",
+      "jackpotSlots": "22",
+      "offersText": "222",
+      "depositMethods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency"
+      ],
+      "withdrawalMethods": [
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency"
+      ],
+      "positivePoints": [],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
     }
   },
-  "wt1vu6j8xh": {
-    "id": "wt1vu6j8xh",
+  "i69w3vi718a": {
+    "id": "i69w3vi718a",
     "data": {
-      "name": "Petko",
-      "description": "Najdobro kazino",
-      "zaKockari": true
+      "name": "asdasd",
+      "status": "closed",
+      "description": " Better then all the rest!!!!",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asdasasd.asdad.ccc",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [
+        "Cryptocurrency"
+      ],
+      "withdrawalMethods": [
+        "Cryptocurrency"
+      ],
+      "positivePoints": [],
+      "negativePoints": []
     }
   },
-  "et1vu6j8xh": {
-    "id": "et1vu6j8xh",
+  "tdmxus6je58": {
+    "id": "tdmxus6je58",
     "data": {
-      "name": "Petko",
-      "description": "Najdobro kazino",
-      "zaKockari": true
+      "name": "TT",
+      "status": null,
+      "description": "Better than anyone",
+      "rating": "1",
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency",
+        "qweqweqwe"
+      ],
+      "withdrawalMethods": [
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency"
+      ],
+      "positivePoints": [],
+      "negativePoints": []
     }
   },
-  "s2iqtzht529": {
-    "id": "s2iqtzht529",
+  "un2ottbe7br": {
+    "id": "un2ottbe7br",
     "data": {
-      "name": "Dudu",
-      "description": "Monkey's uncle!!!!",
-      "bs": true
+      "name": "TT",
+      "status": null,
+      "description": "Better than anyone",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency"
+      ],
+      "withdrawalMethods": [
+        "Skrill",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency"
+      ],
+      "positivePoints": [],
+      "negativePoints": []
+    }
+  },
+  "w4q404ukvj": {
+    "id": "w4q404ukvj",
+    "data": {
+      "name": "Asdf",
+      "status": "closed",
+      "description": "asdasasd",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [],
+      "withdrawalMethods": [],
+      "positivePoints": [],
+      "negativePoints": []
+    }
+  },
+  "hxdgb00cg7": {
+    "id": "hxdgb00cg7",
+    "data": {
+      "name": "Bubu",
+      "status": null,
+      "description": "Kitty Fuck",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [
+        "Mastercard",
+        "Neteller",
+        "PayPal"
+      ],
+      "withdrawalMethods": [
+        "Neteller",
+        "PayPal"
+      ],
+      "positivePoints": [],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
+    }
+  },
+  "vmi5e8r1s0i": {
+    "id": "vmi5e8r1s0i",
+    "data": {
+      "name": "Waait",
+      "status": null,
+      "description": "Dudude",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asdasasd.asdad.ccc",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [],
+      "withdrawalMethods": [],
+      "positivePoints": [],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
+    }
+  },
+  "4b1m1tz4roz": {
+    "id": "4b1m1tz4roz",
+    "data": {
+      "name": "asdasdasd",
+      "status": "open",
+      "description": "sdsd",
+      "rating": null,
+      "termsText": "",
+      "termsUrl": "https://asdasasd.asdad.ccc",
+      "affiliateLinkUrl": "https://asdasasd.asdad.ccc",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [],
+      "withdrawalMethods": [],
+      "positivePoints": [],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
+    }
+  },
+  "dixjnrwh6zp": {
+    "id": "dixjnrwh6zp",
+    "data": {
+      "name": "asdasd",
+      "status": null,
+      "description": "",
+      "rating": null,
+      "termsText": "asdasdasdasd",
+      "termsUrl": "",
+      "affiliateLinkUrl": "",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [],
+      "withdrawalMethods": [],
+      "positivePoints": [],
+      "negativePoints": []
+    }
+  },
+  "dt57epqvquf": {
+    "id": "dt57epqvquf",
+    "data": {
+      "name": "asdasdf",
+      "status": null,
+      "description": "",
+      "rating": "1",
+      "termsText": "",
+      "termsUrl": "",
+      "affiliateLinkUrl": "",
+      "reviewButtonText": "",
+      "companyButtonText": "",
+      "license": "",
+      "owner": "",
+      "bonusCode": "",
+      "wageringRequirements": "",
+      "payoutTime": "",
+      "gameCount": "",
+      "gameProviders": "",
+      "jackpotSlots": "",
+      "offersText": "",
+      "depositMethods": [],
+      "withdrawalMethods": [
+        "Neteller",
+        "PayPal",
+        "Bank Transfer",
+        "Cryptocurrency",
+        "dududu"
+      ],
+      "positivePoints": [],
+      "negativePoints": []
     }
   }
 }

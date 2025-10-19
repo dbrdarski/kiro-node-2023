@@ -23,7 +23,7 @@ api.echo(33)
 const actionRegex = /(@(?<event>[^:]+)[:])?(?:\s)?(?<action>[^:]+)$/
 
 const mapValue = mapping => value => mapping[value]
-const mapOptionToValue = mapValue({
+const mapEnabledStateOptionToValue = mapValue({
   enabled: true,
   disabled: false
 })
@@ -51,7 +51,7 @@ const updateButtonsDisabledState = container => {
     : selectAllBtn.removeAttribute("disabled")
 }
 
-const execAction = (matchedAttr, element, initiator = null) => (event) => {
+const execAction = (matchedAttr, element, initiator = null) => async (event) => {
   event.preventDefault()
   console.log("DISPATCH: ", { element, matchedAttr, event })
 
@@ -63,14 +63,179 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
     //   window.location.reload()
     //   break
     // }
+    case "edit-casino": {
+      const { key } = element.dataset
+      window.location.href = `/entities/casinos/edit/${key}`
+      break
+    }
+    case "create-casino": {
+      const data = new FormData(event.target)
+      const name = data.get("casino-name")
+      const status = data.get("casino-status")
+      const description = data.get("description")
+      const rating = data.get("casino-rating")
+      const termsText = data.get("terms-text")
+      const termsUrl = data.get("terms-link")
+      const affiliateLinkUrl = data.get("affiliate-link")
+      const reviewButtonText = data.get("review-button-text")
+      const companyButtonText = data.get("company-button-text")
+      const license = data.get("license")
+      const owner = data.get("owner")
+      const bonusCode = data.get("bonus-code")
+      const wageringRequirements = data.get("wagering-requirements")
+      const payoutTime = data.get("payout-time")
+      const gameCount = data.get("game-count")
+      const gameProviders = data.get("game-providers")
+      const jackpotSlots = data.get("jackpot-slots")
+      const offersText = data.get("offers-text")
+      const depositMethods = data.getAll("deposit-methods")
+      const withdrawalMethods = data.getAll("withdrawal-methods")
+      const positivePoints = data.getAll("positive-points")
+      const negativePoints = data.getAll("negative-points")
+
+      const res = api.createCasino({
+        name,
+        status,
+        description,
+        rating,
+        termsText,
+        termsUrl,
+        affiliateLinkUrl,
+        reviewButtonText,
+        companyButtonText,
+        license,
+        owner,
+        bonusCode,
+        wageringRequirements,
+        payoutTime,
+        gameCount,
+        gameProviders,
+        jackpotSlots,
+        offersText,
+        depositMethods,
+        withdrawalMethods,
+        positivePoints,
+        negativePoints
+      })
+
+      window.location.href = `/entities/casinos/edit/${await res}`
+
+      break
+    }
+    case "update-casino": {
+      const data = new FormData(event.target)
+      const key = data.get("key")
+      const name = data.get("casino-name")
+      const status = data.get("casino-status")
+      const description = data.get("description")
+      const rating = data.get("casino-rating")
+      const termsText = data.get("terms-text")
+      const termsUrl = data.get("terms-link")
+      const affiliateLinkUrl = data.get("affiliate-link")
+      const reviewButtonText = data.get("review-button-text")
+      const companyButtonText = data.get("company-button-text")
+      const license = data.get("license")
+      const owner = data.get("owner")
+      const bonusCode = data.get("bonus-code")
+      const wageringRequirements = data.get("wagering-requirements")
+      const payoutTime = data.get("payout-time")
+      const gameCount = data.get("game-count")
+      const gameProviders = data.get("game-providers")
+      const jackpotSlots = data.get("jackpot-slots")
+      const offersText = data.get("offers-text")
+      const depositMethods = data.getAll("deposit-methods")
+      const withdrawalMethods = data.getAll("withdrawal-methods")
+      const positivePoints = data.getAll("positive-points")
+      const negativePoints = data.getAll("negative-points")
+
+      api.updateCasino(key, {
+        name,
+        status,
+        description,
+        rating,
+        termsText,
+        termsUrl,
+        affiliateLinkUrl,
+        reviewButtonText,
+        companyButtonText,
+        license,
+        owner,
+        bonusCode,
+        wageringRequirements,
+        payoutTime,
+        gameCount,
+        gameProviders,
+        jackpotSlots,
+        offersText,
+        depositMethods,
+        withdrawalMethods,
+        positivePoints,
+        negativePoints
+      })
+
+      window.location.reload()
+
+      break
+    }
+    case "create-point": {
+      const data = new FormData(event.target)
+      const name = data.get("name")
+      const type = data.get("type")
+      const shortDescription = data.get("shortDescription")
+      const fullDescription = data.get("fullDescription")
+      api.createPoint({
+        name,
+        type,
+        shortDescription,
+        fullDescription,
+      })
+      window.location.reload()
+      break
+    }
     case "create-payment-processor": {
       const data = new FormData(event.target)
       const name = data.get("name")
       const icon = data.get("icon")
       const description = data.get("description")
-      const paymentEnabled = mapOptionToValue(data.get("payments"))
-      const withdrawalEnabled = mapOptionToValue(data.get("withdrawals"))
+      const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
+      const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
       api.createPaymentProcessor({
+        name,
+        icon,
+        description,
+        paymentEnabled,
+        withdrawalEnabled,
+      })
+      const mainForm = document.querySelector("#edit-casino")
+      const mainData = new FormData(mainForm)
+      const depositMethods = mainData.getAll("deposit-methods")
+      const withdrawalMethods = mainData.getAll("withdrawal-methods")
+
+      const renderResponse = await api.renderPaymentProcessors({
+        depositMethods,
+        withdrawalMethods
+      })
+
+      document.querySelector("#payment-methods").innerHTML = renderResponse
+
+      event.target.dispatchEvent(
+        new CustomEvent(
+          "close-modal-create-payment-processor",
+          { bubbles: true, reload: false } // is this problem for direct creation (from payment processors table)?
+        )
+      )
+      break
+    }
+    case "update-point": {
+      const data = new FormData(event.target)
+      // console.log({ data })
+      const key = data.get("primary-key")
+      const name = data.get("name")
+      const icon = data.get("type")
+      const description = data.get("shortDescription")
+      const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
+      const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
+      api.updatePaymentProcessor(key, {
         name,
         icon,
         description,
@@ -87,8 +252,8 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
       const name = data.get("name")
       const icon = data.get("icon")
       const description = data.get("description")
-      const paymentEnabled = mapOptionToValue(data.get("payments"))
-      const withdrawalEnabled = mapOptionToValue(data.get("withdrawals"))
+      const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
+      const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
       api.updatePaymentProcessor(key, {
         name,
         icon,
@@ -96,15 +261,37 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
         paymentEnabled,
         withdrawalEnabled,
       })
+      // window.location.reload()
+      break
+    }
+    case "delete-point": {
+      const data = new FormData(event.target)
+      const key = data.get("primary-key")
+      api.deletePoint(key)
       window.location.reload()
       break
     }
     case "delete-payment-processor": {
       const data = new FormData(event.target)
-      // console.log({ data })
       const key = data.get("primary-key")
       api.deletePaymentProcessor(key)
       window.location.reload()
+      break
+    }
+    case "init-modal-update-point": {
+      const element = event.target
+      const { key, name, type, shortDescription, fullDescription } = initiator.dataset
+      console.log("DATA", initiator.dataset)
+      const idInput = element.querySelector("[name=primary-key]")
+      const nameInput = element.querySelector("[name=name]")
+      const typeInput = element.querySelector("[name=type]")
+      const shortDescriptionInput = element.querySelector("[name=shortDescription]")
+      const fullDescriptionInput = element.querySelector("[name=fullDescription]")
+      idInput.value = key
+      nameInput.value = name
+      typeInput.value = type
+      shortDescriptionInput.value = shortDescription
+      fullDescriptionInput.value = fullDescription
       break
     }
     case "init-modal-update-payment-processor": {
@@ -122,6 +309,15 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
       descriptionInput.value = description
       paymentsSelector.value = mapValueToOption(paymentEnabled)
       withdrawalsSelector.value = mapValueToOption(withdrawalEnabled)
+      break
+    }
+    case "init-modal-delete-point": {
+      const element = event.target
+      const { key, name } = initiator.dataset
+      const nameEl = element.querySelector("[entity-name]")
+      const idInput = element.querySelector("[name=primary-key]")
+      idInput.value = key
+      nameEl.innerHTML = name
       break
     }
     case "init-modal-delete-payment-processor": {
@@ -255,6 +451,11 @@ const execAction = (matchedAttr, element, initiator = null) => (event) => {
     }
     // case "open-modal:createCollection": {
     // }
+    case "reload": {
+      setTimeout(() => {
+        window.location.reload()
+      })
+    }
     default: {
       element.dispatchEvent(new Event(matchedAttr, { bubbles: true }))
     }
@@ -292,9 +493,9 @@ const initModalTriggers = parent => {
       document.getElementById("modal-section").appendChild(modal)
       init && modal.addEventListener(`init-modal-${init}`, execAction(`init-modal-${init}`, modal, event.target))
       init && modal.dispatchEvent(new Event(`init-modal-${init}`, { bubbles: true }))
-      modal.addEventListener(`close-modal-${name}`, () => {
+      modal.addEventListener(`close-modal-${name}`, ({ reload }) => {
         document.getElementById("modal-section").removeChild(modal)
-        window.location.reload()
+        reload && window.location.reload()
       })
     })
   })

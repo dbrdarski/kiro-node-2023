@@ -17,7 +17,7 @@ import generateImages, {
 import serveOld from "../scrap/index.mjs"
 
 import { initCollections } from "./admin/api/collections.mjs"
-import { initCasinos, initPaymentProcessors } from "./admin/api/entities.mjs"
+import { initCasinos, initPaymentProcessors, initPoints } from "./admin/api/entities.mjs"
 
 import { port, oldSite, newSite } from "../env.mjs"
 
@@ -121,7 +121,8 @@ if (params.length) {
       await Promise.all([
         initCollections(),
         initCasinos(),
-        initPaymentProcessors()
+        initPaymentProcessors(),
+        initPoints()
       ])
       app.use(await gallery(images, albums.all))
       // await casinos.all()

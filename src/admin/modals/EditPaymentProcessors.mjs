@@ -3,14 +3,14 @@ import Btn from "../components/Btn.mjs"
 import Input from "../components/Input.mjs"
 import Select from "../components/Select.mjs"
 
-export default ({ props: { actionLabel = "Update", action = "update", ...props } } = {}) => (
+export default ({ props: { actionLabel = "Update", action = "update", refresh, ...props } } = {}) => (
   <Modal
     name={`${action}-payment-processor`}
     title={`${actionLabel} Payment Processor`}
     actions={() => (
       <>
         <Btn flat on={`close-modal-${action}-payment-processor`}>Cancel</Btn>
-        <Btn type="submit">{actionLabel}</Btn>
+        <Btn type="submit" {...refresh && { on: "@click:reload" }}>{actionLabel}</Btn>
       </>
     )}
     {...props}
