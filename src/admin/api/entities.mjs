@@ -2,6 +2,7 @@ import { action } from "../api-create.mjs"
 import { printHTMLPartial } from "../../jsx.mjs"
 import { casinos, paymentProcessors, points } from "../entities.mjs"
 import PaymentMethods from "../pages/renderers/PaymentMethods.mjs"
+import ProsAndCons from "../pages/renderers/ProsAndCons.mjs"
 
 export const getCasino = action(casinos.get)
 export const getCasinos = action(casinos.all)
@@ -28,6 +29,16 @@ export const renderPaymentProcessors = action(({ depositMethods, withdrawalMetho
 
 export const getPoint = action(points.get)
 export const getPoints = action(points.all)
+export const renderProsAndCons = action(({ positivePoints, negativePoints }) => {
+  return printHTMLPartial(
+    <ProsAndCons
+      positivePoints={positivePoints}
+      negativePoints={negativePoints}
+      pointsApi={points}
+    />
+  )
+})
+
 export const createPoint = action(points.create)
 export const updatePoint = action(points.update)
 export const deletePoint = action(points.delete)

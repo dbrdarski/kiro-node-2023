@@ -86,7 +86,7 @@ const pointFields = [{
 }, {
   field: "type",
   label: "Type",
-  value: field => field.data.icon ?? "N/A",
+  value: field => field.data.type,
 }, {
   field: "shortDescription",
   label: "Short Description",
@@ -140,7 +140,7 @@ export default () => HtmlPage => {
         columns={casinoFields}
         data={casinoEntities}
         minWidth="800px"
-        maxHeight="146px"
+        maxHeight="220px"
         footer={(
           <div style="display: flex; align-items: center; font-size: 13px;">
             {String(Object.keys(casinoEntities).length)} casinos

@@ -24,7 +24,7 @@ const style = <style>{`
 `}</style>
 
 export default images => HtmlPage => (
-  <HtmlPage title="Media Gallery">
+  <HtmlPage title="Media Gallery" style="padding: 30px; display: flex; flex-direction: column; gap: 10px;">
     <h3 style="margin-top: 0">Media Library</h3>
     {Object.entries(images).map(
       ([key, value]) => (

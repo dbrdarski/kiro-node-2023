@@ -16,5 +16,14 @@
       "shortDescription": "Very very bad!",
       "fullDescription": "And so sad!"
     }
+  },
+  "a6vqtmqczd": {
+    "id": "a6vqtmqczd",
+    "data": {
+      "name": "Test 2",
+      "type": "positive",
+      "shortDescription": "",
+      "fullDescription": ""
+    }
   }
 }

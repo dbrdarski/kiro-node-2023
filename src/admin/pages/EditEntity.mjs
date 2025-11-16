@@ -2,15 +2,13 @@ import Btn from "../components/Btn.mjs"
 import Input from "../components/Input.mjs"
 import Select from "../components/Select.mjs"
 // import Textarea from "../components/Textarea.mjs"
-import MultipleOptions from "../components/MultipleOptions.mjs"
-import Expand from "../components/Expand.mjs"
 import EditPaymentProcessors from "../modals/EditPaymentProcessors.mjs"
+import EditPoint from "../modals/EditPoint.mjs"
 import { casinos, paymentProcessors, points } from "../entities.mjs"
 import PaymentMethods from "./renderers/PaymentMethods.mjs"
 import { inputValue, selectOptions, multiSelectOptions } from "../utils.mjs"
+import ProsAndCons from "./renderers/ProsAndCons.mjs"
 
-// const MultiSelect = () => <div>MultiSelect</div>
-const MultiInput = () => <div>MultiInput</div>
 const RatingInput = ({ props: { value } }) => <Select
   label="Rating"
   name="casino-rating"
@@ -154,38 +152,11 @@ export default ({ submitText } = {}) => (HtmlPage, { id } = { }) => {
             paymentProcessorsApi={paymentProcessors}
           />
 
-          <div className="form-section">
-            <h4 style="">Pros and Cons</h4>
-            <div class="casino-form-section">
-              <MultipleOptions
-                label="Positive Points"
-                name="poisitive-points"
-                options={multiSelectOptions(
-                  casino.positivePoints,
-                  points.all().filter(x => x.data.type === "positive").map(({ data: { name }}) => ({ label: name, value: name }))
-                )}
-              />
-              <MultipleOptions
-                label="Negative Points"
-                name="negative-points"
-                options={multiSelectOptions(
-                  casino.negativePoints,
-                  points.all().filter(x => x.data.type === "negative").map(({ data: { name }}) => ({ label: name, value: name }))
-                )}
-              />
-              {/* <Textarea
-                name="pros"
-                label="Add positive point"
-                addButtonText="Add another positive"
-              />*/}
-
-              {/* <Textarea
-                name="cons"
-                label="Add negative point"
-                addButtonText="Add another negative"
-              />*/}
-            </div>
-          </div>
+          <ProsAndCons
+            positivePoints={casino.positivePoints}
+            negativePoints={casino.negativePoints}
+            pointsApi={points}
+          />
         </div>
 
         <div className="form-actions">
@@ -197,6 +168,10 @@ export default ({ submitText } = {}) => (HtmlPage, { id } = { }) => {
         action="create"
         actionLabel="Create"
         init
+      />
+      <EditPoint
+        action="create"
+        actionLabel="Create"
       />
       <div id="modal-section" />
     </HtmlPage>

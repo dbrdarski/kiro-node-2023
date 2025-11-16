@@ -20,13 +20,17 @@
       "gameProviders": "",
       "jackpotSlots": "",
       "offersText": "",
-      "depositMethods": [
-        "2222",
-        "qweqweqwe"
-      ],
+      "depositMethods": [],
       "withdrawalMethods": [],
-      "positivePoints": [],
-      "negativePoints": []
+      "positivePoints": [
+        "Test 1"
+      ],
+      "negativePoints": [
+        "Gugu ",
+        "Paypal",
+        "Bodishattva",
+        "Bodishattva"
+      ]
     }
   },
   "7wbvoxtfsxr": {
@@ -128,11 +132,11 @@
         "Skrill",
         "PayPal",
         "Bank Transfer",
-        "Cryptocurrency",
-        "qweqweqwe"
+        "Cryptocurrency"
       ],
       "withdrawalMethods": [
         "Skrill",
+        "Neteller",
         "PayPal",
         "Bank Transfer",
         "Cryptocurrency"
@@ -278,7 +282,7 @@
       "name": "asdasdasd",
       "status": "open",
       "description": "sdsd",
-      "rating": null,
+      "rating": "1",
       "termsText": "",
       "termsUrl": "https://asdasasd.asdad.ccc",
       "affiliateLinkUrl": "https://asdasasd.asdad.ccc",
@@ -297,7 +301,9 @@
       "withdrawalMethods": [],
       "positivePoints": [],
       "negativePoints": [
-        "Bad bad!!!!"
+        "Bad bad!!!!",
+        "Gugu ",
+        "Paypal"
       ]
     }
   },

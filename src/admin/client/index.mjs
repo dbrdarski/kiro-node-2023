@@ -1,7 +1,7 @@
 import WebSocketWrapper from "ws-wrapper"
-
 import { api } from "../api/index.mjs";
 import { setActionsHandler } from "../api-create.mjs";
+import "./filter-dropdown.mjs"
 
 const log = txt => value => (console.log(txt, value), value)
 
@@ -189,7 +189,24 @@ const execAction = (matchedAttr, element, initiator = null) => async (event) => 
         shortDescription,
         fullDescription,
       })
-      window.location.reload()
+      const mainForm = document.querySelector("#edit-casino")
+      const mainData = new FormData(mainForm)
+      const positivePoints = mainData.getAll("positive-points")
+      const negativePoints = mainData.getAll("negative-points")
+
+      const renderResponse = await api.renderProsAndCons({
+        positivePoints,
+        negativePoints
+      })
+
+      document.querySelector("#pros-and-cons").innerHTML = renderResponse
+
+      event.target.dispatchEvent(
+        new CustomEvent(
+          "close-modal-create-point",
+          { bubbles: true, reload: false } // is this problem for direct creation (from payment processors table)?
+        )
+      )
       break
     }
     case "create-payment-processor": {
@@ -231,16 +248,14 @@ const execAction = (matchedAttr, element, initiator = null) => async (event) => 
       // console.log({ data })
       const key = data.get("primary-key")
       const name = data.get("name")
-      const icon = data.get("type")
-      const description = data.get("shortDescription")
-      const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
-      const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
-      api.updatePaymentProcessor(key, {
+      const type = data.get("type")
+      const shortDescription = data.get("shortDescription")
+      const fullDescription = data.get("fullDescription")
+      api.updatePoint(key, {
         name,
-        icon,
-        description,
-        paymentEnabled,
-        withdrawalEnabled,
+        type,
+        shortDescription,
+        fullDescription,
       })
       window.location.reload()
       break
@@ -334,7 +349,6 @@ const execAction = (matchedAttr, element, initiator = null) => async (event) => 
       const name = data.get("collection-name")
       const title = data.get("collection-title")
       const description = data.get("collection-description")
-      console.log({ name, title, description })
       api.createCollection(name, { title, description })
       window.location.reload()
       break

@@ -19,7 +19,7 @@ const menuItems = [{
 
 const htmlPage = ({
   children,
-  props: { background = "#fff", title = "", header, scripts },
+  props: { background = "#fff", title = "", header, scripts, style = "padding: 30px;" },
 }) => {
   const collections = albums.all()
   const errorLog = collections
@@ -79,7 +79,7 @@ const htmlPage = ({
             ))}
           </section>
         </header>
-        <main id="main-content" style="padding: 30px;">{children}</main>
+        <main id="main-content" style={style}>{children}</main>
         <script src="/bundle.js" />
         { scripts }
       </body>
