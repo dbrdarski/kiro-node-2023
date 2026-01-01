@@ -20,7 +20,7 @@ const RatingInput = ({ props: { value } }) => <Select
       { value: "2", label: "2 star" },
       { value: "3", label: "3 star" },
       { value: "4", label: "4 star" },
-      { value: "5", label: "5 star" },
+      { value: "5", label: "5 star" }
     ]
   )}
 />
@@ -70,7 +70,7 @@ const pageStyle = `
 
 // ({ props: { name, title, action, ...props } }) =>
 export default ({ submitText } = {}) => (HtmlPage, { id } = { }) => {
-  const casino = casinos.get(id)?.data ?? {};
+  const casino = casinos.get(id)?.data ?? {}
   const action = id ? "update" : "create"
   const actionLabel = id ? "Update" : "Create"
 

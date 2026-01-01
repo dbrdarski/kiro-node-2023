@@ -18,6 +18,7 @@ export default ({ props: { actionLabel = "Update", action = "update", refresh, .
     <input type="hidden" name="primary-key" />
     <Input type="text" name="name" label="Name" />
     <Input type="text" name="icon" label="Icon" />
+    <Input type="text" name="alt-text" label="Alt Text" />
     <Input type="text" name="description" label="Description" />
     <Select name="payments" label="Payments" options={[
       // { selected: true, disabled: true, label: "Select" },

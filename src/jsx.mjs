@@ -1,6 +1,6 @@
-export const h = (tag, props, ...children) => ({
+export const h = (tag, props = {}, ...children) => ({
   tag,
-  props: props || {},
+  props,
   children
 })
 
@@ -21,7 +21,7 @@ const printJSX = ({ tag, props, children }) => {
     case "string":
       return `<${tag}${printAttrs(props)}>${children.map(print).join("")}</${tag}>`
     case "function":
-      console.log("NodeTree", tag({ props, children })?.children)
+      // console.log("NodeTree", tag({ props, children })?.children)
       return print(tag({ props, children }))
     case "object":
       if (tag == null) {

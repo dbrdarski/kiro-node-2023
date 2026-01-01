@@ -23,7 +23,7 @@ const renderCollections = (collections, { errors, warnings }) => (
           style="border: 1px solid #09f5; border: 1px solid #b8ddff; border-radius: 4px; margin-bottom: 16px;"
           mode="preview"
           data-name={collection.name}
-          on='@edit-collection-items-init:edit-collection-items'
+          on="@edit-collection-items-init:edit-collection-items"
         >
           <div style="display: grid; grid-template-columns: auto auto 8fr auto auto auto; align-items: center; box-shadow: 0 1px #09f5; box-shadow: 0 1px #b8ddff; padding: 5px; gap: 5px;">
             <div style="font-size: 16px; padding: 10px;"><strong>{collection.name}</strong></div>

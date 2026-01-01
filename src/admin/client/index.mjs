@@ -213,12 +213,14 @@ const execAction = (matchedAttr, element, initiator = null) => async (event) => 
       const data = new FormData(event.target)
       const name = data.get("name")
       const icon = data.get("icon")
+      const altText = data.get("alt-text")
       const description = data.get("description")
       const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
       const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
       api.createPaymentProcessor({
         name,
         icon,
+        altText,
         description,
         paymentEnabled,
         withdrawalEnabled,
@@ -266,16 +268,26 @@ const execAction = (matchedAttr, element, initiator = null) => async (event) => 
       const key = data.get("primary-key")
       const name = data.get("name")
       const icon = data.get("icon")
+      const altText = data.get("alt-text")
       const description = data.get("description")
       const paymentEnabled = mapEnabledStateOptionToValue(data.get("payments"))
       const withdrawalEnabled = mapEnabledStateOptionToValue(data.get("withdrawals"))
+
       api.updatePaymentProcessor(key, {
         name,
         icon,
+        altText,
         description,
         paymentEnabled,
         withdrawalEnabled,
       })
+
+      event.target.dispatchEvent(
+        new CustomEvent(
+          "close-modal-update-payment-processor",
+          { bubbles: true, reload: false } // is this problem for direct creation (from payment processors table)?
+        )
+      )
       // window.location.reload()
       break
     }

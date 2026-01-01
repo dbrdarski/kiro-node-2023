@@ -108,10 +108,10 @@
   "tdmxus6je58": {
     "id": "tdmxus6je58",
     "data": {
-      "name": "TT",
+      "name": "Super Mario Casino",
       "status": null,
       "description": "Better than anyone",
-      "rating": "1",
+      "rating": "5",
       "termsText": "",
       "termsUrl": "https://asd.asd.asd",
       "affiliateLinkUrl": "https://asd.asd.asd",
@@ -141,8 +141,12 @@
         "Bank Transfer",
         "Cryptocurrency"
       ],
-      "positivePoints": [],
-      "negativePoints": []
+      "positivePoints": [
+        "The best deals!!!!"
+      ],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
     }
   },
   "un2ottbe7br": {
@@ -363,6 +367,48 @@
       ],
       "positivePoints": [],
       "negativePoints": []
+    }
+  },
+  "0w7ybaohdwwa": {
+    "id": "0w7ybaohdwwa",
+    "data": {
+      "name": "Fancy New Casino",
+      "status": "open",
+      "description": "The Best Casino In The World",
+      "rating": "5",
+      "termsText": "Terma and Conditions",
+      "termsUrl": "https://asd.asd.asd",
+      "affiliateLinkUrl": "https://asd.asd.asd",
+      "reviewButtonText": "Review Casino",
+      "companyButtonText": "asdas",
+      "license": "",
+      "owner": "asdasd",
+      "bonusCode": "CTA8",
+      "wageringRequirements": "Requirements",
+      "payoutTime": "3 days",
+      "gameCount": "5",
+      "gameProviders": "6",
+      "jackpotSlots": "10",
+      "offersText": "Teh Best Offers",
+      "depositMethods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "PayPal"
+      ],
+      "withdrawalMethods": [
+        "Skrill",
+        "Cryptocurrency",
+        "Fast Pay"
+      ],
+      "positivePoints": [
+        "The best deals!!!!",
+        "Point #3"
+      ],
+      "negativePoints": [
+        "Bad bad!!!!"
+      ]
     }
   }
 }

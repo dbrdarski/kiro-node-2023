@@ -118,5 +118,18 @@
       "description": null
     },
     "items": []
+  },
+  {
+    "name": "Payment Logos",
+    "metadata": {
+      "title": "",
+      "description": ""
+    },
+    "items": [
+      {
+        "hash": "0eCU95GEdDiYMvyXN0qts4rqfNQ5uREIiXEFRgoemdc-sCTJV--AVWjD_N8RujWQ6fy1JvzY7Omptq5gG4aB3w",
+        "path": "resources/media/images/x/Luciano_Pavarotti_-_Mr.Pieter_van_Vollenhoven_-_Kiro_Urdin_-_Andrea_Griminelli.jpg"
+      }
+    ]
   }
 ]

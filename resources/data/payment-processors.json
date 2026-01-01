@@ -68,5 +68,16 @@
       "paymentEnabled": true,
       "withdrawalEnabled": true
     }
+  },
+  "5odb0qjw5sc": {
+    "id": "5odb0qjw5sc",
+    "data": {
+      "name": "Fast Pay",
+      "icon": "Gugu",
+      "altText": "asdasdasd",
+      "description": "asdasd",
+      "paymentEnabled": false,
+      "withdrawalEnabled": true
+    }
   }
 }
