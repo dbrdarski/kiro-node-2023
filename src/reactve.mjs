@@ -70,16 +70,98 @@ const executeQueue = () => {
   queue.length = 0
 }
 
+// context system for component lifecycle management
+let currentContext = null
+
+const cleanupContext = (parent) => {
+    const { subscribe, notify: disposeChildren} = observable()
+    const { subscribe: onCleanup, notify: runCleanup} = observable()
+
+    const dispose = () => {
+      runCleanup()
+      disposeChildren()
+    }
+
+    parent?.(dispose)
+
+    return { onCleanup, dispose, subscribe }
+}
+
+class Context {
+  constructor(parent) {
+    this.parent = parent
+    parent?.(this.dispose.bind(this))
+  }
+
+  cleanups = []
+  children = []
+  dispose = this.dispose.bind(this)
+  subscribe = this.subscribe.bind(this)
+  onCleanup = this.onCleanup.bind(this)
+
+  subscribe (fn) {
+    this.children.push(fn)
+  }
+
+  onCleanup(fn) {
+    this.cleanups.push(fn)
+  }
+
+  dispose() {
+    console.log("DISPOSING context with", this.cleanups.length, "cleanups and", this.children.length, "children")
+
+    // Run cleanup callbacks in reverse order
+    for (let i = this.cleanups.length - 1; i >= 0; i--) {
+      try {
+        this.cleanups[i]()
+      } catch (e) {
+        console.error("Cleanup error:", e)
+      }
+    }
+
+    // Dispose children recursively
+    for (const dispose of this.children) {
+      dispose()
+    }
+
+    // Clear references
+    this.cleanups = []
+    this.children = []
+  }
+}
+
+// const empty = {}
+
 const x = (fn, deps) => (parent) => {
-  let cache
+  let patcher
+  let dispose
+  let subscribe
+
   effect2(
-    (fn) => {
-      cache = render(fn())(parent, cache)
-      // cache = render(consumeNode(fn, notify => cache && notify())())(parent, cache)
+    (vdom) => {
+      console.log("X: Re-rendering conditional")
+      dispose?.()
+      const content = vdom();
+      ({ dispose, subscribe } = typeof vdom === "function" ? cleanupContext(currentContext) : empty)
+      const prevContext = currentContext  // Save GLOBAL currentContext
+      currentContext = subscribe              // Set GLOBAL currentContext
+      patcher = render(content)(parent, patcher)
+      currentContext = prevContext        // Restore GLOBAL currentContext
     },
     [computed(fn, deps)]
   )
 }
+
+// const x = (fn, deps) => (parent) => {
+//   let cache
+//   effect2(
+//     (fn) => {
+//       cache = render(fn())(parent, cache)
+//       // cache = render(consumeNode(fn, notify => cache && notify())())(parent, cache)
+//     },
+//     [computed(fn, deps)]
+//   )
+// }
 
 const f = (...children) => (parent, oldNodeCleanup) => {
   const node = new DocumentFragment
@@ -113,27 +195,54 @@ const e = (tag, attrs, ...children) => (parent, oldNodeCleanup) => {
 
 const c = (component, props, ...children) => (parent, oldNodeCleanup) => {
   console.log("INIT COMPONENT!!!!!!!!!")
-  const initializers = []
-  const laundry = []
-  const onMount = initializers.push.bind(initializers)
-  const onCleanup = laundry.push.bind(laundry)
-  let initialized = false
 
-  const expressionOrVdom = component.call({ onMount, onCleanup }, { props, children })
-  const node = render(expressionOrVdom)(parent, oldNodeCleanup)
+  const initializers = []
+
+  const { dispose, subscribe, onCleanup } = cleanupContext(currentContext)
+  const prevContext = currentContext
+  currentContext = subscribe
+
+  const expressionOrVdom = component.call({
+    onCleanup,
+    onMount: fn => initializers.push(fn)
+  }, { props, children })
+
+  const nodeCleanup = render(expressionOrVdom)(parent, oldNodeCleanup)
+  currentContext = prevContext
 
   for (const initializer of initializers) {
     initializer()
   }
-  initialized = true
 
   return (parent, newElement) => {
-    for (const cleanup of laundry) {
-      cleanup()
-    }
-    node(parent, newElement)
+    dispose()
+    nodeCleanup(parent, newElement)
   }
 }
+
+// const c = (component, props, ...children) => (parent, oldNodeCleanup) => {
+//   console.log("INIT COMPONENT!!!!!!!!!")
+//   const initializers = []
+//   const laundry = []
+//   const onMount = initializers.push.bind(initializers)
+//   const onCleanup = laundry.push.bind(laundry)
+//   let initialized = false
+
+//   const expressionOrVdom = component.call({ onMount, onCleanup }, { props, children })
+//   const node = render(expressionOrVdom)(parent, oldNodeCleanup)
+
+//   for (const initializer of initializers) {
+//     initializer()
+//   }
+//   initialized = true
+
+//   return (parent, newElement) => {
+//     for (const cleanup of laundry) {
+//       cleanup()
+//     }
+//     node(parent, newElement)
+//   }
+// }
 
 const render = vdom => {
   switch (vdom) {
