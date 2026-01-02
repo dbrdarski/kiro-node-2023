@@ -1,4 +1,6 @@
-const reactiveSymbol = Symbol.for("next::is-reactive-handler-property-symbol")
+const reactiveSymbol = Symbol.for("oddo::is-reactive-handler-property-symbol")
+const emptyObject = {}
+const log = (x) => (console.log(x), x)
 
 class ReactiveContainer {
   [reactiveSymbol] = true
@@ -50,8 +52,6 @@ const effect = (fn, deps) => {
   effect()
 }
 
-const log = (x) => (console.log(x), x)
-
 const effect2 = (fn, deps) => {
   const effect = () => fn(...deps)
   deps = bindDependencies(deps, schedule.bind(null, effect))
@@ -59,7 +59,6 @@ const effect2 = (fn, deps) => {
 }
 
 const queue = []
-
 const schedule = (effect) => {
   queue.length || queueMicrotask(executeQueue)
   queue.push(effect)
@@ -70,98 +69,34 @@ const executeQueue = () => {
   queue.length = 0
 }
 
-// context system for component lifecycle management
 let currentContext = null
-
 const cleanupContext = (parent) => {
     const { subscribe, notify: disposeChildren} = observable()
     const { subscribe: onCleanup, notify: runCleanup} = observable()
-
-    const dispose = () => {
-      runCleanup()
-      disposeChildren()
-    }
-
+    const dispose = () => (runCleanup(), disposeChildren())
     parent?.(dispose)
 
     return { onCleanup, dispose, subscribe }
 }
 
-class Context {
-  constructor(parent) {
-    this.parent = parent
-    parent?.(this.dispose.bind(this))
-  }
-
-  cleanups = []
-  children = []
-  dispose = this.dispose.bind(this)
-  subscribe = this.subscribe.bind(this)
-  onCleanup = this.onCleanup.bind(this)
-
-  subscribe (fn) {
-    this.children.push(fn)
-  }
-
-  onCleanup(fn) {
-    this.cleanups.push(fn)
-  }
-
-  dispose() {
-    console.log("DISPOSING context with", this.cleanups.length, "cleanups and", this.children.length, "children")
-
-    // Run cleanup callbacks in reverse order
-    for (let i = this.cleanups.length - 1; i >= 0; i--) {
-      try {
-        this.cleanups[i]()
-      } catch (e) {
-        console.error("Cleanup error:", e)
-      }
-    }
-
-    // Dispose children recursively
-    for (const dispose of this.children) {
-      dispose()
-    }
-
-    // Clear references
-    this.cleanups = []
-    this.children = []
-  }
-}
-
-// const empty = {}
-
 const x = (fn, deps) => (parent) => {
-  let patcher
+  let patch
   let dispose
   let subscribe
 
   effect2(
     (vdom) => {
-      console.log("X: Re-rendering conditional")
       dispose?.()
       const content = vdom();
-      ({ dispose, subscribe } = typeof vdom === "function" ? cleanupContext(currentContext) : empty)
-      const prevContext = currentContext  // Save GLOBAL currentContext
-      currentContext = subscribe              // Set GLOBAL currentContext
-      patcher = render(content)(parent, patcher)
-      currentContext = prevContext        // Restore GLOBAL currentContext
+      ({ dispose, subscribe } = typeof vdom === "function" ? cleanupContext(currentContext) : emptyObject)
+      const prevContext = currentContext
+      currentContext = subscribe
+      patch = render(content)(parent, patch)
+      currentContext = prevContext
     },
     [computed(fn, deps)]
   )
 }
-
-// const x = (fn, deps) => (parent) => {
-//   let cache
-//   effect2(
-//     (fn) => {
-//       cache = render(fn())(parent, cache)
-//       // cache = render(consumeNode(fn, notify => cache && notify())())(parent, cache)
-//     },
-//     [computed(fn, deps)]
-//   )
-// }
 
 const f = (...children) => (parent, oldNodeCleanup) => {
   const node = new DocumentFragment
@@ -183,9 +118,7 @@ const e = (tag, attrs, ...children) => (parent, oldNodeCleanup) => {
     ? effect2((attrs) => attrs = patchAttributes(node, attrs()), [attrs])
     : patchAttributes(node, attrs)
 
-  for (const child of children) {
-    render(child)(node)
-  }
+  for (const child of children) { render(child)(node) }
   oldNodeCleanup ? oldNodeCleanup(parent, node) : parent.appendChild(node)
 
   return (parent, newElement) => {
@@ -194,55 +127,21 @@ const e = (tag, attrs, ...children) => (parent, oldNodeCleanup) => {
 }
 
 const c = (component, props, ...children) => (parent, oldNodeCleanup) => {
-  console.log("INIT COMPONENT!!!!!!!!!")
-
   const initializers = []
-
   const { dispose, subscribe, onCleanup } = cleanupContext(currentContext)
   const prevContext = currentContext
   currentContext = subscribe
-
-  const expressionOrVdom = component.call({
-    onCleanup,
-    onMount: fn => initializers.push(fn)
-  }, { props, children })
-
+  const expressionOrVdom = component.call({ onCleanup, onMount: fn => initializers.push(fn) }, { props, children })
   const nodeCleanup = render(expressionOrVdom)(parent, oldNodeCleanup)
   currentContext = prevContext
 
-  for (const initializer of initializers) {
-    initializer()
-  }
+  for (const initializer of initializers) { initializer() }
 
   return (parent, newElement) => {
     dispose()
     nodeCleanup(parent, newElement)
   }
 }
-
-// const c = (component, props, ...children) => (parent, oldNodeCleanup) => {
-//   console.log("INIT COMPONENT!!!!!!!!!")
-//   const initializers = []
-//   const laundry = []
-//   const onMount = initializers.push.bind(initializers)
-//   const onCleanup = laundry.push.bind(laundry)
-//   let initialized = false
-
-//   const expressionOrVdom = component.call({ onMount, onCleanup }, { props, children })
-//   const node = render(expressionOrVdom)(parent, oldNodeCleanup)
-
-//   for (const initializer of initializers) {
-//     initializer()
-//   }
-//   initialized = true
-
-//   return (parent, newElement) => {
-//     for (const cleanup of laundry) {
-//       cleanup()
-//     }
-//     node(parent, newElement)
-//   }
-// }
 
 const render = vdom => {
   switch (vdom) {
@@ -279,7 +178,6 @@ const createTextElement = (text) => (parent, oldNodeCleanup) => {
     parent.replaceChild(newElement, node)
   }
 }
-
 
 const patchAttributes = (el, newAttrs, oldAttrs = {}) => {
   for (const key in oldAttrs) {
@@ -381,65 +279,6 @@ const jsx = f(
 effect(x => console.log("EFFECT ", x()), [numIncremented])
 effect(v => console.log("EFFECT ", v()), [visible])
 mount(document.body, jsx)
-
-
-// const h = (tag, attrs, ...children) => ({ tag, attrs, children })
-// const frag = (...children) => children
-
-
-// const createHtmlElement = (tag, attrs, children) => (parent, oldNodeCleanup) => {
-//   const node = document.createElement(tag)
-//   createAttrs(node, attrs)
-//   for (const child of children) {
-//     render(child)(node)
-//   }
-//   oldNodeCleanup ? oldNodeCleanup(parent, node) : parent.appendChild(node)
-
-//   return (parent, newElement) => {
-//     parent.replaceChild(newElement, node)
-//   }
-// }
-
-// const createComponent = () => {}
-
-// const render = vdom => {
-//   // if (Array.isArray(vdom))
-//   //   return vdom.map(print).join("")
-//   switch (vdom) {
-//     case true:
-//     case false:
-//     case null:
-//     case undefined:
-//       return createNullElement()
-//   }
-
-//   switch (typeof vdom) {
-//     case "string":
-//     case "number":
-//       return createTextElement(vdom)
-//   }
-
-//   const { tag, attrs, children } = vdom
-//   switch (typeof tag) {
-//     case "string": return createHtmlElement(tag, attrs, children)
-//     case "function": return createComponent(tag, attrs, children)
-//   }
-// }
-
-// const effect = (fn, deps) => {
-//   let cleanup
-
-//   const effect = () => {
-//     cleanup?.()
-//     cleanup = fn(...deps)
-//   }
-
-//   deps = bindDependencies(deps, schedule.bind(null, effect))
-//   schedule(effect)
-// }
-
-// NEXT -> JSX -> vdom or $elements
-
 
 // <For data={data}>
 //   <@Where { item, key, collection }>
